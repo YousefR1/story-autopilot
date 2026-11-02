@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Connect YouTube</title>
+<style>
+:root{--bg:#f4f1ea;--panel:#fffdf8;--ink:#1d1b17;--muted:#6f6a5f;--line:#e2dccf;--accent:#c4302b;--ok:#1f8a5b;--bad:#c23b2e}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#13130f;--panel:#1c1b17;--ink:#efeadf;--muted:#9a9486;--line:#2e2c26;--accent:#ff5a4f;--ok:#4cc38a;--bad:#ef6a5b}}
+:root[data-theme="dark"]{--bg:#13130f;--panel:#1c1b17;--ink:#efeadf;--muted:#9a9486;--line:#2e2c26;--accent:#ff5a4f;--ok:#4cc38a;--bad:#ef6a5b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,sans-serif;line-height:1.5}
+.box{max-width:620px;margin:0 auto;padding:40px 16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px;margin:16px 0}
+label{display:block;font-weight:600;margin:12px 0 4px}
+input,textarea{width:100%;padding:10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font:14px ui-monospace,monospace}
+textarea{height:90px;word-break:break-all}
+button{margin-top:16px;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:11px 18px;font-size:15px;cursor:pointer}
+.muted{color:var(--muted);font-size:14px}
+.ok{color:var(--ok);font-weight:600}.bad{color:var(--bad);font-weight:600}
+code{background:var(--bg);padding:1px 5px;border-radius:4px}
+</style>
+</head>
+<body>
+<div class="box">
+  <h1>Connect YouTube</h1>
+  <p class="muted">Runs only in your browser. Nothing you type here is sent anywhere except to Google.</p>
+
+  <div class="card" id="step1">
+    <h2>1. Your Google login client</h2>
+    <label for="cid">Client ID</label>
+    <input id="cid" autocomplete="off" placeholder="....apps.googleusercontent.com">
+    <label for="csec">Client secret</label>
+    <input id="csec" type="password" autocomplete="off" placeholder="GOCSPX-...">
+    <button id="go">Connect YouTube</button>
+    <p class="muted">Google will ask you to choose an account and a channel. Pick your <b>story channel</b>.
+      If you see “Google hasn't verified this app”, click <b>Advanced → Go to Story Autopilot</b>, then <b>Continue</b>.</p>
+  </div>
+
+  <div class="card" id="step2" hidden>
+    <h2>2. Your YouTube refresh token</h2>
+    <p id="status" class="muted">Working…</p>
+    <textarea id="token" readonly hidden></textarea>
+    <button id="copy" hidden>Copy token</button>
+    <p class="muted" id="next" hidden>Add it in GitHub as a secret named <code>YOUTUBE_REFRESH_TOKEN</code>. Then close this page.</p>
+  </div>
+</div>
+<script>
+const REDIRECT = location.origin + location.pathname;
+const SCOPE = "https://www.googleapis.com/auth/youtube.upload";
+const store = {
+  get(k){ try { return sessionStorage.getItem(k); } catch(e) { return window["_"+k] || null; } },
+  set(k,v){ try { sessionStorage.setItem(k,v); } catch(e) { window["_"+k]=v; } },
+  clear(){ try { sessionStorage.clear(); } catch(e) {} }
+};
+const $ = id => document.getElementById(id);
+
+$("go").onclick = () => {
+  const id = $("cid").value.trim(), sec = $("csec").value.trim();
+  if (!id || !sec) { alert("Paste both the Client ID and the Client secret first."); return; }
+  const state = Math.random().toString(36).slice(2);
+  store.set("yt_id", id); store.set("yt_sec", sec); store.set("yt_state", state);
+  location.href = "https://accounts.google.com/o/oauth2/v2/auth?" + new URLSearchParams({
+    client_id: id, redirect_uri: REDIRECT, response_type: "code", scope: SCOPE,
+    access_type: "offline", prompt: "consent", include_granted_scopes: "true", state
+  });
+};
+
+(async () => {
+  const q = new URLSearchParams(location.search);
+  if (!q.has("code") && !q.has("error")) return;
+  $("step1").hidden = true; $("step2").hidden = false;
+  history.replaceState(null, "", REDIRECT);
+  const status = $("status");
+  if (q.get("error")) { status.className = "bad"; status.textContent = "Google returned: " + q.get("error"); return; }
+  if (q.get("state") !== store.get("yt_state")) { status.className = "bad"; status.textContent = "Security check failed. Start again from this page."; return; }
+  try {
+    const r = await fetch("https://oauth2.googleapis.com/token", {
+      method: "POST",
+      headers: {"Content-Type": "application/x-www-form-urlencoded"},
+      body: new URLSearchParams({
+        code: q.get("code"), client_id: store.get("yt_id"), client_secret: store.get("yt_sec"),
+        redirect_uri: REDIRECT, grant_type: "authorization_code"
+      })
+    });
+    const data = await r.json();
+    store.clear();
+    if (!data.refresh_token) {
+      status.className = "bad";
+      status.textContent = "No refresh token returned: " + (data.error_description || data.error || "unknown error") +
+        ". Remove the app's access at myaccount.google.com/permissions and try again.";
+      return;
+    }
+    status.className = "ok"; status.textContent = "Connected. Copy this token:";
+    $("token").value = data.refresh_token; $("token").hidden = false;
+    $("copy").hidden = false; $("next").hidden = false;
+  } catch (e) {
+    status.className = "bad"; status.textContent = "Couldn't reach Google: " + e.message;
+  }
+})();
+
+$("copy").onclick = async () => {
+  try { await navigator.clipboard.writeText($("token").value); $("copy").textContent = "Copied"; }
+  catch(e) { $("token").select(); document.execCommand("copy"); $("copy").textContent = "Copied"; }
+};
+</script>
+</body>
+</html>
