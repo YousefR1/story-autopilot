@@ -7,6 +7,19 @@
       "genre": "creepy short fiction with a twist ending (clearly fiction)",
       "posted": {},
       "dry_run": true
+    },
+    {
+      "date": "2026-11-02",
+      "title": "The Ship Found Sailing With Nobody Aboard",
+      "topic": "The 1872 discovery of the Mary Celeste, a ship found drifting in the Atlantic with no one on board, and the unsolved question of why everyone left.",
+      "genre": "unsolved real-world mystery (well documented)",
+      "posted": {
+        "youtube": {
+          "id": "1MUvGeLjQuU",
+          "url": "https://youtube.com/shorts/1MUvGeLjQuU"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
