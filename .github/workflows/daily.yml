@@ -1,0 +1,81 @@
+name: Daily story video
+
+on:
+  schedule:
+    # 15:41 UTC every day = 16:41 in Oslo in winter, 17:41 in summer. Change to suit your audience.
+    - cron: "41 15 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Make the video but don't post it (you can download it from the run page)"
+        type: boolean
+        default: true
+      force:
+        description: "Run even if the agent paused itself after failures"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-story
+  cancel-in-progress: false
+
+jobs:
+  make-and-post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install ffmpeg and fonts
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+
+      - name: Install Python packages
+        run: pip install -r requirements.txt
+
+      - name: Make and post today's video
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          ARGS=""
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          if [ "${{ inputs.force }}" = "true" ]; then ARGS="$ARGS --force"; fi
+          python -m autopilot.main $ARGS
+
+      - name: Keep the video for 7 days (download from this run's page)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: video-${{ github.run_number }}
+          path: |
+            work/final.mp4
+            work/script.txt
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Save history and dashboard status
+        if: always()
+        run: |
+          git config user.name "story-autopilot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/history.json docs/status.json
+          git diff --cached --quiet || git commit -m "Run ${{ github.run_number }}: update history and dashboard"
+          git pull --rebase --quiet || true
+          git push
