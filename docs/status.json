@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T12:31:31+00:00",
+  "updated": "2026-11-02T19:29:50+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -9,14 +9,23 @@
         "youtube"
       ],
       "state": "idle",
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "totals": {
         "videos": 0,
         "youtube": 0,
         "tiktok": 0,
-        "failures": 1
+        "failures": 2
       },
       "runs": [
+        {
+          "started": "2026-11-02T19:29:50+00:00",
+          "dry_run": false,
+          "steps": [],
+          "result": "failed",
+          "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgeeySfhZ9aRHh2TJmh7T'}",
+          "finished": "2026-11-02T19:29:50+00:00",
+          "seconds": 0.3
+        },
         {
           "started": "2026-11-02T12:31:30+00:00",
           "dry_run": false,
@@ -28,7 +37,7 @@
         }
       ],
       "schedule": "Runs daily from .github/workflows/daily.yml (edit the cron line there).",
-      "last_run": "2026-11-02T12:31:31+00:00"
+      "last_run": "2026-11-02T19:29:50+00:00"
     }
   }
 }
