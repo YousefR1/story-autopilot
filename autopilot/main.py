@@ -11,7 +11,7 @@ import time
 import traceback
 from datetime import datetime, timezone
 
-from . import captions, checks, footage, render, state, voice, writer
+from . import captions, checks, render, state, voice, writer
 from .config import WORK_DIR, load_config
 from .notify import notify
 
@@ -69,9 +69,15 @@ def main() -> int:
         durations = captions.scene_durations(story["scenes"], words, total)
         subs = captions.write_ass(words, WORK_DIR / "captions.ass", cfg, total)
 
-        clips = step("stock footage", lambda: footage.get_scene_clips(story["scenes"], durations, history, WORK_DIR))
-        authors = sorted({c["author"] for c in clips})
-        credits = "Footage: Pexels (" + ", ".join(authors[:6]) + ")."
+        if cfg.get("visuals", {}).get("source", "stock") == "ai_images":
+            from . import images
+            clips = step("ai images", lambda: images.get_scene_images(story["scenes"], WORK_DIR, cfg))
+            credits = "Images generated with AI."
+        else:
+            from . import footage
+            clips = step("stock footage", lambda: footage.get_scene_clips(story["scenes"], durations, history, WORK_DIR))
+            authors = sorted({c["author"] for c in clips})
+            credits = "Footage: Pexels (" + ", ".join(authors[:6]) + ")."
 
         final = WORK_DIR / "final.mp4"
         step("render", lambda: render.render_video(clips, durations, voice_file, subs, final, WORK_DIR, cfg))
@@ -107,7 +113,8 @@ def main() -> int:
                 "title": story["youtube_title"], "topic": story.get("topic"), "genre": story["genre"],
                 "posted": posted, "dry_run": args.dry_run,
             })
-            history["used_footage"] = history.get("used_footage", []) + [c["pexels_id"] for c in clips]
+            history["used_footage"] = history.get("used_footage", []) + [
+                c["pexels_id"] for c in clips if "pexels_id" in c]
             state.save_history(history)
 
         if run["result"] == "failed":

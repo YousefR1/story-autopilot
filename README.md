@@ -4,7 +4,8 @@ Every day this makes a ~60-second story video and posts it:
 
 1. **Claude** picks a fresh story in a rotating genre and writes the script, title and captions.
 2. **OpenAI** reads it aloud with a natural AI voice, then times every word for captions.
-3. **Pexels** supplies free vertical stock footage for each scene.
+3. **OpenAI** paints one picture per scene, and the video slowly zooms or pans across each one.
+   (Optional: switch `visuals.source` to `stock` for Pexels stock video instead.)
 4. **ffmpeg** edits it into a 1080×1920 video with bold, word-by-word captions.
 5. Quality checks run (length, size, audio not silent). If anything fails, nothing is posted.
 6. **YouTube**: posted publicly as a Short, with the AI label set.
@@ -36,7 +37,6 @@ cents per video (check current prices on each site).
 |---|---|---|
 | console.anthropic.com | Add a little credit, create an API key | `ANTHROPIC_API_KEY` |
 | platform.openai.com | Add a little credit, create an API key | `OPENAI_API_KEY` |
-| pexels.com/api | Free account, request an API key | `PEXELS_API_KEY` |
 
 ### 3. YouTube
 1. Create a new Google account (or use yours) and create the YouTube channel on youtube.com.
@@ -85,7 +85,7 @@ cents per video (check current prices on each site).
 **Repository → Settings → Secrets and variables → Actions → New repository secret**, one per line:
 
 ```
-ANTHROPIC_API_KEY      OPENAI_API_KEY       PEXELS_API_KEY
+ANTHROPIC_API_KEY      OPENAI_API_KEY
 YOUTUBE_CLIENT_ID      YOUTUBE_CLIENT_SECRET YOUTUBE_REFRESH_TOKEN
 TIKTOK_CLIENT_KEY      TIKTOK_CLIENT_SECRET  TIKTOK_REFRESH_TOKEN
 ```
@@ -122,4 +122,5 @@ Nothing else is needed. It runs every day at 16:41 Oslo time (winter). To change
   voice is AI, and the YouTube description does this.
 - True stories are written from the model's memory and can contain mistakes. Set
   `allow_true_stories: false` for fiction only.
-- Footage is from Pexels, and the YouTube description credits the creators.
+- Pictures are AI-generated (OpenAI). OpenAI may require organization verification before its image
+  models work: platform.openai.com → Settings → Organization → Verify.

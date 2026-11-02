@@ -49,14 +49,17 @@ Structure:
 - First sentence is a hook that makes people stop scrolling.
 - Build tension, then a satisfying payoff or twist in the last 1-2 sentences.
 - Split the narration into 6-10 scenes. Each scene is 1-2 sentences.
-- For each scene give a stock-footage search phrase (2-4 plain English words, visual, no names
-  of real people or brands, e.g. "foggy forest night", "old lighthouse storm").
+- For each scene give:
+  - "image": one vivid sentence describing a single picture for that moment (setting, light, mood,
+    one clear focal subject). No real people's names or likenesses, no brands, no gore, no text in the image.
+  - "search": a 2-4 word stock-footage phrase (e.g. "foggy forest night").
+- Keep the main character's look consistent across "image" descriptions (repeat key details).
 
 Return this JSON:
 {{
   "story_kind": "fiction" | "true" | "legend",
   "topic": "one-line summary of the specific story",
-  "scenes": [{{"text": "narration", "search": "footage search phrase"}}],
+  "scenes": [{{"text": "narration", "image": "picture description", "search": "footage search phrase"}}],
   "youtube_title": "max 70 characters, curiosity-driven, no clickbait lies",
   "youtube_description": "2-3 sentences. Mention if it is fiction or legend.",
   "tags": ["8-12 lowercase tags"],

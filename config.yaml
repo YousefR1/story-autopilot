@@ -39,6 +39,15 @@ ai:
   voice_style: "Calm, low, suspenseful storyteller. Natural pauses. Not theatrical."
   transcribe_model: whisper-1       # for timed captions
 
+visuals:
+  # ai_images = OpenAI makes one picture per scene, with a slow cinematic zoom (uses OPENAI_API_KEY)
+  # stock     = Pexels stock video clips (needs PEXELS_API_KEY)
+  source: ai_images
+  image_model: gpt-image-2.5-flare   # OpenAI's fast image model
+  image_size: 1024x1536              # portrait
+  image_quality: medium              # low = cheapest, medium = good balance, high = best
+  style: "cinematic dark storybook illustration, moody lighting, rich shadows, painterly detail, film grain"
+
 video:
   width: 1080
   height: 1920

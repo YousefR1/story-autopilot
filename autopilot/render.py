@@ -35,12 +35,47 @@ def make_segment(clip: Path, seconds: float, out: Path, cfg: dict) -> Path:
     return out
 
 
+MOTIONS = ["zoom_in", "pan_right", "zoom_out", "pan_left"]
+
+
+def make_still_segment(image: Path, seconds: float, out: Path, cfg: dict, index: int) -> Path:
+    """Slow 'Ken Burns' zoom or pan across a still image."""
+    v = cfg["video"]
+    w, h, fps = v["width"], v["height"], v["fps"]
+    frames = max(2, round(seconds * fps))
+    motion = MOTIONS[index % len(MOTIONS)]
+    zmax = 1.14
+    t = f"(on/{frames - 1})"  # 0 -> 1 across the segment
+    if motion == "zoom_in":
+        z, x, y = f"1+{zmax - 1}*{t}", "(iw-iw/zoom)/2", "(ih-ih/zoom)/2"
+    elif motion == "zoom_out":
+        z, x, y = f"{zmax}-{zmax - 1}*{t}", "(iw-iw/zoom)/2", "(ih-ih/zoom)/2"
+    elif motion == "pan_right":
+        z, x, y = f"{zmax}", f"(iw-iw/zoom)*{t}", "(ih-ih/zoom)/2"
+    else:  # pan_left
+        z, x, y = f"{zmax}", f"(iw-iw/zoom)*(1-{t})", "(ih-ih/zoom)/2"
+    # Upscale 2x before zoompan so the motion is smooth instead of jittery.
+    vf = (
+        f"scale={w * 2}:{h * 2}:force_original_aspect_ratio=increase,crop={w * 2}:{h * 2},"
+        f"zoompan=z='{z}':x='{x}':y='{y}':d={frames}:s={w}x{h}:fps={fps},"
+        f"eq=brightness=-0.03:saturation=0.95,setsar=1,format=yuv420p"
+    )
+    run([
+        "ffmpeg", "-y", "-loop", "1", "-i", str(image), "-vf", vf, "-frames:v", str(frames),
+        "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-r", str(fps), str(out),
+    ])
+    return out
+
+
 def render_video(clips: list[dict], durations: list[float], voice: Path, captions: Path,
                  out: Path, work: Path, cfg: dict) -> Path:
-    segments = [
-        make_segment(c["path"], d, work / f"seg_{i:02d}.mp4", cfg)
-        for i, (c, d) in enumerate(zip(clips, durations))
-    ]
+    segments = []
+    for i, (c, d) in enumerate(zip(clips, durations)):
+        seg = work / f"seg_{i:02d}.mp4"
+        if c.get("kind") == "image":
+            segments.append(make_still_segment(c["path"], d, seg, cfg, i))
+        else:
+            segments.append(make_segment(c["path"], d, seg, cfg))
     concat_list = work / "segments.txt"
     concat_list.write_text("".join(f"file '{s.name}'\n" for s in segments), encoding="utf-8")
     visuals = work / "visuals.mp4"
