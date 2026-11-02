@@ -1,4 +1,13 @@
 {
-  "videos": [],
+  "videos": [
+    {
+      "date": "2026-11-02",
+      "title": "The Security Camera Showed Someone Behind Him",
+      "topic": "A night-shift security guard keeps seeing a figure on the lobby camera standing behind him, until he learns the camera feed is a live view of the building's empty twin across the street, and the figure is watching him through the real window.",
+      "genre": "creepy short fiction with a twist ending (clearly fiction)",
+      "posted": {},
+      "dry_run": true
+    }
+  ],
   "used_footage": []
 }

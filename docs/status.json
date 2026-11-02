@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T19:29:50+00:00",
+  "updated": "2026-11-02T19:43:19+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -9,14 +9,57 @@
         "youtube"
       ],
       "state": "idle",
-      "consecutive_failures": 2,
+      "consecutive_failures": 0,
       "totals": {
-        "videos": 0,
+        "videos": 1,
         "youtube": 0,
         "tiktok": 0,
         "failures": 2
       },
       "runs": [
+        {
+          "started": "2026-11-02T19:41:35+00:00",
+          "dry_run": true,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 33.1
+            },
+            {
+              "step": "voiceover",
+              "seconds": 8.1
+            },
+            {
+              "step": "caption timing",
+              "seconds": 3.3
+            },
+            {
+              "step": "ai images",
+              "seconds": 24.1
+            },
+            {
+              "step": "render",
+              "seconds": 35.5
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.2
+            }
+          ],
+          "result": "dry run",
+          "title": "The Security Camera Showed Someone Behind Him",
+          "genre": "creepy short fiction with a twist ending (clearly fiction)",
+          "kind": "fiction",
+          "topic": "A night-shift security guard keeps seeing a figure on the lobby camera standing behind him, until he learns the camera feed is a live view of the building's empty twin across the street, and the figure is watching him through the real window.",
+          "video": {
+            "duration": 44.0,
+            "size_mb": 8.1,
+            "mean_db": -24.2
+          },
+          "posted": {},
+          "finished": "2026-11-02T19:43:19+00:00",
+          "seconds": 104.7
+        },
         {
           "started": "2026-11-02T19:29:50+00:00",
           "dry_run": false,
@@ -37,7 +80,7 @@
         }
       ],
       "schedule": "Runs daily from .github/workflows/daily.yml (edit the cron line there).",
-      "last_run": "2026-11-02T19:29:50+00:00"
+      "last_run": "2026-11-02T19:43:19+00:00"
     }
   }
 }
