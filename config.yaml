@@ -66,7 +66,7 @@ youtube:
   ai_label: true             # marks the video as altered/synthetic content
 
 tiktok:
-  enabled: true
+  enabled: false   # YouTube only for now
   # inbox  = sends a draft to your TikTok inbox; you tap Post in the app (works without TikTok's audit)
   # direct = posts by itself (needs an audited app; until then posts are private only)
   mode: inbox
