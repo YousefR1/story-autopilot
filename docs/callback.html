@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TikTok Connect</title>
+<style>
+:root{--bg:#f4f1ea;--panel:#fffdf8;--ink:#1d1b17;--muted:#6f6a5f;--line:#e2dccf;--accent:#2b4cd8}
+@media (prefers-color-scheme: dark){:root{--bg:#13130f;--panel:#1c1b17;--ink:#efeadf;--muted:#9a9486;--line:#2e2c26;--accent:#7f97ff}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,sans-serif}
+.box{max-width:560px;margin:60px auto;padding:24px 16px}
+code{display:block;word-break:break-all;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;font-size:14px;margin:14px 0}
+button{background:var(--accent);color:#fff;border:0;border-radius:8px;padding:10px 16px;font-size:15px;cursor:pointer}
+p{color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="box">
+  <h1>TikTok connected</h1>
+  <p id="msg">Copy this code and paste it into the terminal where get_tiktok_token.py is waiting.</p>
+  <code id="code">—</code>
+  <button id="copy">Copy code</button>
+</div>
+<script>
+const q = new URLSearchParams(location.search);
+const code = q.get("code"), err = q.get("error_description") || q.get("error");
+document.getElementById("code").textContent = code || ("No code received. " + (err || ""));
+if(!code) document.getElementById("msg").textContent = "TikTok didn't send a code. Try again from the script.";
+document.getElementById("copy").onclick = async () => {
+  try { await navigator.clipboard.writeText(code || ""); document.getElementById("copy").textContent = "Copied"; } catch(e) {}
+};
+</script>
+</body>
+</html>

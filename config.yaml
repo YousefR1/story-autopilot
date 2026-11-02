@@ -1,0 +1,67 @@
+# Story Autopilot settings
+# Change these and push to GitHub. The next daily run uses the new values.
+
+agent:
+  id: stories-1              # unique id, shown on the dashboard
+  name: Daily Stories        # display name on the dashboard
+  enabled: true              # false = the agent skips its runs (pause switch)
+  max_consecutive_failures: 3  # after this many failed runs in a row it pauses itself
+
+channel:
+  name: "Your Channel Name"  # used in the writing prompt and descriptions
+  language: English
+
+stories:
+  # The writer rotates through these, picking whichever it has used least recently.
+  genres:
+    - "creepy short fiction with a twist ending (clearly fiction)"
+    - "unsolved real-world mystery (well documented)"
+    - "remarkable true survival story (well documented)"
+    - "strange but true moment from history (well documented)"
+    - "heartwarming short fiction about an unexpected act of kindness"
+    - "eerie urban-legend style tale (presented as legend, not fact)"
+  # true = allow real events (writer is told to stick to well-established facts).
+  # false = only original fiction, which removes the risk of factual mistakes.
+  allow_true_stories: true
+  target_words: 150          # about 55-65 seconds of narration
+  tone: "gripping, cinematic, plain words, short sentences, strong hook in the first line"
+  avoid:
+    - graphic violence or gore
+    - real living private individuals
+    - medical, financial or political claims
+    - anything sexual
+    - copyrighted characters or plots
+
+ai:
+  writer_model: claude-sonnet-5-5   # Anthropic model for scripts
+  tts_model: gpt-4o-mini-tts        # OpenAI voice model
+  voice: cedar                      # marin and cedar sound the most natural
+  voice_style: "Calm, low, suspenseful storyteller. Natural pauses. Not theatrical."
+  transcribe_model: whisper-1       # for timed captions
+
+video:
+  width: 1080
+  height: 1920
+  fps: 30
+  min_seconds: 20
+  max_seconds: 170
+  caption_words_per_line: 3
+  # Optional: put royalty-free .mp3 files in assets/music/ and one is mixed in quietly.
+  music_volume: 0.08
+
+youtube:
+  enabled: true
+  privacy: public            # public, unlisted or private
+  category_id: "24"          # 24 = Entertainment
+  made_for_kids: false
+  ai_label: true             # marks the video as altered/synthetic content
+
+tiktok:
+  enabled: true
+  # inbox  = sends a draft to your TikTok inbox; you tap Post in the app (works without TikTok's audit)
+  # direct = posts by itself (needs an audited app; until then posts are private only)
+  mode: inbox
+  privacy_preference: [PUBLIC_TO_EVERYONE, FOLLOWER_OF_CREATOR, SELF_ONLY]
+  ai_label: true
+
+schedule_note: "Runs daily from .github/workflows/daily.yml (edit the cron line there)."
