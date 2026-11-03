@@ -20,6 +20,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-03",
+      "title": "28 Men, One Lifeboat, and the Impossible Rescue",
+      "topic": "After their ship Endurance was crushed by Antarctic ice in 1915, Shackleton and five men sailed a lifeboat to South Georgia to get help, and every man of the expedition survived.",
+      "genre": "remarkable true survival story (well documented)",
+      "posted": {
+        "youtube": {
+          "id": "BH_0v-Q0piw",
+          "url": "https://youtube.com/shorts/BH_0v-Q0piw"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
