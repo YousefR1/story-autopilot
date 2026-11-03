@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T16:33:30+00:00",
+  "updated": "2026-11-03T17:01:33+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -248,12 +248,64 @@
       "state": "idle",
       "consecutive_failures": 0,
       "totals": {
-        "videos": 2,
-        "youtube": 1,
+        "videos": 3,
+        "youtube": 2,
         "tiktok": 0,
         "failures": 0
       },
       "runs": [
+        {
+          "started": "2026-11-03T17:00:16+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 15.7
+            },
+            {
+              "step": "voiceover",
+              "seconds": 7.6
+            },
+            {
+              "step": "caption timing",
+              "seconds": 4.2
+            },
+            {
+              "step": "ai images",
+              "seconds": 22.0
+            },
+            {
+              "step": "render",
+              "seconds": 25.2
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.2
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 2.0
+            }
+          ],
+          "result": "posted",
+          "title": "Why You Sing Quieter in a Group (Social Loafing)",
+          "genre": "why people behave strangely in groups",
+          "kind": "fact",
+          "topic": "Social loafing: people tend to put in less effort when their work is pooled in a group (the Ringelmann rope-pulling effect)",
+          "video": {
+            "duration": 44.0,
+            "size_mb": 9.1,
+            "mean_db": -22.3
+          },
+          "posted": {
+            "youtube": {
+              "id": "2faQC2AW5XY",
+              "url": "https://youtube.com/shorts/2faQC2AW5XY"
+            }
+          },
+          "finished": "2026-11-03T17:01:33+00:00",
+          "seconds": 77.0
+        },
         {
           "started": "2026-11-03T16:32:04+00:00",
           "dry_run": false,
@@ -351,7 +403,7 @@
         }
       ],
       "schedule": "1 a day at 17:11 Oslo (.github/workflows/psychology.yml)",
-      "last_run": "2026-11-03T16:33:30+00:00"
+      "last_run": "2026-11-03T17:01:33+00:00"
     }
   }
 }

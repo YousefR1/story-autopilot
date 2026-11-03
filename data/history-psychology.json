@@ -20,6 +20,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-03",
+      "title": "Why You Sing Quieter in a Group (Social Loafing)",
+      "topic": "Social loafing: people tend to put in less effort when their work is pooled in a group (the Ringelmann rope-pulling effect)",
+      "genre": "why people behave strangely in groups",
+      "posted": {
+        "youtube": {
+          "id": "2faQC2AW5XY",
+          "url": "https://youtube.com/shorts/2faQC2AW5XY"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
