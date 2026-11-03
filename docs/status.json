@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T16:31:09+00:00",
+  "updated": "2026-11-03T16:33:30+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -248,12 +248,64 @@
       "state": "idle",
       "consecutive_failures": 0,
       "totals": {
-        "videos": 1,
-        "youtube": 0,
+        "videos": 2,
+        "youtube": 1,
         "tiktok": 0,
         "failures": 0
       },
       "runs": [
+        {
+          "started": "2026-11-03T16:32:04+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 16.7
+            },
+            {
+              "step": "voiceover",
+              "seconds": 7.7
+            },
+            {
+              "step": "caption timing",
+              "seconds": 5.3
+            },
+            {
+              "step": "ai images",
+              "seconds": 19.4
+            },
+            {
+              "step": "render",
+              "seconds": 33.3
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.2
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 2.7
+            }
+          ],
+          "result": "posted",
+          "title": "The Hidden Bias That Quietly Steers Your Guesses",
+          "genre": "a hidden bias that shapes everyday decisions",
+          "kind": "fact",
+          "topic": "Anchoring bias: the first number we hear pulls our later estimates toward it, shown in Tversky and Kahneman's rigged wheel experiment.",
+          "video": {
+            "duration": 46.7,
+            "size_mb": 8.5,
+            "mean_db": -22.6
+          },
+          "posted": {
+            "youtube": {
+              "id": "ja9MgnFjA1A",
+              "url": "https://youtube.com/shorts/ja9MgnFjA1A"
+            }
+          },
+          "finished": "2026-11-03T16:33:30+00:00",
+          "seconds": 85.7
+        },
         {
           "started": "2026-11-03T12:48:59+00:00",
           "dry_run": true,
@@ -299,7 +351,7 @@
         }
       ],
       "schedule": "1 a day at 17:11 Oslo (.github/workflows/psychology.yml)",
-      "last_run": "2026-11-03T12:50:26+00:00"
+      "last_run": "2026-11-03T16:33:30+00:00"
     }
   }
 }

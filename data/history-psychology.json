@@ -7,6 +7,19 @@
       "genre": "a surprising quirk of how memory works",
       "posted": {},
       "dry_run": true
+    },
+    {
+      "date": "2026-11-03",
+      "title": "The Hidden Bias That Quietly Steers Your Guesses",
+      "topic": "Anchoring bias: the first number we hear pulls our later estimates toward it, shown in Tversky and Kahneman's rigged wheel experiment.",
+      "genre": "a hidden bias that shapes everyday decisions",
+      "posted": {
+        "youtube": {
+          "id": "ja9MgnFjA1A",
+          "url": "https://youtube.com/shorts/ja9MgnFjA1A"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
