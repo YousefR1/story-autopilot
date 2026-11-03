@@ -45,7 +45,7 @@ visuals:
   source: ai_images
   image_model: gpt-image-2.5-flare   # OpenAI's fast image model
   image_size: 1024x1536              # portrait
-  image_quality: medium              # low = cheapest, medium = good balance, high = best
+  image_quality: low                 # low = cheapest, medium = good balance, high = best
   style: "cinematic dark storybook illustration, moody lighting, rich shadows, painterly detail, film grain"
 
 video:
