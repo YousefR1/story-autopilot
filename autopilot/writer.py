@@ -18,37 +18,52 @@ def pick_genre(cfg: dict, history: dict) -> str:
     return sorted(genres, key=lambda g: last_used.get(g, -1))[0]
 
 
-SYSTEM = """You write scripts for a faceless short-form story channel (YouTube Shorts and TikTok).
-Every video is narrated by an AI voice over stock footage, with burned-in captions.
-You choose the specific story yourself. Make each one feel fresh and specific, never generic.
+DEFAULT_STRUCTURE = [
+    "First sentence is a hook that makes people stop scrolling.",
+    "Build tension, then a satisfying payoff or twist in the last 1-2 sentences.",
+]
+
+
+def system_prompt(cfg: dict) -> str:
+    s = cfg["stories"]
+    channel_type = s.get("channel_type", "faceless short-form story channel")
+    item = s.get("item", "story")
+    return f"""You write scripts for a {channel_type} (YouTube Shorts and TikTok).
+Every video is narrated by an AI voice over AI-generated pictures, with burned-in captions.
+You choose the specific {item} yourself. Make each one feel fresh and specific, never generic.
 Return ONLY valid JSON, no markdown fences."""
 
 
 def build_prompt(cfg: dict, genre: str, history: dict) -> str:
     s = cfg["stories"]
+    item = s.get("item", "story")
     recent = [v["title"] for v in history["videos"][-80:]]
-    true_rule = (
-        "If the story is real, use only well-established, widely documented facts. "
-        "Do not invent names, dates, quotes or numbers. If you are not sure of a detail, leave it out. "
-        "If you cannot recall a real story with confidence, write labelled fiction instead."
-        if s.get("allow_true_stories", True)
-        else "Write original fiction only and make clear in the caption that it is fiction."
-    )
+    if s.get("accuracy_rule"):
+        true_rule = s["accuracy_rule"]
+    elif s.get("allow_true_stories", True):
+        true_rule = (
+            "If the story is real, use only well-established, widely documented facts. "
+            "Do not invent names, dates, quotes or numbers. If you are not sure of a detail, leave it out. "
+            "If you cannot recall a real story with confidence, write labelled fiction instead."
+        )
+    else:
+        true_rule = "Write original fiction only and make clear in the caption that it is fiction."
+    structure = "\n".join(f"- {line}" for line in s.get("structure", DEFAULT_STRUCTURE))
+    scenes = s.get("scenes", "5-6")
     return f"""Channel: {cfg['channel']['name']}
 Language: {cfg['channel']['language']}
-Today's genre: {genre}
+Today's theme: {genre}
 Tone: {s['tone']}
 Length: about {s['target_words']} words of narration in total (strict range: {int(s['target_words']*0.85)}-{int(s['target_words']*1.15)}).
 Never include: {', '.join(s['avoid'])}.
 {true_rule}
 
-Recently used titles (do NOT repeat these stories or close variants):
+Recently used titles (do NOT repeat these {item} topics or close variants):
 {json.dumps(recent, ensure_ascii=False)}
 
 Structure:
-- First sentence is a hook that makes people stop scrolling.
-- Build tension, then a satisfying payoff or twist in the last 1-2 sentences.
-- Split the narration into 6-10 scenes. Each scene is 1-2 sentences.
+{structure}
+- Split the narration into {scenes} scenes. Each scene is 1-3 sentences.
 - For each scene give:
   - "image": one vivid sentence describing a single picture for that moment (setting, light, mood,
     one clear focal subject). No real people's names or likenesses, no brands, no gore, no text in the image.
@@ -57,8 +72,8 @@ Structure:
 
 Return this JSON:
 {{
-  "story_kind": "fiction" | "true" | "legend",
-  "topic": "one-line summary of the specific story",
+  "story_kind": "fiction" | "true" | "legend" | "fact",
+  "topic": "one-line summary of the specific {item}",
   "scenes": [{{"text": "narration", "image": "picture description", "search": "footage search phrase"}}],
   "youtube_title": "max 70 characters, curiosity-driven, no clickbait lies",
   "youtube_description": "2-3 sentences. Mention if it is fiction or legend.",
@@ -77,7 +92,7 @@ def _parse_json(text: str) -> dict:
 def validate(story: dict, cfg: dict) -> None:
     scenes = story.get("scenes") or []
     if not 4 <= len(scenes) <= 14:
-        raise ValueError(f"Script has {len(scenes)} scenes; expected 6-10")
+        raise ValueError(f"Script has {len(scenes)} scenes; expected {cfg['stories'].get('scenes', '5-6')}")
     words = sum(len(s["text"].split()) for s in scenes)
     target = cfg["stories"]["target_words"]
     if not target * 0.6 <= words <= target * 1.6:
@@ -96,7 +111,7 @@ def write_story(cfg: dict, history: dict) -> dict:
         msg = client.messages.create(
             model=cfg["ai"]["writer_model"],
             max_tokens=2500,
-            system=SYSTEM,
+            system=system_prompt(cfg),
             messages=[{"role": "user", "content": prompt}],
         )
         text = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")

@@ -31,13 +31,20 @@ def _write(path, data):
 
 # ---------- history ----------
 
-def load_history() -> dict:
-    return _read(HISTORY_FILE, {"videos": [], "used_footage": []})
+def history_file(cfg: dict | None = None):
+    # The first channel keeps data/history.json; other channels get data/history-<agent id>.json
+    if cfg and cfg["agent"].get("history_file"):
+        return DATA_DIR.parent / cfg["agent"]["history_file"]
+    return HISTORY_FILE
 
 
-def save_history(history: dict) -> None:
+def load_history(cfg: dict | None = None) -> dict:
+    return _read(history_file(cfg), {"videos": [], "used_footage": []})
+
+
+def save_history(history: dict, cfg: dict | None = None) -> None:
     history["used_footage"] = history.get("used_footage", [])[-3000:]
-    _write(HISTORY_FILE, history)
+    _write(history_file(cfg), history)
 
 
 # ---------- dashboard status ----------

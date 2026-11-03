@@ -12,7 +12,7 @@ import traceback
 from datetime import datetime, timezone
 
 from . import captions, checks, render, state, voice, writer
-from .config import WORK_DIR, load_config
+from .config import ROOT, WORK_DIR, load_config
 from .notify import notify
 
 
@@ -20,10 +20,11 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--force", action="store_true")
+    ap.add_argument("--config", default="config.yaml", help="settings file for the channel to run")
     args = ap.parse_args()
 
-    cfg = load_config()
-    history = state.load_history()
+    cfg = load_config(ROOT / args.config)
+    history = state.load_history(cfg)
     status = state.load_status()
     agent = state.agent_status(status, cfg)
     name = cfg["agent"]["name"]
@@ -115,7 +116,7 @@ def main() -> int:
             })
             history["used_footage"] = history.get("used_footage", []) + [
                 c["pexels_id"] for c in clips if "pexels_id" in c]
-            state.save_history(history)
+            state.save_history(history, cfg)
 
         if run["result"] == "failed":
             raise RuntimeError("; ".join(errors))

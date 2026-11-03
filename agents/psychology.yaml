@@ -1,0 +1,88 @@
+# Psychology Facts channel settings
+# Change these and push to GitHub. The next run uses the new values.
+
+agent:
+  id: psychology-1           # unique id, shown on the dashboard
+  name: Psychology Facts     # display name on the dashboard
+  enabled: true              # false = this channel skips its runs (pause switch)
+  max_consecutive_failures: 3
+  history_file: data/history-psychology.json   # this channel's own memory of past videos
+
+channel:
+  name: "Psychology Facts"   # used in the writing prompt
+  language: English
+
+stories:
+  channel_type: "faceless short-form psychology facts channel"
+  item: "psychology fact"
+  # The writer rotates through these themes, picking whichever it has used least recently.
+  genres:
+    - "a surprising quirk of how memory works"
+    - "a hidden bias that shapes everyday decisions"
+    - "why people behave strangely in groups"
+    - "the psychology of habits and procrastination"
+    - "a famous psychology experiment and what it revealed"
+    - "body language and first impressions"
+    - "why the brain falls for certain tricks and illusions"
+    - "the science of emotions like boredom, nostalgia or awkwardness"
+  accuracy_rule: >-
+    Only use findings that are well established in psychology research. Do not invent studies,
+    researchers, statistics or dates. If you name a study or researcher, it must be real and famous
+    (for example the Stanford marshmallow test or Asch's conformity experiment); otherwise say
+    "research suggests" without naming one. Present findings as tendencies, not guarantees.
+    Never diagnose, give mental-health or medical advice, or suggest treatments.
+  structure:
+    - "First sentence is a hook that names a relatable situation or a surprising claim (e.g. 'Your brain is lying to you every time you...')."
+    - "Explain the effect in plain words with one concrete everyday example."
+    - "Mention what research found, simply and accurately."
+    - "End with a short, useful takeaway or a question that makes viewers think, so they comment."
+  scenes: "5-6"
+  target_words: 130          # about 45-55 seconds of narration
+  tone: "curious, friendly, clear, plain words, short sentences, like a smart friend explaining something"
+  avoid:
+    - mental health diagnoses or treatment advice
+    - medical, financial or political claims
+    - real living private individuals
+    - anything sexual
+    - stereotypes about groups of people
+    - invented studies or statistics
+
+ai:
+  writer_model: claude-sonnet-5-5
+  tts_model: gpt-4o-mini-tts
+  voice: marin                      # a different voice from the story channel
+  voice_style: "Warm, curious, upbeat but calm explainer. Clear and conversational. Natural pace."
+  transcribe_model: whisper-1
+
+visuals:
+  source: ai_images
+  image_model: gpt-image-2.5-flare
+  image_size: 1024x1536
+  image_quality: low
+  style: "clean modern editorial illustration, soft pastel colours, simple shapes, friendly characters, bright and calm"
+
+video:
+  width: 1080
+  height: 1920
+  fps: 30
+  min_seconds: 20
+  max_seconds: 170
+  caption_words_per_line: 3
+  music_volume: 0.08
+
+youtube:
+  enabled: true
+  token_secret: YOUTUBE_REFRESH_TOKEN_2   # this channel's own login (GitHub secret name)
+  privacy: public
+  category_id: "27"          # 27 = Education
+  made_for_kids: false
+  ai_label: true
+  hashtags: "#Shorts #psychology #psychologyfacts"
+
+tiktok:
+  enabled: false
+  mode: inbox
+  privacy_preference: [PUBLIC_TO_EVERYONE, FOLLOWER_OF_CREATOR, SELF_ONLY]
+  ai_label: true
+
+schedule_note: "1 a day at 17:11 Oslo (.github/workflows/psychology.yml)"

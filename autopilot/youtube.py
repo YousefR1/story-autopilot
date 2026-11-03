@@ -10,10 +10,12 @@ from .config import env
 SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
 
 
-def _service():
+def _service(cfg: dict):
+    # Each channel has its own login token; the secret's name is set per agent in its config.
+    token_name = cfg["youtube"].get("token_secret", "YOUTUBE_REFRESH_TOKEN")
     creds = Credentials(
         token=None,
-        refresh_token=env("YOUTUBE_REFRESH_TOKEN"),
+        refresh_token=env(token_name),
         token_uri="https://oauth2.googleapis.com/token",
         client_id=env("YOUTUBE_CLIENT_ID"),
         client_secret=env("YOUTUBE_CLIENT_SECRET"),
@@ -26,7 +28,7 @@ def upload(video: Path, story: dict, credits: str, cfg: dict) -> dict:
     yt = cfg["youtube"]
     description = (
         f"{story['youtube_description']}\n\n"
-        f"Narrated with an AI voice. {credits}\n\n#Shorts #stories"
+        f"Narrated with an AI voice. {credits}\n\n{yt.get('hashtags', '#Shorts #stories')}"
     )
     body = {
         "snippet": {
@@ -42,7 +44,7 @@ def upload(video: Path, story: dict, credits: str, cfg: dict) -> dict:
             "containsSyntheticMedia": bool(yt["ai_label"]),
         },
     }
-    request = _service().videos().insert(
+    request = _service(cfg).videos().insert(
         part="snippet,status",
         body=body,
         media_body=MediaFileUpload(str(video), mimetype="video/mp4", chunksize=8 * 1024 * 1024, resumable=True),
