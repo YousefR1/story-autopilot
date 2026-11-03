@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T12:50:26+00:00",
+  "updated": "2026-11-03T16:31:09+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -11,12 +11,64 @@
       "state": "idle",
       "consecutive_failures": 0,
       "totals": {
-        "videos": 3,
-        "youtube": 2,
+        "videos": 4,
+        "youtube": 3,
         "tiktok": 0,
         "failures": 2
       },
       "runs": [
+        {
+          "started": "2026-11-03T16:29:43+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 16.1
+            },
+            {
+              "step": "voiceover",
+              "seconds": 7.0
+            },
+            {
+              "step": "caption timing",
+              "seconds": 2.8
+            },
+            {
+              "step": "ai images",
+              "seconds": 21.7
+            },
+            {
+              "step": "render",
+              "seconds": 35.6
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.2
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 2.5
+            }
+          ],
+          "result": "posted",
+          "title": "The Pig That Nearly Started a War Between Two Empires",
+          "genre": "strange but true moment from history (well documented)",
+          "kind": "true",
+          "topic": "The 1859 Pig War on San Juan Island, where a shot pig nearly started a war between the United States and Britain, and no one died but the pig",
+          "video": {
+            "duration": 46.0,
+            "size_mb": 11.3,
+            "mean_db": -24.1
+          },
+          "posted": {
+            "youtube": {
+              "id": "t5_feZiYmDE",
+              "url": "https://youtube.com/shorts/t5_feZiYmDE"
+            }
+          },
+          "finished": "2026-11-03T16:31:09+00:00",
+          "seconds": 86.2
+        },
         {
           "started": "2026-11-03T12:29:41+00:00",
           "dry_run": false,
@@ -184,7 +236,7 @@
         }
       ],
       "schedule": "Runs daily from .github/workflows/daily.yml (edit the cron line there).",
-      "last_run": "2026-11-03T12:31:14+00:00"
+      "last_run": "2026-11-03T16:31:09+00:00"
     },
     "psychology-1": {
       "id": "psychology-1",
