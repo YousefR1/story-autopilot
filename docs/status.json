@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T12:31:14+00:00",
+  "updated": "2026-11-03T12:50:26+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -185,6 +185,69 @@
       ],
       "schedule": "Runs daily from .github/workflows/daily.yml (edit the cron line there).",
       "last_run": "2026-11-03T12:31:14+00:00"
+    },
+    "psychology-1": {
+      "id": "psychology-1",
+      "name": "Psychology Facts",
+      "kind": "video",
+      "platforms": [
+        "youtube"
+      ],
+      "state": "idle",
+      "consecutive_failures": 0,
+      "totals": {
+        "videos": 1,
+        "youtube": 0,
+        "tiktok": 0,
+        "failures": 0
+      },
+      "runs": [
+        {
+          "started": "2026-11-03T12:48:59+00:00",
+          "dry_run": true,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 14.8
+            },
+            {
+              "step": "voiceover",
+              "seconds": 8.2
+            },
+            {
+              "step": "caption timing",
+              "seconds": 4.3
+            },
+            {
+              "step": "ai images",
+              "seconds": 22.0
+            },
+            {
+              "step": "render",
+              "seconds": 37.3
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.2
+            }
+          ],
+          "result": "dry run",
+          "title": "One Word Can Change What You Remember Seeing",
+          "genre": "a surprising quirk of how memory works",
+          "kind": "fact",
+          "topic": "The misinformation effect: a single word in a question can change what people remember seeing, as shown in the classic car-crash memory experiment.",
+          "video": {
+            "duration": 47.5,
+            "size_mb": 9.9,
+            "mean_db": -22.5
+          },
+          "posted": {},
+          "finished": "2026-11-03T12:50:26+00:00",
+          "seconds": 87.0
+        }
+      ],
+      "schedule": "1 a day at 17:11 Oslo (.github/workflows/psychology.yml)",
+      "last_run": "2026-11-03T12:50:26+00:00"
     }
   }
 }
