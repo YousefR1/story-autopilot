@@ -21,7 +21,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: daily-story
+  group: autopilot   # shared by all channels, so runs never save at the same moment
   cancel-in-progress: false
 
 jobs:
@@ -77,7 +77,7 @@ jobs:
         run: |
           git config user.name "story-autopilot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/history.json docs/status.json
+          git add data docs/status.json
           git diff --cached --quiet || git commit -m "Run ${{ github.run_number }}: update history and dashboard"
           git pull --rebase --quiet || true
           git push
