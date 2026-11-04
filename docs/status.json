@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T17:00:42+00:00",
+  "updated": "2026-11-04T19:37:05+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -11,12 +11,64 @@
       "state": "idle",
       "consecutive_failures": 0,
       "totals": {
-        "videos": 6,
-        "youtube": 5,
+        "videos": 7,
+        "youtube": 6,
         "tiktok": 0,
         "failures": 2
       },
       "runs": [
+        {
+          "started": "2026-11-04T19:35:47+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 9.1
+            },
+            {
+              "step": "voiceover",
+              "seconds": 7.7
+            },
+            {
+              "step": "caption timing",
+              "seconds": 5.7
+            },
+            {
+              "step": "ai images",
+              "seconds": 18.5
+            },
+            {
+              "step": "render",
+              "seconds": 32.0
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.1
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 4.5
+            }
+          ],
+          "result": "posted",
+          "title": "The Knocking Inside the Locked Lighthouse Room",
+          "genre": "creepy short fiction with a twist ending (clearly fiction)",
+          "kind": "fiction",
+          "topic": "A night-shift lighthouse keeper keeps hearing knocks from inside the locked lamp room, and discovers the knocking is a warning that he is the one who has been trapped all along.",
+          "video": {
+            "duration": 48.7,
+            "size_mb": 11.5,
+            "mean_db": -23.5
+          },
+          "posted": {
+            "youtube": {
+              "id": "WCO0ytZjFRo",
+              "url": "https://youtube.com/shorts/WCO0ytZjFRo"
+            }
+          },
+          "finished": "2026-11-04T19:37:05+00:00",
+          "seconds": 78.4
+        },
         {
           "started": "2026-11-04T12:23:44+00:00",
           "dry_run": false,
@@ -340,7 +392,7 @@
         }
       ],
       "schedule": "Runs daily from .github/workflows/daily.yml (edit the cron line there).",
-      "last_run": "2026-11-04T12:25:05+00:00"
+      "last_run": "2026-11-04T19:37:05+00:00"
     },
     "psychology-1": {
       "id": "psychology-1",
