@@ -59,6 +59,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-04",
+      "title": "The Hotel Elevator That Stopped on Floor Fourteen",
+      "topic": "An urban legend about a night-shift elevator operator who keeps getting a call from a floor that doesn't exist in an old downtown hotel",
+      "genre": "eerie urban-legend style tale (presented as legend, not fact)",
+      "posted": {
+        "youtube": {
+          "id": "KnL8W02-66c",
+          "url": "https://youtube.com/shorts/KnL8W02-66c"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []

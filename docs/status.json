@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T19:31:46+00:00",
+  "updated": "2026-11-04T12:25:05+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -11,12 +11,64 @@
       "state": "idle",
       "consecutive_failures": 0,
       "totals": {
-        "videos": 5,
-        "youtube": 4,
+        "videos": 6,
+        "youtube": 5,
         "tiktok": 0,
         "failures": 2
       },
       "runs": [
+        {
+          "started": "2026-11-04T12:23:44+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 9.0
+            },
+            {
+              "step": "voiceover",
+              "seconds": 7.5
+            },
+            {
+              "step": "caption timing",
+              "seconds": 4.1
+            },
+            {
+              "step": "ai images",
+              "seconds": 19.5
+            },
+            {
+              "step": "render",
+              "seconds": 38.1
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.2
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 2.0
+            }
+          ],
+          "result": "posted",
+          "title": "The Hotel Elevator That Stopped on Floor Fourteen",
+          "genre": "eerie urban-legend style tale (presented as legend, not fact)",
+          "kind": "legend",
+          "topic": "An urban legend about a night-shift elevator operator who keeps getting a call from a floor that doesn't exist in an old downtown hotel",
+          "video": {
+            "duration": 52.5,
+            "size_mb": 10.4,
+            "mean_db": -23.6
+          },
+          "posted": {
+            "youtube": {
+              "id": "KnL8W02-66c",
+              "url": "https://youtube.com/shorts/KnL8W02-66c"
+            }
+          },
+          "finished": "2026-11-04T12:25:05+00:00",
+          "seconds": 81.0
+        },
         {
           "started": "2026-11-03T19:30:12+00:00",
           "dry_run": false,
@@ -288,7 +340,7 @@
         }
       ],
       "schedule": "Runs daily from .github/workflows/daily.yml (edit the cron line there).",
-      "last_run": "2026-11-03T19:31:46+00:00"
+      "last_run": "2026-11-04T12:25:05+00:00"
     },
     "psychology-1": {
       "id": "psychology-1",
