@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T12:25:05+00:00",
+  "updated": "2026-11-04T17:00:42+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -352,12 +352,64 @@
       "state": "idle",
       "consecutive_failures": 0,
       "totals": {
-        "videos": 3,
-        "youtube": 2,
+        "videos": 4,
+        "youtube": 3,
         "tiktok": 0,
         "failures": 0
       },
       "runs": [
+        {
+          "started": "2026-11-04T16:59:19+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 17.5
+            },
+            {
+              "step": "voiceover",
+              "seconds": 7.4
+            },
+            {
+              "step": "caption timing",
+              "seconds": 2.1
+            },
+            {
+              "step": "ai images",
+              "seconds": 25.2
+            },
+            {
+              "step": "render",
+              "seconds": 28.8
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.1
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 1.9
+            }
+          ],
+          "result": "posted",
+          "title": "The Simple If-Then Trick That Beats Procrastination",
+          "genre": "the psychology of habits and procrastination",
+          "kind": "fact",
+          "topic": "Implementation intentions: making a specific if-then plan helps people follow through on goals more than a vague intention alone (Peter Gollwitzer's research).",
+          "video": {
+            "duration": 46.2,
+            "size_mb": 9.3,
+            "mean_db": -22.2
+          },
+          "posted": {
+            "youtube": {
+              "id": "iqShGqc341M",
+              "url": "https://youtube.com/shorts/iqShGqc341M"
+            }
+          },
+          "finished": "2026-11-04T17:00:42+00:00",
+          "seconds": 83.3
+        },
         {
           "started": "2026-11-03T17:00:16+00:00",
           "dry_run": false,
@@ -507,7 +559,7 @@
         }
       ],
       "schedule": "1 a day at 17:11 Oslo (.github/workflows/psychology.yml)",
-      "last_run": "2026-11-03T17:01:33+00:00"
+      "last_run": "2026-11-04T17:00:42+00:00"
     }
   }
 }

@@ -33,6 +33,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-04",
+      "title": "The Simple If-Then Trick That Beats Procrastination",
+      "topic": "Implementation intentions: making a specific if-then plan helps people follow through on goals more than a vague intention alone (Peter Gollwitzer's research).",
+      "genre": "the psychology of habits and procrastination",
+      "posted": {
+        "youtube": {
+          "id": "iqShGqc341M",
+          "url": "https://youtube.com/shorts/iqShGqc341M"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
