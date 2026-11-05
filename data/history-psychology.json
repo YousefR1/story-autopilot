@@ -46,6 +46,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-05",
+      "title": "The Gorilla Experiment That Proved You Miss Obvious Things",
+      "topic": "The invisible gorilla experiment by Simons and Chabris showed inattentional blindness: when attention is locked on a task, many people miss a obvious, unexpected event.",
+      "genre": "a famous psychology experiment and what it revealed",
+      "posted": {
+        "youtube": {
+          "id": "hHK-Wy3e1jg",
+          "url": "https://youtube.com/shorts/hHK-Wy3e1jg"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
