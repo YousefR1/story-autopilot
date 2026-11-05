@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T12:35:40+00:00",
+  "updated": "2026-11-05T17:11:10+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -11,12 +11,64 @@
       "state": "idle",
       "consecutive_failures": 0,
       "totals": {
-        "videos": 8,
-        "youtube": 7,
+        "videos": 9,
+        "youtube": 8,
         "tiktok": 0,
         "failures": 2
       },
       "runs": [
+        {
+          "started": "2026-11-05T17:09:02+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 58.3
+            },
+            {
+              "step": "voiceover",
+              "seconds": 9.1
+            },
+            {
+              "step": "caption timing",
+              "seconds": 3.8
+            },
+            {
+              "step": "ai images",
+              "seconds": 23.6
+            },
+            {
+              "step": "render",
+              "seconds": 28.8
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.1
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 1.8
+            }
+          ],
+          "result": "posted",
+          "title": "33 Miners Trapped 700 Meters Down. Then Came the Note.",
+          "genre": "remarkable true survival story (well documented)",
+          "kind": "true",
+          "topic": "The 2010 Chilean mine collapse, where 33 miners survived 69 days underground and were all rescued alive",
+          "video": {
+            "duration": 46.8,
+            "size_mb": 10.9,
+            "mean_db": -23.0
+          },
+          "posted": {
+            "youtube": {
+              "id": "-DQ-Bn0ZHNk",
+              "url": "https://youtube.com/shorts/-DQ-Bn0ZHNk"
+            }
+          },
+          "finished": "2026-11-05T17:11:10+00:00",
+          "seconds": 127.2
+        },
         {
           "started": "2026-11-05T12:34:20+00:00",
           "dry_run": false,
@@ -444,7 +496,7 @@
         }
       ],
       "schedule": "Runs daily from .github/workflows/daily.yml (edit the cron line there).",
-      "last_run": "2026-11-05T12:35:40+00:00"
+      "last_run": "2026-11-05T17:11:10+00:00"
     },
     "psychology-1": {
       "id": "psychology-1",
