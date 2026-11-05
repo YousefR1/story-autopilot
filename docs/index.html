@@ -32,7 +32,7 @@ h1{font-size:clamp(26px,5vw,38px);margin:0;letter-spacing:-.02em}
 .sub{color:var(--muted);font-size:14px;margin-top:4px}
 .mono{font-family:"JetBrains Mono",ui-monospace,monospace}
 .banner{background:var(--warn-bg);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin-bottom:18px;font-size:14px}
-.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:28px}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:28px}
 .kpi{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
 .kpi .n{font-size:30px;font-weight:700;font-family:"JetBrains Mono",monospace}
 .kpi .l{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
@@ -61,7 +61,7 @@ a{color:var(--accent)}
 .empty{background:var(--panel);border:1px dashed var(--line);border-radius:14px;padding:28px;text-align:center;color:var(--muted)}
 .tablewrap{overflow-x:auto}
 @media (max-width:700px){
-  .kpis{grid-template-columns:repeat(2,1fr)}
+  .kpis{grid-template-columns:repeat(3,1fr)}
   .hide-sm{display:none}
 }
 </style>
@@ -114,7 +114,7 @@ function render(data, demo){
   const active = agents.filter(a=>a.state!=="paused").length;
   $("#kpis").innerHTML = [
     ["Agents active", `${active}/${agents.length}`],["Videos made", sum("videos")],
-    ["YouTube posts", sum("youtube")],["TikTok sends", sum("tiktok")]
+    ["YouTube posts", sum("youtube")]
   ].map(([l,n])=>`<div class="kpi"><div class="n">${n}</div><div class="l">${l}</div></div>`).join("");
 
   if(!agents.length){ $("#agents").innerHTML='<div class="empty">No agents have reported yet. Run the workflow once from the Actions tab.</div>'; return; }
