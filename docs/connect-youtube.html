@@ -33,7 +33,7 @@ code{background:var(--bg);padding:1px 5px;border-radius:4px}
     <label for="csec">Client secret</label>
     <input id="csec" type="password" autocomplete="off" placeholder="GOCSPX-...">
     <button id="go">Connect YouTube</button>
-    <p class="muted">Google will ask you to choose an account and a channel. Pick your <b>story channel</b>.
+    <p class="muted">Google will ask you to choose an account and a channel. Pick the <b>channel you are connecting</b> (one channel per run of this page).
       If you see “Google hasn't verified this app”, click <b>Advanced → Go to Story Autopilot</b>, then <b>Continue</b>.</p>
   </div>
 
@@ -42,12 +42,14 @@ code{background:var(--bg);padding:1px 5px;border-radius:4px}
     <p id="status" class="muted">Working…</p>
     <textarea id="token" readonly hidden></textarea>
     <button id="copy" hidden>Copy token</button>
-    <p class="muted" id="next" hidden>Add it in GitHub as a secret named <code>YOUTUBE_REFRESH_TOKEN</code>. Then close this page.</p>
+    <p class="muted" id="next" hidden>In GitHub, update the secret for this channel: <code>YOUTUBE_REFRESH_TOKEN</code> for Daily Stories, <code>YOUTUBE_REFRESH_TOKEN_2</code> for Psychology Facts. Then close this page.</p>
   </div>
 </div>
 <script>
 const REDIRECT = location.origin + location.pathname;
-const SCOPE = "https://www.googleapis.com/auth/youtube.upload";
+const SCOPE = ["https://www.googleapis.com/auth/youtube.upload",
+  "https://www.googleapis.com/auth/youtube.readonly",
+  "https://www.googleapis.com/auth/yt-analytics.readonly"].join(" ");
 const store = {
   get(k){ try { return sessionStorage.getItem(k); } catch(e) { return window["_"+k] || null; } },
   set(k,v){ try { sessionStorage.setItem(k,v); } catch(e) { window["_"+k]=v; } },
