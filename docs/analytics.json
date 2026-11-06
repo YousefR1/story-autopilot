@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T13:29:46+00:00",
+  "updated": "2026-11-06T16:08:18+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -11,10 +11,10 @@
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 10,
-      "views": 562,
+      "views": 566,
       "likes": 60,
       "comments": 12,
-      "avg_views": 56.2,
+      "avg_views": 56.6,
       "top": "28 Men, One Lifeboat, and the Impossible Rescue"
     },
     "psychology-1": {
@@ -27,10 +27,10 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 4,
-      "views": 43,
-      "likes": 12,
-      "comments": 8,
-      "avg_views": 10.8,
+      "views": 50,
+      "likes": 16,
+      "comments": 10,
+      "avg_views": 12.5,
       "top": "The Simple If-Then Trick That Beats Procrastination"
     }
   },
@@ -112,7 +112,7 @@
       "title": "28 Men, One Lifeboat, and the Impossible Rescue",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-03T12:31:14+00:00",
-      "views": 164,
+      "views": 166,
       "likes": 13,
       "comments": 1
     },
@@ -121,7 +121,7 @@
       "title": "The Ship Found Sailing With Nobody Aboard",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-02T19:48:07+00:00",
-      "views": 161,
+      "views": 163,
       "likes": 12,
       "comments": 4
     },
@@ -130,9 +130,9 @@
       "title": "The Gorilla Experiment That Proved You Miss Obvious Things",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-05T17:19:53+00:00",
-      "views": 5,
-      "likes": 0,
-      "comments": 0
+      "views": 12,
+      "likes": 4,
+      "comments": 2
     },
     "iqShGqc341M": {
       "agent": "psychology-1",
@@ -198,6 +198,19 @@
         },
         "psychology-1": {
           "views": 43,
+          "subscribers": 3
+        }
+      }
+    },
+    {
+      "time": "2026-11-06T16:08:18+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 566,
+          "subscribers": 12
+        },
+        "psychology-1": {
+          "views": 50,
           "subscribers": 3
         }
       }
