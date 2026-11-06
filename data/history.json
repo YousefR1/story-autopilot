@@ -124,6 +124,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-06",
+      "title": "The Girl Who Rode the Night Bus Every Night",
+      "topic": "A night-shift bus driver notices a teenage girl riding the whole route to stay warm, and quietly changes her night with one small act.",
+      "genre": "heartwarming short fiction about an unexpected act of kindness",
+      "posted": {
+        "youtube": {
+          "id": "d0WTTVfcoK0",
+          "url": "https://youtube.com/shorts/d0WTTVfcoK0"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T19:31:49+00:00",
+  "updated": "2026-11-06T12:31:44+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -11,12 +11,64 @@
       "state": "idle",
       "consecutive_failures": 0,
       "totals": {
-        "videos": 10,
-        "youtube": 9,
+        "videos": 11,
+        "youtube": 10,
         "tiktok": 0,
         "failures": 0
       },
       "runs": [
+        {
+          "started": "2026-11-06T12:30:32+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 9.6
+            },
+            {
+              "step": "voiceover",
+              "seconds": 7.9
+            },
+            {
+              "step": "caption timing",
+              "seconds": 5.0
+            },
+            {
+              "step": "ai images",
+              "seconds": 21.7
+            },
+            {
+              "step": "render",
+              "seconds": 24.5
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.1
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 2.9
+            }
+          ],
+          "result": "posted",
+          "title": "The Girl Who Rode the Night Bus Every Night",
+          "genre": "heartwarming short fiction about an unexpected act of kindness",
+          "kind": "fiction",
+          "topic": "A night-shift bus driver notices a teenage girl riding the whole route to stay warm, and quietly changes her night with one small act.",
+          "video": {
+            "duration": 42.2,
+            "size_mb": 8.1,
+            "mean_db": -24.2
+          },
+          "posted": {
+            "youtube": {
+              "id": "d0WTTVfcoK0",
+              "url": "https://youtube.com/shorts/d0WTTVfcoK0"
+            }
+          },
+          "finished": "2026-11-06T12:31:44+00:00",
+          "seconds": 72.1
+        },
         {
           "started": "2026-11-05T19:30:19+00:00",
           "dry_run": false,
@@ -530,7 +582,7 @@
         }
       ],
       "schedule": "Runs daily from .github/workflows/daily.yml (edit the cron line there).",
-      "last_run": "2026-11-05T19:31:49+00:00"
+      "last_run": "2026-11-06T12:31:44+00:00"
     },
     "psychology-1": {
       "id": "psychology-1",
