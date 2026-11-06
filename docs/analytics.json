@@ -1,36 +1,36 @@
 {
-  "updated": "2026-11-06T11:38:32+00:00",
+  "updated": "2026-11-06T11:57:55+00:00",
   "agents": {
     "stories-1": {
       "channel": {
         "title": "Content_Support",
         "handle": "@story_time-i2e",
-        "subscribers": 10,
+        "subscribers": 12,
         "views": 531,
         "videos": 9
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 9,
-      "views": 551,
-      "likes": 39,
-      "comments": 3,
-      "avg_views": 61.2,
+      "views": 560,
+      "likes": 59,
+      "comments": 12,
+      "avg_views": 62.2,
       "top": "28 Men, One Lifeboat, and the Impossible Rescue"
     },
     "psychology-1": {
       "channel": {
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
-        "subscribers": 0,
+        "subscribers": 3,
         "views": 22,
         "videos": 4
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 4,
-      "views": 25,
-      "likes": 5,
-      "comments": 2,
-      "avg_views": 6.2,
+      "views": 50,
+      "likes": 16,
+      "comments": 10,
+      "avg_views": 12.5,
       "top": "The Simple If-Then Trick That Beats Procrastination"
     }
   },
@@ -41,17 +41,17 @@
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-05T19:31:49+00:00",
       "views": 43,
-      "likes": 3,
-      "comments": 0
+      "likes": 5,
+      "comments": 1
     },
     "-DQ-Bn0ZHNk": {
       "agent": "stories-1",
       "title": "33 Miners Trapped 700 Meters Down. Then Came the Note.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-05T17:11:10+00:00",
-      "views": 2,
-      "likes": 0,
-      "comments": 0
+      "views": 6,
+      "likes": 3,
+      "comments": 1
     },
     "hDgqfQ3i6pc": {
       "agent": "stories-1",
@@ -59,26 +59,26 @@
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-05T12:35:40+00:00",
       "views": 76,
-      "likes": 4,
-      "comments": 0
+      "likes": 6,
+      "comments": 1
     },
     "WCO0ytZjFRo": {
       "agent": "stories-1",
       "title": "The Knocking Inside the Locked Lighthouse Room",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-04T19:37:05+00:00",
-      "views": 18,
-      "likes": 1,
-      "comments": 0
+      "views": 19,
+      "likes": 3,
+      "comments": 1
     },
     "KnL8W02-66c": {
       "agent": "stories-1",
       "title": "The Hotel Elevator That Stopped on Floor Fourteen",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-04T12:25:05+00:00",
-      "views": 2,
-      "likes": 1,
-      "comments": 0
+      "views": 6,
+      "likes": 4,
+      "comments": 1
     },
     "uHT28jz3VcI": {
       "agent": "stories-1",
@@ -86,8 +86,8 @@
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-03T19:31:46+00:00",
       "views": 20,
-      "likes": 5,
-      "comments": 0
+      "likes": 7,
+      "comments": 1
     },
     "t5_feZiYmDE": {
       "agent": "stories-1",
@@ -95,8 +95,8 @@
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-03T16:31:09+00:00",
       "views": 65,
-      "likes": 4,
-      "comments": 0
+      "likes": 6,
+      "comments": 1
     },
     "BH_0v-Q0piw": {
       "agent": "stories-1",
@@ -104,8 +104,8 @@
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-03T12:31:14+00:00",
       "views": 164,
-      "likes": 11,
-      "comments": 0
+      "likes": 13,
+      "comments": 1
     },
     "1MUvGeLjQuU": {
       "agent": "stories-1",
@@ -113,44 +113,44 @@
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-02T19:48:07+00:00",
       "views": 161,
-      "likes": 10,
-      "comments": 3
+      "likes": 12,
+      "comments": 4
     },
     "hHK-Wy3e1jg": {
       "agent": "psychology-1",
       "title": "The Gorilla Experiment That Proved You Miss Obvious Things",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-05T17:19:53+00:00",
-      "views": 5,
-      "likes": 1,
-      "comments": 0
+      "views": 12,
+      "likes": 4,
+      "comments": 2
     },
     "iqShGqc341M": {
       "agent": "psychology-1",
       "title": "The Simple If-Then Trick That Beats Procrastination",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-04T17:00:42+00:00",
-      "views": 7,
-      "likes": 1,
-      "comments": 0
+      "views": 14,
+      "likes": 4,
+      "comments": 2
     },
     "2faQC2AW5XY": {
       "agent": "psychology-1",
       "title": "Why You Sing Quieter in a Group (Social Loafing)",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-03T17:01:33+00:00",
-      "views": 6,
-      "likes": 1,
-      "comments": 1
+      "views": 12,
+      "likes": 4,
+      "comments": 3
     },
     "ja9MgnFjA1A": {
       "agent": "psychology-1",
       "title": "The Hidden Bias That Quietly Steers Your Guesses",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-03T16:33:30+00:00",
-      "views": 7,
-      "likes": 2,
-      "comments": 1
+      "views": 12,
+      "likes": 4,
+      "comments": 3
     }
   },
   "history": [
@@ -164,6 +164,19 @@
         "psychology-1": {
           "views": 25,
           "subscribers": 0
+        }
+      }
+    },
+    {
+      "time": "2026-11-06T11:57:55+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 560,
+          "subscribers": 12
+        },
+        "psychology-1": {
+          "views": 50,
+          "subscribers": 3
         }
       }
     }
