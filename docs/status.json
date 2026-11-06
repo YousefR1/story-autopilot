@@ -14,7 +14,7 @@
         "videos": 10,
         "youtube": 9,
         "tiktok": 0,
-        "failures": 2
+        "failures": 0
       },
       "runs": [
         {
@@ -110,7 +110,7 @@
           "video": {
             "duration": 46.8,
             "size_mb": 10.9,
-            "mean_db": -23.0
+            "mean_db": -23
           },
           "posted": {
             "youtube": {
@@ -195,7 +195,7 @@
             },
             {
               "step": "render",
-              "seconds": 32.0
+              "seconds": 32
             },
             {
               "step": "quality check",
@@ -231,7 +231,7 @@
           "steps": [
             {
               "step": "write script",
-              "seconds": 9.0
+              "seconds": 9
             },
             {
               "step": "voiceover",
@@ -255,7 +255,7 @@
             },
             {
               "step": "upload youtube",
-              "seconds": 2.0
+              "seconds": 2
             }
           ],
           "result": "posted",
@@ -275,7 +275,7 @@
             }
           },
           "finished": "2026-11-04T12:25:05+00:00",
-          "seconds": 81.0
+          "seconds": 81
         },
         {
           "started": "2026-11-03T19:30:12+00:00",
@@ -291,7 +291,7 @@
             },
             {
               "step": "caption timing",
-              "seconds": 3.0
+              "seconds": 3
             },
             {
               "step": "ai images",
@@ -339,7 +339,7 @@
             },
             {
               "step": "voiceover",
-              "seconds": 7.0
+              "seconds": 7
             },
             {
               "step": "caption timing",
@@ -368,7 +368,7 @@
           "kind": "true",
           "topic": "The 1859 Pig War on San Juan Island, where a shot pig nearly started a war between the United States and Britain, and no one died but the pig",
           "video": {
-            "duration": 46.0,
+            "duration": 46,
             "size_mb": 11.3,
             "mean_db": -24.1
           },
@@ -387,7 +387,7 @@
           "steps": [
             {
               "step": "write script",
-              "seconds": 16.0
+              "seconds": 16
             },
             {
               "step": "voiceover",
@@ -395,7 +395,7 @@
             },
             {
               "step": "caption timing",
-              "seconds": 4.0
+              "seconds": 4
             },
             {
               "step": "ai images",
@@ -411,7 +411,7 @@
             },
             {
               "step": "upload youtube",
-              "seconds": 2.0
+              "seconds": 2
             }
           ],
           "result": "posted",
@@ -474,7 +474,7 @@
           "video": {
             "duration": 53.3,
             "size_mb": 12.4,
-            "mean_db": -24.0
+            "mean_db": -24
           },
           "posted": {
             "youtube": {
@@ -520,31 +520,13 @@
           "kind": "fiction",
           "topic": "A night-shift security guard keeps seeing a figure on the lobby camera standing behind him, until he learns the camera feed is a live view of the building's empty twin across the street, and the figure is watching him through the real window.",
           "video": {
-            "duration": 44.0,
+            "duration": 44,
             "size_mb": 8.1,
             "mean_db": -24.2
           },
           "posted": {},
           "finished": "2026-11-02T19:43:19+00:00",
           "seconds": 104.7
-        },
-        {
-          "started": "2026-11-02T19:29:50+00:00",
-          "dry_run": false,
-          "steps": [],
-          "result": "failed",
-          "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgeeySfhZ9aRHh2TJmh7T'}",
-          "finished": "2026-11-02T19:29:50+00:00",
-          "seconds": 0.3
-        },
-        {
-          "started": "2026-11-02T12:31:30+00:00",
-          "dry_run": false,
-          "steps": [],
-          "result": "failed",
-          "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cge75GPkQXMUwkSeykrpX'}",
-          "finished": "2026-11-02T12:31:31+00:00",
-          "seconds": 0.3
         }
       ],
       "schedule": "Runs daily from .github/workflows/daily.yml (edit the cron line there).",
@@ -688,7 +670,7 @@
             },
             {
               "step": "ai images",
-              "seconds": 22.0
+              "seconds": 22
             },
             {
               "step": "render",
@@ -700,7 +682,7 @@
             },
             {
               "step": "upload youtube",
-              "seconds": 2.0
+              "seconds": 2
             }
           ],
           "result": "posted",
@@ -709,7 +691,7 @@
           "kind": "fact",
           "topic": "Social loafing: people tend to put in less effort when their work is pooled in a group (the Ringelmann rope-pulling effect)",
           "video": {
-            "duration": 44.0,
+            "duration": 44,
             "size_mb": 9.1,
             "mean_db": -22.3
           },
@@ -720,7 +702,7 @@
             }
           },
           "finished": "2026-11-03T17:01:33+00:00",
-          "seconds": 77.0
+          "seconds": 77
         },
         {
           "started": "2026-11-03T16:32:04+00:00",
@@ -792,7 +774,7 @@
             },
             {
               "step": "ai images",
-              "seconds": 22.0
+              "seconds": 22
             },
             {
               "step": "render",
@@ -815,7 +797,7 @@
           },
           "posted": {},
           "finished": "2026-11-03T12:50:26+00:00",
-          "seconds": 87.0
+          "seconds": 87
         }
       ],
       "schedule": "1 a day at 17:11 Oslo (.github/workflows/psychology.yml)",
