@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T11:57:55+00:00",
+  "updated": "2026-11-06T13:29:46+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -7,14 +7,14 @@
         "handle": "@story_time-i2e",
         "subscribers": 12,
         "views": 531,
-        "videos": 9
+        "videos": 10
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 9,
-      "views": 560,
-      "likes": 59,
+      "videos": 10,
+      "views": 562,
+      "likes": 60,
       "comments": 12,
-      "avg_views": 62.2,
+      "avg_views": 56.2,
       "top": "28 Men, One Lifeboat, and the Impossible Rescue"
     },
     "psychology-1": {
@@ -27,14 +27,23 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 4,
-      "views": 50,
-      "likes": 16,
-      "comments": 10,
-      "avg_views": 12.5,
+      "views": 43,
+      "likes": 12,
+      "comments": 8,
+      "avg_views": 10.8,
       "top": "The Simple If-Then Trick That Beats Procrastination"
     }
   },
   "videos": {
+    "d0WTTVfcoK0": {
+      "agent": "stories-1",
+      "title": "The Girl Who Rode the Night Bus Every Night",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-06T12:31:44+00:00",
+      "views": 0,
+      "likes": 0,
+      "comments": 0
+    },
     "yLQx5jyzHsM": {
       "agent": "stories-1",
       "title": "The Time the Army Lost a War to Emus",
@@ -59,7 +68,7 @@
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-05T12:35:40+00:00",
       "views": 76,
-      "likes": 6,
+      "likes": 7,
       "comments": 1
     },
     "WCO0ytZjFRo": {
@@ -76,7 +85,7 @@
       "title": "The Hotel Elevator That Stopped on Floor Fourteen",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-04T12:25:05+00:00",
-      "views": 6,
+      "views": 7,
       "likes": 4,
       "comments": 1
     },
@@ -85,7 +94,7 @@
       "title": "He Was Supposed to Tow the Car. Then He Saw the Cake.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-03T19:31:46+00:00",
-      "views": 20,
+      "views": 21,
       "likes": 7,
       "comments": 1
     },
@@ -121,9 +130,9 @@
       "title": "The Gorilla Experiment That Proved You Miss Obvious Things",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-05T17:19:53+00:00",
-      "views": 12,
-      "likes": 4,
-      "comments": 2
+      "views": 5,
+      "likes": 0,
+      "comments": 0
     },
     "iqShGqc341M": {
       "agent": "psychology-1",
@@ -176,6 +185,19 @@
         },
         "psychology-1": {
           "views": 50,
+          "subscribers": 3
+        }
+      }
+    },
+    {
+      "time": "2026-11-06T13:29:46+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 562,
+          "subscribers": 12
+        },
+        "psychology-1": {
+          "views": 43,
           "subscribers": 3
         }
       }
