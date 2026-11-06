@@ -137,6 +137,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-06",
+      "title": "The Payphone That Rang Once, Then Saved a Trucker",
+      "topic": "A trucker's legend about a phantom payphone at a closed gas station that rings to warn drivers away from a bridge that is about to fail.",
+      "genre": "eerie urban-legend style tale (presented as legend, not fact)",
+      "posted": {
+        "youtube": {
+          "id": "kRRsbcRUdhA",
+          "url": "https://youtube.com/shorts/kRRsbcRUdhA"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []

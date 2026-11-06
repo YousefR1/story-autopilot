@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T17:30:36+00:00",
+  "updated": "2026-11-06T19:32:00+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -11,12 +11,64 @@
       "state": "idle",
       "consecutive_failures": 0,
       "totals": {
-        "videos": 11,
-        "youtube": 10,
+        "videos": 12,
+        "youtube": 11,
         "tiktok": 0,
         "failures": 0
       },
       "runs": [
+        {
+          "started": "2026-11-06T19:30:34+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 18.0
+            },
+            {
+              "step": "voiceover",
+              "seconds": 7.9
+            },
+            {
+              "step": "caption timing",
+              "seconds": 3.9
+            },
+            {
+              "step": "ai images",
+              "seconds": 21.6
+            },
+            {
+              "step": "render",
+              "seconds": 32.7
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.2
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 1.7
+            }
+          ],
+          "result": "posted",
+          "title": "The Payphone That Rang Once, Then Saved a Trucker",
+          "genre": "eerie urban-legend style tale (presented as legend, not fact)",
+          "kind": "legend",
+          "topic": "A trucker's legend about a phantom payphone at a closed gas station that rings to warn drivers away from a bridge that is about to fail.",
+          "video": {
+            "duration": 55.2,
+            "size_mb": 12.4,
+            "mean_db": -23.4
+          },
+          "posted": {
+            "youtube": {
+              "id": "kRRsbcRUdhA",
+              "url": "https://youtube.com/shorts/kRRsbcRUdhA"
+            }
+          },
+          "finished": "2026-11-06T19:32:00+00:00",
+          "seconds": 86.3
+        },
         {
           "started": "2026-11-06T12:30:32+00:00",
           "dry_run": false,
@@ -582,7 +634,7 @@
         }
       ],
       "schedule": "Runs daily from .github/workflows/daily.yml (edit the cron line there).",
-      "last_run": "2026-11-06T12:31:44+00:00"
+      "last_run": "2026-11-06T19:32:00+00:00"
     },
     "psychology-1": {
       "id": "psychology-1",
