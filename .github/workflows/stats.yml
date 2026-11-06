@@ -1,0 +1,41 @@
+name: YouTube stats
+
+on:
+  schedule:
+    - cron: "23 */3 * * *"   # every 3 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: autopilot   # shared by all channels, so runs never save at the same moment
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python packages
+        run: pip install requests PyYAML
+
+      - name: Collect YouTube statistics
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python -m autopilot.stats
+
+      - name: Save to the dashboard
+        run: |
+          git config user.name "story-autopilot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/analytics.json
+          git diff --cached --quiet || git commit -m "Update YouTube stats"
+          git pull --rebase --quiet || true
+          git push
