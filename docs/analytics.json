@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T19:17:57+00:00",
+  "updated": "2026-11-06T21:58:17+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -7,40 +7,49 @@
         "handle": "@story_time-i2e",
         "subscribers": 12,
         "views": 553,
-        "videos": 10
+        "videos": 11
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 10,
-      "views": 607,
+      "videos": 11,
+      "views": 614,
       "likes": 60,
       "comments": 12,
-      "avg_views": 60.7,
+      "avg_views": 55.8,
       "top": "28 Men, One Lifeboat, and the Impossible Rescue"
     },
     "psychology-1": {
       "channel": {
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
-        "subscribers": 3,
+        "subscribers": 4,
         "views": 25,
         "videos": 5
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 5,
-      "views": 61,
-      "likes": 16,
+      "views": 152,
+      "likes": 18,
       "comments": 10,
-      "avg_views": 12.2,
-      "top": "The Simple If-Then Trick That Beats Procrastination"
+      "avg_views": 30.4,
+      "top": "You Judge People Before They Speak. Here's Why"
     }
   },
   "videos": {
+    "kRRsbcRUdhA": {
+      "agent": "stories-1",
+      "title": "The Payphone That Rang Once, Then Saved a Trucker",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-06T19:32:00+00:00",
+      "views": 0,
+      "likes": 0,
+      "comments": 0
+    },
     "d0WTTVfcoK0": {
       "agent": "stories-1",
       "title": "The Girl Who Rode the Night Bus Every Night",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-06T12:31:44+00:00",
-      "views": 3,
+      "views": 7,
       "likes": 0,
       "comments": 0
     },
@@ -58,7 +67,7 @@
       "title": "33 Miners Trapped 700 Meters Down. Then Came the Note.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-05T17:11:10+00:00",
-      "views": 6,
+      "views": 7,
       "likes": 3,
       "comments": 1
     },
@@ -67,7 +76,7 @@
       "title": "The 72-Second Signal From Space That Never Came Back",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-05T12:35:40+00:00",
-      "views": 81,
+      "views": 83,
       "likes": 7,
       "comments": 1
     },
@@ -130,8 +139,8 @@
       "title": "You Judge People Before They Speak. Here's Why",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-06T17:30:36+00:00",
-      "views": 0,
-      "likes": 0,
+      "views": 92,
+      "likes": 2,
       "comments": 0
     },
     "hHK-Wy3e1jg": {
@@ -139,7 +148,7 @@
       "title": "The Gorilla Experiment That Proved You Miss Obvious Things",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-05T17:19:53+00:00",
-      "views": 15,
+      "views": 14,
       "likes": 4,
       "comments": 2
     },
@@ -234,6 +243,19 @@
         "psychology-1": {
           "views": 61,
           "subscribers": 3
+        }
+      }
+    },
+    {
+      "time": "2026-11-06T21:58:17+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 614,
+          "subscribers": 12
+        },
+        "psychology-1": {
+          "views": 152,
+          "subscribers": 4
         }
       }
     }
