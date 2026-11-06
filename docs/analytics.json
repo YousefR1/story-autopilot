@@ -1,0 +1,15 @@
+{
+ "updated": "2026-11-06T07:38:52+00:00",
+ "channels": [
+  {
+   "agent_id": "stories-1",
+   "name": "Daily Stories",
+   "error": "No read access yet. Reconnect this channel with docs/connect-youtube.html and replace its token secret."
+  },
+  {
+   "agent_id": "psychology-1",
+   "name": "Psychology Facts",
+   "error": "No read access yet. Reconnect this channel with docs/connect-youtube.html and replace its token secret."
+  }
+ ]
+}
