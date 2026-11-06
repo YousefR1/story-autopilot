@@ -32,7 +32,7 @@ h1{font-size:clamp(26px,5vw,38px);margin:0;letter-spacing:-.02em}
 .sub{color:var(--muted);font-size:14px;margin-top:4px}
 .mono{font-family:"JetBrains Mono",ui-monospace,monospace}
 .banner{background:var(--warn-bg);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin-bottom:18px;font-size:14px}
-.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:28px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:28px}
 .kpi{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
 .kpi .n{font-size:30px;font-weight:700;font-family:"JetBrains Mono",monospace}
 .kpi .l{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
@@ -60,35 +60,21 @@ td.t{max-width:380px}
 a{color:var(--accent)}
 .empty{background:var(--panel);border:1px dashed var(--line);border-radius:14px;padding:28px;text-align:center;color:var(--muted)}
 .tablewrap{overflow-x:auto}
-.zone-head{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap;margin:6px 0 12px}
-.zone-head h2{margin:0;font-size:22px;letter-spacing:-.01em}
-.ranges{display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:3px}
-.ranges button{border:0;background:none;color:var(--muted);font:600 12px "Space Grotesk",sans-serif;padding:6px 12px;border-radius:999px;cursor:pointer}
-.ranges button.on{background:var(--ink);color:var(--bg)}
-.chan{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:18px}
-.chan-top{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:baseline}
-.chan h3{margin:0;font-size:18px}
-.chan-stats{display:flex;gap:22px;flex-wrap:wrap}
-.chan-stats div{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
-.chan-stats b{display:block;font:700 20px "JetBrains Mono",monospace;color:var(--ink);text-transform:none;letter-spacing:0}
-.charts{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
-.chart{border:1px solid var(--line);border-radius:10px;padding:12px 12px 6px;position:relative}
-.chart-h{display:flex;justify-content:space-between;font-size:13px;color:var(--muted);margin-bottom:4px}
-.chart-h b{color:var(--ink);font-family:"JetBrains Mono",monospace}
-.chart svg{width:100%;height:auto;display:block;touch-action:pan-y}
-.chart svg text{fill:var(--muted);font:14px "JetBrains Mono",monospace}
-.chart .grid{stroke:var(--line);stroke-width:1}
-.chart .hover{opacity:0}
-.chart.active .hover{opacity:1}
-.tip{position:absolute;top:30px;pointer-events:none;background:var(--ink);color:var(--bg);font:12px "JetBrains Mono",monospace;padding:4px 8px;border-radius:6px;white-space:nowrap;opacity:0;transform:translateX(-50%)}
-.chart.active .tip{opacity:1}
-.note{font-size:12px;color:var(--muted);margin:-4px 0 14px}
-.c-views{--c:var(--accent)} .c-subs{--c:var(--ok)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:16px 0 4px}
+.stat{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.stat .n{font-family:"JetBrains Mono",monospace;font-size:22px;font-weight:600}
+.stat .l{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.chan{font-size:13px;color:var(--muted);margin-top:4px}
+.spark{margin-top:10px;display:flex;align-items:center;gap:10px;font-size:12px;color:var(--muted)}
+.spark svg{flex:1;height:44px}
+.spark .line{fill:none;stroke:var(--accent);stroke-width:2}
+.spark .area{fill:var(--accent);opacity:.12}
+td.num{text-align:right;font-family:"JetBrains Mono",monospace}
+th.num{text-align:right}
+.top{font-size:13px;margin-top:8px}
 @media (max-width:700px){
-  .charts{grid-template-columns:1fr}
-}
-@media (max-width:700px){
-  .kpis{grid-template-columns:repeat(3,1fr)}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .kpis{grid-template-columns:repeat(2,1fr)}
   .hide-sm{display:none}
 }
 </style>
@@ -104,8 +90,6 @@ a{color:var(--accent)}
   </header>
   <div id="banner"></div>
   <section class="kpis" id="kpis"></section>
-  <section id="analytics"></section>
-  <div class="zone-head"><h2>Agents</h2></div>
   <section id="agents"></section>
 </div>
 
@@ -135,15 +119,32 @@ const ago = iso => { if(!iso) return "never"; const m=Math.round((Date.now()-new
 const fmt = iso => iso ? new Date(iso).toLocaleString([], {month:"short",day:"numeric",hour:"2-digit",minute:"2-digit"}) : "";
 const cls = r => ({posted:"posted",partial:"partial","dry run":"dry",failed:"failed"}[r]||"idle");
 
-function render(data, demo){
+const num = n => n==null ? "—" : n>=1e6 ? (n/1e6).toFixed(1).replace(/\.0$/,"")+"M" : n>=1e4 ? Math.round(n/1e3)+"k" : n>=1e3 ? (n/1e3).toFixed(1).replace(/\.0$/,"")+"k" : String(n);
+
+function spark(history, agentId){
+  const pts = (history||[]).map(h=>({t:new Date(h.time).getTime(), v:h.agents?.[agentId]?.views})).filter(p=>p.v!=null);
+  if(pts.length<2) return "";
+  const W=600,H=44,t0=pts[0].t,t1=pts[pts.length-1].t||t0+1,vmax=Math.max(1,...pts.map(p=>p.v));
+  const xy = pts.map(p=>[((p.t-t0)/Math.max(1,t1-t0))*W, H-2-(p.v/vmax)*(H-6)]);
+  const line = xy.map(([x,y],i)=>(i?"L":"M")+x.toFixed(1)+" "+y.toFixed(1)).join(" ");
+  const gain = pts[pts.length-1].v - pts[0].v;
+  return `<div class="spark"><span>Views over time</span><svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" aria-label="Total views over time">
+    <path class="area" d="${line} L${W} ${H} L0 ${H} Z"/><path class="line" d="${line}"/></svg><span class="mono">+${num(gain)}</span></div>`;
+}
+
+function render(data, demo, stats){
   $("#banner").innerHTML = demo ? '<div class="banner">Showing <b>demo data</b>. Real runs appear here once the daily job has run on GitHub.</div>' : "";
-  $("#updated").textContent = "Last update " + ago(data.updated);
+  $("#updated").textContent = "Last update " + ago(data.updated) + (stats?.updated ? " · YouTube stats " + ago(stats.updated) : "");
   const agents = Object.values(data.agents || {});
   const sum = k => agents.reduce((a,x)=>a+(x.totals?.[k]||0),0);
   const active = agents.filter(a=>a.state!=="paused").length;
+  const sAgents = Object.values(stats?.agents||{});
+  const totalViews = stats ? sAgents.reduce((a,x)=>a+(x.views||0),0) : null;
+  const subsKnown = sAgents.filter(x=>x.channel?.subscribers!=null);
+  const totalSubs = subsKnown.length ? subsKnown.reduce((a,x)=>a+x.channel.subscribers,0) : null;
   $("#kpis").innerHTML = [
-    ["Agents active", `${active}/${agents.length}`],["Videos made", sum("videos")],
-    ["YouTube posts", sum("youtube")]
+    ["Agents active", `${active}/${agents.length}`],["YouTube posts", sum("youtube")],
+    ["Total views", num(totalViews)],["Subscribers", num(totalSubs)]
   ].map(([l,n])=>`<div class="kpi"><div class="n">${n}</div><div class="l">${l}</div></div>`).join("");
 
   if(!agents.length){ $("#agents").innerHTML='<div class="empty">No agents have reported yet. Run the workflow once from the Actions tab.</div>'; return; }
@@ -153,116 +154,61 @@ function render(data, demo){
     const last = runs[0];
     const stateCls = a.state==="paused"?"s-paused":a.state==="running"?"s-running":"s-idle";
     const days = runs.slice(0,30).reverse().map(r=>`<div class="day ${cls(r.result)}" title="${esc(fmt(r.started))} · ${esc(r.result)}"></div>`).join("");
+    const st = stats?.agents?.[a.id];
     const rows = runs.slice(0,15).map(r=>{
       const yt = r.posted?.youtube?.url ? `<a href="${esc(r.posted.youtube.url)}" target="_blank" rel="noopener">YouTube</a>` : "";
       const tk = r.posted?.tiktok ? (r.posted.tiktok.mode==="inbox"?"TikTok inbox":"TikTok") : "";
+      const v = stats?.videos?.[r.posted?.youtube?.id];
       const errs = [r.error, ...(r.errors||[])].filter(Boolean).map(e=>`<div class="err">${esc(e)}</div>`).join("");
       return `<tr><td class="mono">${esc(fmt(r.started))}</td>
         <td class="t">${esc(r.title||"—")}${errs}</td>
         <td><span class="pill s-${cls(r.result)}">${esc(r.result)}</span></td>
+        <td class="num">${v ? (v.missing ? "removed" : num(v.views)) : "—"}</td>
+        <td class="num hide-sm">${v && !v.missing ? num(v.likes) : "—"}</td>
         <td class="hide-sm">${[yt,tk].filter(Boolean).join(" · ")||"—"}</td>
         <td class="mono hide-sm">${r.video?.duration?r.video.duration+"s":"—"}</td></tr>`;
     }).join("");
+    const ch = st?.channel || {};
+    const statsBlock = st ? `
+      <div class="stats">
+        <div class="stat"><div class="n">${num(ch.subscribers)}</div><div class="l">Subscribers</div></div>
+        <div class="stat"><div class="n">${num(st.views)}</div><div class="l">Views</div></div>
+        <div class="stat"><div class="n">${num(Math.round(st.avg_views||0))}</div><div class="l">Avg per video</div></div>
+        <div class="stat"><div class="n">${num(st.likes)}</div><div class="l">Likes</div></div>
+      </div>
+      ${st.top ? `<div class="top">🏆 Top video: <b>${esc(st.top)}</b></div>` : ""}
+      ${spark(stats.history, a.id)}` : "";
     return `<article class="agent">
       <div class="agent-top">
         <div><h2>${esc(a.name)}</h2>
           <div class="meta"><span class="mono">${esc(a.id)}</span><span>${esc((a.platforms||[]).join(" + "))}</span>
-          <span>Last run ${esc(ago(a.last_run))}</span><span>${esc(a.schedule||"")}</span></div></div>
+          <span>Last run ${esc(ago(a.last_run))}</span><span>${esc(a.schedule||"")}</span></div>
+          ${ch.title ? `<div class="chan">Channel: <a href="https://youtube.com/${esc(ch.handle || "channel/" + (st.channel_id||""))}" target="_blank" rel="noopener">${esc(ch.title)}</a></div>` : ""}</div>
         <span class="pill ${stateCls}">${esc(a.state||"idle")}</span>
       </div>
       ${a.state==="paused"?`<div class="err" style="margin-top:10px">Paused after ${a.consecutive_failures} failed runs. Fix the error below, then run the workflow with “force”.</div>`:""}
+      ${statsBlock}
       <div class="strip">${days}</div>
       <div class="legend">Last ${Math.min(30,runs.length)} runs, oldest → newest</div>
-      <div class="tablewrap"><table><thead><tr><th>When</th><th>Video</th><th>Result</th><th class="hide-sm">Posted to</th><th class="hide-sm">Length</th></tr></thead>
-      <tbody>${rows||'<tr><td colspan="5">No runs yet</td></tr>'}</tbody></table></div>
+      <div class="tablewrap"><table><thead><tr><th>When</th><th>Video</th><th>Result</th><th class="num">Views</th><th class="num hide-sm">Likes</th><th class="hide-sm">Link</th><th class="hide-sm">Length</th></tr></thead>
+      <tbody>${rows||'<tr><td colspan="7">No runs yet</td></tr>'}</tbody></table></div>
     </article>`;
   }).join("");
 }
 
-
-// ---------- analytics zone ----------
-const DEMO_AN = (()=>{
-  const mk = (name, n, vScale, sScale) => { let vt=0, st=0; const daily=[];
-    for(let i=n-1;i>=0;i--){ const d=new Date(Date.now()-(i+2)*864e5).toISOString().slice(0,10);
-      const k=(n-i)/n; const v=Math.round(vScale*k*k*(0.6+Math.random()*0.8)); const sn=Math.round(sScale*k*(Math.random()*1.4-0.1));
-      vt+=v; st+=sn; daily.push({d,views:v,views_total:vt,subs_net:sn,subs_total:st}); }
-    return {agent_id:name, name, title:name, url:"#", totals:{views:vt,subscribers:st,videos:Math.round(n/2)}, daily}; };
-  return {updated:new Date().toISOString(), channels:[mk("Daily Stories",120,900,6), mk("Psychology Facts",40,400,4)]};
-})();
-let AN = null, RANGE = 28;
-const nf = n => Number(n||0).toLocaleString();
-const short = n => n>=1e6?(n/1e6).toFixed(1).replace(/\.0$/,"")+"M":n>=1e3?(n/1e3).toFixed(1).replace(/\.0$/,"")+"k":String(n);
-const dlabel = d => new Date(d+"T00:00:00").toLocaleDateString([], {month:"short",day:"numeric"});
-
-function lineChart(pts, key, cls, title, headVal){
-  const W=600,H=200,L=46,R=8,T=10,B=26;
-  if(!pts.length) return `<div class="chart ${cls}"><div class="chart-h"><span>${title}</span></div><div class="note" style="margin:30px 0;text-align:center">No data in this range yet</div></div>`;
-  const vals=pts.map(p=>p[key]); let lo=Math.min(0,...vals), hi=Math.max(...vals); if(hi===lo) hi=lo+1;
-  const x=i=>L+(pts.length===1?(W-L-R)/2:i*(W-L-R)/(pts.length-1)), y=v=>T+(H-T-B)*(1-(v-lo)/(hi-lo));
-  const line=pts.map((p,i)=>`${i?"L":"M"}${x(i).toFixed(1)},${y(p[key]).toFixed(1)}`).join("");
-  const area=`${line}L${x(pts.length-1).toFixed(1)},${y(lo)}L${x(0).toFixed(1)},${y(lo)}Z`;
-  const ticks=[0,.5,1].map(f=>lo+(hi-lo)*f);
-  const grid=ticks.map(t=>`<line class="grid" x1="${L}" x2="${W-R}" y1="${y(t)}" y2="${y(t)}"/><text x="${L-6}" y="${y(t)+3}" text-anchor="end">${short(Math.round(t))}</text>`).join("");
-  const xl=[0,Math.floor((pts.length-1)/2),pts.length-1].filter((v,i,a)=>a.indexOf(v)===i)
-    .map((i,j,a)=>`<text x="${x(i)}" y="${H-6}" text-anchor="${a.length>1&&j===0?"start":j===a.length-1&&a.length>1?"end":"middle"}">${dlabel(pts[i].d)}</text>`).join("");
-  const data=esc(JSON.stringify(pts.map((p,i)=>[x(i),y(p[key]),p.d,p[key]])));
-  return `<div class="chart ${cls}" data-pts="${data}">
-    <div class="chart-h"><span>${title}</span><b>${headVal}</b></div>
-    <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(title)}">${grid}${xl}
-      <path d="${area}" fill="var(--c)" opacity=".12"/><path d="${line}" fill="none" stroke="var(--c)" stroke-width="2" stroke-linejoin="round"/>
-      <line class="hover hl" y1="${T}" y2="${H-B}" stroke="var(--muted)" stroke-dasharray="3 3"/><circle class="hover hd" r="4" fill="var(--c)"/>
-      <rect x="${L}" y="0" width="${W-L-R}" height="${H}" fill="transparent" class="hit"/></svg>
-    <div class="tip"></div></div>`;
-}
-
-function renderAnalytics(){
-  const box=$("#analytics"); if(!AN) { box.innerHTML=""; return; }
-  const head=`<div class="zone-head"><h2>Analytics</h2><div class="ranges">${[[28,"28 days"],[90,"90 days"],[0,"All time"]]
-    .map(([v,l])=>`<button data-r="${v}" class="${RANGE===v?"on":""}">${l}</button>`).join("")}</div></div>
-    <div class="note">YouTube's numbers arrive 2–3 days late. Updated ${esc(ago(AN.updated))}.</div>`;
-  const cards=(AN.channels||[]).map(c=>{
-    if(c.error) return `<div class="chan"><div class="chan-top"><h3>${esc(c.name)}</h3></div><div class="err" style="margin-top:8px">${esc(c.error)}</div></div>`;
-    const all=c.daily||[]; const pts=RANGE?all.slice(-RANGE):all;
-    const vSum=pts.reduce((a,p)=>a+p.views,0), sNet=pts.reduce((a,p)=>a+p.subs_net,0);
-    const rl=RANGE?`last ${RANGE} days`:"all time";
-    return `<div class="chan"><div class="chan-top">
-        <h3><a href="${esc(c.url)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">${esc(c.title||c.name)}</a></h3>
-        <div class="chan-stats"><div>Subscribers<b>${nf(c.totals?.subscribers)}</b></div><div>Total views<b>${nf(c.totals?.views)}</b></div><div>Videos<b>${nf(c.totals?.videos)}</b></div></div></div>
-      <div class="charts">
-        ${lineChart(pts,"views","c-views","Views per day",`${nf(vSum)} · ${rl}`)}
-        ${lineChart(pts,"subs_total","c-subs","Subscribers",`${sNet>=0?"+":""}${nf(sNet)} · ${rl}`)}
-      </div></div>`;
-  }).join("");
-  box.innerHTML=head+(cards||'<div class="empty">No channels reported yet.</div>');
-}
-
-document.addEventListener("click",e=>{ const b=e.target.closest(".ranges button"); if(!b) return; RANGE=+b.dataset.r; renderAnalytics(); });
-function hover(e){
-  const ch=e.target.closest?.(".chart[data-pts]"); document.querySelectorAll(".chart.active").forEach(c=>{if(c!==ch)c.classList.remove("active")});
-  if(!ch) return; const svg=ch.querySelector("svg"), pts=JSON.parse(ch.dataset.pts), r=svg.getBoundingClientRect();
-  const sx=(e.clientX-r.left)*600/r.width; let best=pts[0]; for(const p of pts) if(Math.abs(p[0]-sx)<Math.abs(best[0]-sx)) best=p;
-  const hl=ch.querySelector(".hl"), hd=ch.querySelector(".hd"); hl.setAttribute("x1",best[0]); hl.setAttribute("x2",best[0]); hd.setAttribute("cx",best[0]); hd.setAttribute("cy",best[1]);
-  const tip=ch.querySelector(".tip"); tip.textContent=`${dlabel(best[2])}: ${nf(best[3])}`;
-  const cr=ch.getBoundingClientRect(); tip.style.left=Math.min(cr.width-50,Math.max(50,r.left-cr.left+best[0]*r.width/600))+"px"; ch.classList.add("active");
-}
-document.addEventListener("pointermove",hover); document.addEventListener("pointerdown",hover);
-
-async function loadAnalytics(demo){
-  if(demo){ AN=DEMO_AN; return renderAnalytics(); }
-  try{ const r=await fetch("analytics.json?t="+Date.now(),{cache:"no-store"}); AN=r.ok?await r.json():null; }catch(e){ AN=null; }
-  if(!AN) AN={updated:null,channels:[{name:"Analytics",error:"Not collected yet. Reconnect the channels, then run the “Channel analytics” workflow once."}]};
-  renderAnalytics();
-}
-
 async function load(){
   const demo = new URLSearchParams(location.search).has("demo");
-  loadAnalytics(demo);
-  if(demo){ render(DEMO,true); return; }
+  if(demo){ render(DEMO,true,null); return; }
+  let stats = null;
+  try{
+    const s = await fetch("analytics.json?t="+Date.now(), {cache:"no-store"});
+    if(s.ok) stats = await s.json();
+  }catch(e){ stats = null; }
   try{
     const r = await fetch("status.json?t="+Date.now(), {cache:"no-store"});
     if(!r.ok) throw new Error(r.status);
-    render(await r.json(), false);
-  }catch(e){ render(DEMO,true); }
+    render(await r.json(), false, stats);
+  }catch(e){ render(DEMO,true,null); }
 }
 setInterval(()=>{$("#clock").textContent=new Date().toLocaleString([], {weekday:"short",hour:"2-digit",minute:"2-digit"})},1000);
 load(); setInterval(load, 60000);
