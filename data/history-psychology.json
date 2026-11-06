@@ -59,6 +59,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-06",
+      "title": "You Judge People Before They Speak. Here's Why",
+      "topic": "Thin slicing: people form surprisingly quick impressions from silent, seconds-long clips of body language, and Ambady and Rosenthal found these snap ratings of teachers tended to match end-of-semester student ratings.",
+      "genre": "body language and first impressions",
+      "posted": {
+        "youtube": {
+          "id": "bdOOpZJTVYc",
+          "url": "https://youtube.com/shorts/bdOOpZJTVYc"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
