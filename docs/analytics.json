@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T19:08:11+00:00",
+  "updated": "2026-11-07T21:54:22+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -7,14 +7,14 @@
         "handle": "@story_time-i2e",
         "subscribers": 12,
         "views": 606,
-        "videos": 12
+        "videos": 13
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 12,
-      "views": 602,
-      "likes": 61,
+      "videos": 13,
+      "views": 601,
+      "likes": 62,
       "comments": 12,
-      "avg_views": 50.2,
+      "avg_views": 46.2,
       "top": "The Ship Found Sailing With Nobody Aboard"
     },
     "psychology-1": {
@@ -27,20 +27,29 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 6,
-      "views": 929,
+      "views": 973,
       "likes": 28,
       "comments": 10,
-      "avg_views": 154.8,
+      "avg_views": 162.2,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
   "videos": {
+    "L4DIgQTg2J8": {
+      "agent": "stories-1",
+      "title": "The Book Nobody Alive Can Read",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-07T19:23:18+00:00",
+      "views": 3,
+      "likes": 1,
+      "comments": 0
+    },
     "McS7-bvDuVc": {
       "agent": "stories-1",
       "title": "The Postcards Kept Getting Closer to Her Bedroom",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-07T16:18:29+00:00",
-      "views": 4,
+      "views": 5,
       "likes": 1,
       "comments": 0
     },
@@ -58,7 +67,7 @@
       "title": "The Girl Who Rode the Night Bus Every Night",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-06T12:31:44+00:00",
-      "views": 9,
+      "views": 10,
       "likes": 0,
       "comments": 0
     },
@@ -67,7 +76,7 @@
       "title": "The Time the Army Lost a War to Emus",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-05T19:31:49+00:00",
-      "views": 46,
+      "views": 45,
       "likes": 5,
       "comments": 1
     },
@@ -85,7 +94,7 @@
       "title": "The 72-Second Signal From Space That Never Came Back",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-05T12:35:40+00:00",
-      "views": 83,
+      "views": 80,
       "likes": 7,
       "comments": 1
     },
@@ -94,7 +103,7 @@
       "title": "The Knocking Inside the Locked Lighthouse Room",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-04T19:37:05+00:00",
-      "views": 23,
+      "views": 21,
       "likes": 3,
       "comments": 1
     },
@@ -148,7 +157,7 @@
       "title": "Why Vague Horoscopes Feel Like They're Just for You",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-07T16:46:41+00:00",
-      "views": 0,
+      "views": 2,
       "likes": 0,
       "comments": 0
     },
@@ -157,7 +166,7 @@
       "title": "You Judge People Before They Speak. Here's Why",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-06T17:30:36+00:00",
-      "views": 883,
+      "views": 928,
       "likes": 12,
       "comments": 0
     },
@@ -166,7 +175,7 @@
       "title": "The Gorilla Experiment That Proved You Miss Obvious Things",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-05T17:19:53+00:00",
-      "views": 14,
+      "views": 11,
       "likes": 4,
       "comments": 2
     },
@@ -247,6 +256,19 @@
         },
         "psychology-1": {
           "views": 929,
+          "subscribers": 8
+        }
+      }
+    },
+    {
+      "time": "2026-11-07T21:54:22+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 601,
+          "subscribers": 12
+        },
+        "psychology-1": {
+          "views": 973,
           "subscribers": 8
         }
       }
