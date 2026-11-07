@@ -72,6 +72,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-07",
+      "title": "Why Vague Horoscopes Feel Like They're Just for You",
+      "topic": "The Forer (Barnum) effect: people accept vague, general statements as personal descriptions of themselves, as shown in Bertram Forer's 1948 classroom demonstration.",
+      "genre": "why the brain falls for certain tricks and illusions",
+      "posted": {
+        "youtube": {
+          "id": "eJ5FTgFpCzI",
+          "url": "https://youtube.com/shorts/eJ5FTgFpCzI"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
