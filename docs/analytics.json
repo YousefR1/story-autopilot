@@ -1,36 +1,36 @@
 {
-  "updated": "2026-11-07T04:11:14+00:00",
+  "updated": "2026-11-07T07:25:38+00:00",
   "agents": {
     "stories-1": {
       "channel": {
         "title": "Content_Support",
         "handle": "@story_time-i2e",
         "subscribers": 12,
-        "views": 553,
+        "views": 613,
         "videos": 11
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 11,
-      "views": 602,
+      "views": 605,
       "likes": 60,
       "comments": 12,
-      "avg_views": 54.7,
+      "avg_views": 55.0,
       "top": "The Ship Found Sailing With Nobody Aboard"
     },
     "psychology-1": {
       "channel": {
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
-        "subscribers": 4,
-        "views": 25,
+        "subscribers": 6,
+        "views": 60,
         "videos": 5
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 5,
-      "views": 270,
-      "likes": 20,
+      "views": 402,
+      "likes": 22,
       "comments": 10,
-      "avg_views": 54.0,
+      "avg_views": 80.4,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -40,7 +40,7 @@
       "title": "The Payphone That Rang Once, Then Saved a Trucker",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-06T19:32:00+00:00",
-      "views": 3,
+      "views": 6,
       "likes": 0,
       "comments": 0
     },
@@ -139,8 +139,8 @@
       "title": "You Judge People Before They Speak. Here's Why",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-06T17:30:36+00:00",
-      "views": 219,
-      "likes": 4,
+      "views": 351,
+      "likes": 6,
       "comments": 0
     },
     "hHK-Wy3e1jg": {
@@ -282,6 +282,19 @@
         "psychology-1": {
           "views": 270,
           "subscribers": 4
+        }
+      }
+    },
+    {
+      "time": "2026-11-07T07:25:38+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 605,
+          "subscribers": 12
+        },
+        "psychology-1": {
+          "views": 402,
+          "subscribers": 6
         }
       }
     }
