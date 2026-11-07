@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T16:46:41+00:00",
+  "updated": "2026-11-07T19:23:18+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -11,12 +11,64 @@
       "state": "idle",
       "consecutive_failures": 0,
       "totals": {
-        "videos": 13,
-        "youtube": 12,
+        "videos": 14,
+        "youtube": 13,
         "tiktok": 0,
         "failures": 1
       },
       "runs": [
+        {
+          "started": "2026-11-07T19:21:46+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 17.2
+            },
+            {
+              "step": "voiceover",
+              "seconds": 7.7
+            },
+            {
+              "step": "caption timing",
+              "seconds": 4.7
+            },
+            {
+              "step": "ai images",
+              "seconds": 19.8
+            },
+            {
+              "step": "render",
+              "seconds": 38.9
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.2
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 2.3
+            }
+          ],
+          "result": "posted",
+          "title": "The Book Nobody Alive Can Read",
+          "genre": "unsolved real-world mystery (well documented)",
+          "kind": "true",
+          "topic": "The Voynich manuscript, a roughly 600-year-old illustrated book written in an undeciphered script that has defeated codebreakers for a century",
+          "video": {
+            "duration": 53.5,
+            "size_mb": 11.8,
+            "mean_db": -23.2
+          },
+          "posted": {
+            "youtube": {
+              "id": "L4DIgQTg2J8",
+              "url": "https://youtube.com/shorts/L4DIgQTg2J8"
+            }
+          },
+          "finished": "2026-11-07T19:23:18+00:00",
+          "seconds": 91.5
+        },
         {
           "started": "2026-11-07T16:16:07+00:00",
           "dry_run": false,
@@ -695,7 +747,7 @@
         }
       ],
       "schedule": "Runs daily from .github/workflows/daily.yml (edit the cron line there).",
-      "last_run": "2026-11-07T16:18:29+00:00"
+      "last_run": "2026-11-07T19:23:18+00:00"
     },
     "psychology-1": {
       "id": "psychology-1",

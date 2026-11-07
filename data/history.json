@@ -163,6 +163,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-07",
+      "title": "The Book Nobody Alive Can Read",
+      "topic": "The Voynich manuscript, a roughly 600-year-old illustrated book written in an undeciphered script that has defeated codebreakers for a century",
+      "genre": "unsolved real-world mystery (well documented)",
+      "posted": {
+        "youtube": {
+          "id": "L4DIgQTg2J8",
+          "url": "https://youtube.com/shorts/L4DIgQTg2J8"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
