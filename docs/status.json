@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T12:17:22+00:00",
+  "updated": "2026-11-07T16:18:29+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -9,14 +9,66 @@
         "youtube"
       ],
       "state": "idle",
-      "consecutive_failures": 1,
+      "consecutive_failures": 0,
       "totals": {
-        "videos": 12,
-        "youtube": 11,
+        "videos": 13,
+        "youtube": 12,
         "tiktok": 0,
         "failures": 1
       },
       "runs": [
+        {
+          "started": "2026-11-07T16:16:07+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 66.7
+            },
+            {
+              "step": "voiceover",
+              "seconds": 24.2
+            },
+            {
+              "step": "caption timing",
+              "seconds": 2.8
+            },
+            {
+              "step": "ai images",
+              "seconds": 22.2
+            },
+            {
+              "step": "render",
+              "seconds": 22.9
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.1
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 2.8
+            }
+          ],
+          "result": "posted",
+          "title": "The Postcards Kept Getting Closer to Her Bedroom",
+          "genre": "creepy short fiction with a twist ending (clearly fiction)",
+          "kind": "fiction",
+          "topic": "A woman receives daily postcards of her own house, each taken from closer, until one shows her bedroom closet and is postmarked with tomorrow's date.",
+          "video": {
+            "duration": 39.0,
+            "size_mb": 7.1,
+            "mean_db": -23.6
+          },
+          "posted": {
+            "youtube": {
+              "id": "McS7-bvDuVc",
+              "url": "https://youtube.com/shorts/McS7-bvDuVc"
+            }
+          },
+          "finished": "2026-11-07T16:18:29+00:00",
+          "seconds": 142.0
+        },
         {
           "started": "2026-11-07T12:16:07+00:00",
           "dry_run": false,
@@ -643,7 +695,7 @@
         }
       ],
       "schedule": "Runs daily from .github/workflows/daily.yml (edit the cron line there).",
-      "last_run": "2026-11-07T12:17:22+00:00"
+      "last_run": "2026-11-07T16:18:29+00:00"
     },
     "psychology-1": {
       "id": "psychology-1",
