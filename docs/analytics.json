@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T13:15:33+00:00",
+  "updated": "2026-11-07T15:56:19+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -21,16 +21,16 @@
       "channel": {
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
-        "subscribers": 6,
+        "subscribers": 7,
         "views": 60,
         "videos": 5
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 5,
-      "views": 703,
-      "likes": 24,
+      "views": 780,
+      "likes": 25,
       "comments": 10,
-      "avg_views": 140.6,
+      "avg_views": 156.0,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -139,8 +139,8 @@
       "title": "You Judge People Before They Speak. Here's Why",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-06T17:30:36+00:00",
-      "views": 651,
-      "likes": 8,
+      "views": 728,
+      "likes": 9,
       "comments": 0
     },
     "hHK-Wy3e1jg": {
@@ -204,6 +204,19 @@
         "psychology-1": {
           "views": 703,
           "subscribers": 6
+        }
+      }
+    },
+    {
+      "time": "2026-11-07T15:56:19+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 606,
+          "subscribers": 12
+        },
+        "psychology-1": {
+          "views": 780,
+          "subscribers": 7
         }
       }
     }
