@@ -176,6 +176,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-08",
+      "title": "133 Days Alone on a Raft: The Poon Lim Survival Story",
+      "topic": "Poon Lim, a ship's steward, survived 133 days alone on a raft in the Atlantic after his ship was sunk in 1942, until Brazilian fishermen rescued him.",
+      "genre": "remarkable true survival story (well documented)",
+      "posted": {
+        "youtube": {
+          "id": "3ai6bnmQjgc",
+          "url": "https://youtube.com/shorts/3ai6bnmQjgc"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
