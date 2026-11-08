@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T10:05:01+00:00",
+  "updated": "2026-11-08T13:15:05+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -7,14 +7,14 @@
         "handle": "@story_time-i2e",
         "subscribers": 14,
         "views": 593,
-        "videos": 13
+        "videos": 14
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 13,
-      "views": 713,
-      "likes": 80,
+      "videos": 14,
+      "views": 831,
+      "likes": 82,
       "comments": 12,
-      "avg_views": 54.8,
+      "avg_views": 59.4,
       "top": "The Ship Found Sailing With Nobody Aboard"
     },
     "psychology-1": {
@@ -27,20 +27,29 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 6,
-      "views": 1110,
+      "views": 1165,
       "likes": 29,
       "comments": 10,
-      "avg_views": 185.0,
+      "avg_views": 194.2,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
   "videos": {
+    "3ai6bnmQjgc": {
+      "agent": "stories-1",
+      "title": "133 Days Alone on a Raft: The Poon Lim Survival Story",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-08T12:17:27+00:00",
+      "views": 75,
+      "likes": 2,
+      "comments": 0
+    },
     "L4DIgQTg2J8": {
       "agent": "stories-1",
       "title": "The Book Nobody Alive Can Read",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-07T19:23:18+00:00",
-      "views": 108,
+      "views": 151,
       "likes": 8,
       "comments": 0
     },
@@ -166,7 +175,7 @@
       "title": "You Judge People Before They Speak. Here's Why",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-06T17:30:36+00:00",
-      "views": 1064,
+      "views": 1119,
       "likes": 13,
       "comments": 0
     },
@@ -230,6 +239,19 @@
         },
         "psychology-1": {
           "views": 1110,
+          "subscribers": 8
+        }
+      }
+    },
+    {
+      "time": "2026-11-08T13:15:05+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 831,
+          "subscribers": 14
+        },
+        "psychology-1": {
+          "views": 1165,
           "subscribers": 8
         }
       }
