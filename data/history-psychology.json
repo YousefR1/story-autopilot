@@ -85,6 +85,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-08",
+      "title": "Why Everyone Noticed Your Awkward Moment Less Than You Think",
+      "topic": "The spotlight effect: people overestimate how much others notice their embarrassing moments, shown in Gilovich's embarrassing T-shirt experiment",
+      "genre": "the science of emotions like boredom, nostalgia or awkwardness",
+      "posted": {
+        "youtube": {
+          "id": "JM1hxIbex3g",
+          "url": "https://youtube.com/shorts/JM1hxIbex3g"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
