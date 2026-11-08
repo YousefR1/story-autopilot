@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T13:15:05+00:00",
+  "updated": "2026-11-08T15:55:18+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -7,22 +7,22 @@
         "handle": "@story_time-i2e",
         "subscribers": 14,
         "views": 593,
-        "videos": 14
+        "videos": 13
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 14,
-      "views": 831,
-      "likes": 82,
+      "views": 1440,
+      "likes": 89,
       "comments": 12,
-      "avg_views": 59.4,
-      "top": "The Ship Found Sailing With Nobody Aboard"
+      "avg_views": 102.9,
+      "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
       "channel": {
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
         "subscribers": 8,
-        "views": 1017,
+        "views": 1157,
         "videos": 6
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
@@ -40,8 +40,8 @@
       "title": "133 Days Alone on a Raft: The Poon Lim Survival Story",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-08T12:17:27+00:00",
-      "views": 75,
-      "likes": 2,
+      "views": 677,
+      "likes": 9,
       "comments": 0
     },
     "L4DIgQTg2J8": {
@@ -49,7 +49,7 @@
       "title": "The Book Nobody Alive Can Read",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-07T19:23:18+00:00",
-      "views": 151,
+      "views": 156,
       "likes": 8,
       "comments": 0
     },
@@ -139,7 +139,7 @@
       "title": "The Pig That Nearly Started a War Between Two Empires",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-03T16:31:09+00:00",
-      "views": 68,
+      "views": 69,
       "likes": 7,
       "comments": 1
     },
@@ -157,7 +157,7 @@
       "title": "The Ship Found Sailing With Nobody Aboard",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-02T19:48:07+00:00",
-      "views": 169,
+      "views": 170,
       "likes": 12,
       "comments": 4
     },
@@ -248,6 +248,19 @@
       "agents": {
         "stories-1": {
           "views": 831,
+          "subscribers": 14
+        },
+        "psychology-1": {
+          "views": 1165,
+          "subscribers": 8
+        }
+      }
+    },
+    {
+      "time": "2026-11-08T15:55:18+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1440,
           "subscribers": 14
         },
         "psychology-1": {
