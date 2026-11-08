@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-07T21:54:22+00:00",
+  "updated": "2026-11-08T01:30:09+00:00",
   "agents": {
     "stories-1": {
       "channel": {
         "title": "Content_Support",
         "handle": "@story_time-i2e",
-        "subscribers": 12,
+        "subscribers": 13,
         "views": 606,
         "videos": 13
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 13,
-      "views": 601,
-      "likes": 62,
+      "views": 650,
+      "likes": 66,
       "comments": 12,
-      "avg_views": 46.2,
+      "avg_views": 50.0,
       "top": "The Ship Found Sailing With Nobody Aboard"
     },
     "psychology-1": {
@@ -27,10 +27,10 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 6,
-      "views": 973,
-      "likes": 28,
+      "views": 1035,
+      "likes": 29,
       "comments": 10,
-      "avg_views": 162.2,
+      "avg_views": 172.5,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -40,8 +40,8 @@
       "title": "The Book Nobody Alive Can Read",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-07T19:23:18+00:00",
-      "views": 3,
-      "likes": 1,
+      "views": 51,
+      "likes": 5,
       "comments": 0
     },
     "McS7-bvDuVc": {
@@ -49,7 +49,7 @@
       "title": "The Postcards Kept Getting Closer to Her Bedroom",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-07T16:18:29+00:00",
-      "views": 5,
+      "views": 6,
       "likes": 1,
       "comments": 0
     },
@@ -166,8 +166,8 @@
       "title": "You Judge People Before They Speak. Here's Why",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-06T17:30:36+00:00",
-      "views": 928,
-      "likes": 12,
+      "views": 990,
+      "likes": 13,
       "comments": 0
     },
     "hHK-Wy3e1jg": {
@@ -269,6 +269,19 @@
         },
         "psychology-1": {
           "views": 973,
+          "subscribers": 8
+        }
+      }
+    },
+    {
+      "time": "2026-11-08T01:30:09+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 650,
+          "subscribers": 13
+        },
+        "psychology-1": {
+          "views": 1035,
           "subscribers": 8
         }
       }
