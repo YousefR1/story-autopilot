@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T15:55:18+00:00",
+  "updated": "2026-11-08T19:07:44+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -7,30 +7,30 @@
         "handle": "@story_time-i2e",
         "subscribers": 14,
         "views": 593,
-        "videos": 13
+        "videos": 14
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 14,
-      "views": 1440,
-      "likes": 89,
+      "views": 1487,
+      "likes": 92,
       "comments": 12,
-      "avg_views": 102.9,
+      "avg_views": 106.2,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
       "channel": {
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
-        "subscribers": 8,
+        "subscribers": 9,
         "views": 1157,
-        "videos": 6
+        "videos": 7
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
-      "videos": 6,
-      "views": 1165,
-      "likes": 29,
+      "videos": 7,
+      "views": 1216,
+      "likes": 32,
       "comments": 10,
-      "avg_views": 194.2,
+      "avg_views": 173.7,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -40,8 +40,8 @@
       "title": "133 Days Alone on a Raft: The Poon Lim Survival Story",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-08T12:17:27+00:00",
-      "views": 677,
-      "likes": 9,
+      "views": 683,
+      "likes": 12,
       "comments": 0
     },
     "L4DIgQTg2J8": {
@@ -49,7 +49,7 @@
       "title": "The Book Nobody Alive Can Read",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-07T19:23:18+00:00",
-      "views": 156,
+      "views": 196,
       "likes": 8,
       "comments": 0
     },
@@ -67,7 +67,7 @@
       "title": "The Payphone That Rang Once, Then Saved a Trucker",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-06T19:32:00+00:00",
-      "views": 7,
+      "views": 8,
       "likes": 1,
       "comments": 0
     },
@@ -161,12 +161,21 @@
       "likes": 12,
       "comments": 4
     },
+    "JM1hxIbex3g": {
+      "agent": "psychology-1",
+      "title": "Why Everyone Noticed Your Awkward Moment Less Than You Think",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-08T16:45:36+00:00",
+      "views": 52,
+      "likes": 3,
+      "comments": 0
+    },
     "eJ5FTgFpCzI": {
       "agent": "psychology-1",
       "title": "Why Vague Horoscopes Feel Like They're Just for You",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-07T16:46:41+00:00",
-      "views": 2,
+      "views": 5,
       "likes": 0,
       "comments": 0
     },
@@ -175,7 +184,7 @@
       "title": "You Judge People Before They Speak. Here's Why",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-06T17:30:36+00:00",
-      "views": 1119,
+      "views": 1115,
       "likes": 13,
       "comments": 0
     },
@@ -266,6 +275,19 @@
         "psychology-1": {
           "views": 1165,
           "subscribers": 8
+        }
+      }
+    },
+    {
+      "time": "2026-11-08T19:07:44+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1487,
+          "subscribers": 14
+        },
+        "psychology-1": {
+          "views": 1216,
+          "subscribers": 9
         }
       }
     }
