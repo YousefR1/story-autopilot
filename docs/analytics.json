@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-08T19:07:44+00:00",
+  "updated": "2026-11-08T21:55:15+00:00",
   "agents": {
     "stories-1": {
       "channel": {
         "title": "Content_Support",
         "handle": "@story_time-i2e",
-        "subscribers": 14,
-        "views": 593,
-        "videos": 14
+        "subscribers": 15,
+        "views": 744,
+        "videos": 15
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 14,
-      "views": 1487,
+      "videos": 15,
+      "views": 1597,
       "likes": 92,
       "comments": 12,
-      "avg_views": 106.2,
+      "avg_views": 106.5,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -27,14 +27,23 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 7,
-      "views": 1216,
-      "likes": 32,
+      "views": 1284,
+      "likes": 36,
       "comments": 10,
-      "avg_views": 173.7,
+      "avg_views": 183.4,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
   "videos": {
+    "gw_TO9YTJjY": {
+      "agent": "stories-1",
+      "title": "The War That Started Over a Stolen Bucket",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-08T19:22:36+00:00",
+      "views": 93,
+      "likes": 0,
+      "comments": 0
+    },
     "3ai6bnmQjgc": {
       "agent": "stories-1",
       "title": "133 Days Alone on a Raft: The Poon Lim Survival Story",
@@ -49,7 +58,7 @@
       "title": "The Book Nobody Alive Can Read",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-07T19:23:18+00:00",
-      "views": 196,
+      "views": 212,
       "likes": 8,
       "comments": 0
     },
@@ -67,7 +76,7 @@
       "title": "The Payphone That Rang Once, Then Saved a Trucker",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-06T19:32:00+00:00",
-      "views": 8,
+      "views": 9,
       "likes": 1,
       "comments": 0
     },
@@ -166,8 +175,8 @@
       "title": "Why Everyone Noticed Your Awkward Moment Less Than You Think",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-08T16:45:36+00:00",
-      "views": 52,
-      "likes": 3,
+      "views": 118,
+      "likes": 6,
       "comments": 0
     },
     "eJ5FTgFpCzI": {
@@ -175,8 +184,8 @@
       "title": "Why Vague Horoscopes Feel Like They're Just for You",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-07T16:46:41+00:00",
-      "views": 5,
-      "likes": 0,
+      "views": 7,
+      "likes": 1,
       "comments": 0
     },
     "bdOOpZJTVYc": {
@@ -287,6 +296,19 @@
         },
         "psychology-1": {
           "views": 1216,
+          "subscribers": 9
+        }
+      }
+    },
+    {
+      "time": "2026-11-08T21:55:15+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1597,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1284,
           "subscribers": 9
         }
       }
