@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-08T01:30:09+00:00",
+  "updated": "2026-11-08T04:14:25+00:00",
   "agents": {
     "stories-1": {
       "channel": {
         "title": "Content_Support",
         "handle": "@story_time-i2e",
         "subscribers": 13,
-        "views": 606,
+        "views": 593,
         "videos": 13
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 13,
-      "views": 650,
-      "likes": 66,
+      "views": 684,
+      "likes": 67,
       "comments": 12,
-      "avg_views": 50.0,
+      "avg_views": 52.6,
       "top": "The Ship Found Sailing With Nobody Aboard"
     },
     "psychology-1": {
@@ -22,15 +22,15 @@
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
         "subscribers": 8,
-        "views": 627,
+        "views": 1017,
         "videos": 6
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 6,
-      "views": 1035,
+      "views": 1069,
       "likes": 29,
       "comments": 10,
-      "avg_views": 172.5,
+      "avg_views": 178.2,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -40,8 +40,8 @@
       "title": "The Book Nobody Alive Can Read",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-07T19:23:18+00:00",
-      "views": 51,
-      "likes": 5,
+      "views": 86,
+      "likes": 6,
       "comments": 0
     },
     "McS7-bvDuVc": {
@@ -130,7 +130,7 @@
       "title": "The Pig That Nearly Started a War Between Two Empires",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-03T16:31:09+00:00",
-      "views": 69,
+      "views": 68,
       "likes": 6,
       "comments": 1
     },
@@ -166,7 +166,7 @@
       "title": "You Judge People Before They Speak. Here's Why",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-06T17:30:36+00:00",
-      "views": 990,
+      "views": 1024,
       "likes": 13,
       "comments": 0
     },
@@ -282,6 +282,19 @@
         },
         "psychology-1": {
           "views": 1035,
+          "subscribers": 8
+        }
+      }
+    },
+    {
+      "time": "2026-11-08T04:14:25+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 684,
+          "subscribers": 13
+        },
+        "psychology-1": {
+          "views": 1069,
           "subscribers": 8
         }
       }
