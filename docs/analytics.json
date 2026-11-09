@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-09T16:24:15+00:00",
+  "updated": "2026-11-09T19:18:10+00:00",
   "agents": {
     "stories-1": {
       "channel": {
         "title": "Content_Support",
         "handle": "@story_time-i2e",
         "subscribers": 15,
-        "views": 1512,
-        "videos": 15
+        "views": 1681,
+        "videos": 16
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 15,
-      "views": 1690,
+      "videos": 16,
+      "views": 1701,
       "likes": 95,
       "comments": 12,
-      "avg_views": 112.7,
+      "avg_views": 106.3,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -22,25 +22,34 @@
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
         "subscribers": 10,
-        "views": 1167,
-        "videos": 7
+        "views": 1355,
+        "videos": 8
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
-      "videos": 7,
-      "views": 1356,
-      "likes": 39,
+      "videos": 8,
+      "views": 1360,
+      "likes": 40,
       "comments": 10,
-      "avg_views": 193.7,
+      "avg_views": 170.0,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
   "videos": {
+    "P9uB136ct_o": {
+      "agent": "stories-1",
+      "title": "The Ice Cream Truck That Played in a Blizzard",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-09T16:43:49+00:00",
+      "views": 5,
+      "likes": 0,
+      "comments": 0
+    },
     "gw_TO9YTJjY": {
       "agent": "stories-1",
       "title": "The War That Started Over a Stolen Bucket",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-08T19:22:36+00:00",
-      "views": 133,
+      "views": 134,
       "likes": 1,
       "comments": 0
     },
@@ -58,7 +67,7 @@
       "title": "The Book Nobody Alive Can Read",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-07T19:23:18+00:00",
-      "views": 265,
+      "views": 270,
       "likes": 9,
       "comments": 0
     },
@@ -170,6 +179,15 @@
       "likes": 12,
       "comments": 4
     },
+    "nu0WIbbQg5o": {
+      "agent": "psychology-1",
+      "title": "You've Seen It 1,000 Times, But Can You Draw It?",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-09T17:15:36+00:00",
+      "views": 3,
+      "likes": 1,
+      "comments": 0
+    },
     "JM1hxIbex3g": {
       "agent": "psychology-1",
       "title": "Why Everyone Noticed Your Awkward Moment Less Than You Think",
@@ -184,7 +202,7 @@
       "title": "Why Vague Horoscopes Feel Like They're Just for You",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-07T16:46:41+00:00",
-      "views": 14,
+      "views": 15,
       "likes": 2,
       "comments": 0
     },
@@ -387,6 +405,19 @@
         },
         "psychology-1": {
           "views": 1356,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-09T19:18:10+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1701,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1360,
           "subscribers": 10
         }
       }
