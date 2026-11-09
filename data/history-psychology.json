@@ -98,6 +98,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-09",
+      "title": "You've Seen It 1,000 Times, But Can You Draw It?",
+      "topic": "Nickerson and Adams found that people see a penny constantly but struggle to draw it or pick the real one from fakes, because memory keeps only what is useful.",
+      "genre": "a surprising quirk of how memory works",
+      "posted": {
+        "youtube": {
+          "id": "nu0WIbbQg5o",
+          "url": "https://youtube.com/shorts/nu0WIbbQg5o"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
