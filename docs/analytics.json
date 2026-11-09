@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-09T04:22:35+00:00",
+  "updated": "2026-11-09T07:49:15+00:00",
   "agents": {
     "stories-1": {
       "channel": {
         "title": "Content_Support",
         "handle": "@story_time-i2e",
         "subscribers": 15,
-        "views": 744,
+        "views": 1512,
         "videos": 15
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 15,
-      "views": 1658,
-      "likes": 92,
+      "views": 1664,
+      "likes": 95,
       "comments": 12,
-      "avg_views": 110.5,
+      "avg_views": 110.9,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -22,15 +22,15 @@
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
         "subscribers": 10,
-        "views": 1157,
+        "views": 1167,
         "videos": 7
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 7,
-      "views": 1344,
-      "likes": 36,
+      "views": 1351,
+      "likes": 38,
       "comments": 10,
-      "avg_views": 192.0,
+      "avg_views": 193.0,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -41,7 +41,7 @@
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-08T19:22:36+00:00",
       "views": 132,
-      "likes": 0,
+      "likes": 1,
       "comments": 0
     },
     "3ai6bnmQjgc": {
@@ -50,7 +50,7 @@
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-08T12:17:27+00:00",
       "views": 683,
-      "likes": 12,
+      "likes": 13,
       "comments": 0
     },
     "L4DIgQTg2J8": {
@@ -58,8 +58,8 @@
       "title": "The Book Nobody Alive Can Read",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-07T19:23:18+00:00",
-      "views": 234,
-      "likes": 8,
+      "views": 240,
+      "likes": 9,
       "comments": 0
     },
     "McS7-bvDuVc": {
@@ -175,8 +175,8 @@
       "title": "Why Everyone Noticed Your Awkward Moment Less Than You Think",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-08T16:45:36+00:00",
-      "views": 173,
-      "likes": 6,
+      "views": 177,
+      "likes": 7,
       "comments": 0
     },
     "eJ5FTgFpCzI": {
@@ -193,8 +193,8 @@
       "title": "You Judge People Before They Speak. Here's Why",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-06T17:30:36+00:00",
-      "views": 1115,
-      "likes": 13,
+      "views": 1116,
+      "likes": 14,
       "comments": 0
     },
     "hHK-Wy3e1jg": {
@@ -202,7 +202,7 @@
       "title": "The Gorilla Experiment That Proved You Miss Obvious Things",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-05T17:19:53+00:00",
-      "views": 12,
+      "views": 13,
       "likes": 4,
       "comments": 2
     },
@@ -211,7 +211,7 @@
       "title": "The Simple If-Then Trick That Beats Procrastination",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-04T17:00:42+00:00",
-      "views": 11,
+      "views": 12,
       "likes": 4,
       "comments": 2
     },
@@ -335,6 +335,19 @@
         },
         "psychology-1": {
           "views": 1344,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-09T07:49:15+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1664,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1351,
           "subscribers": 10
         }
       }
