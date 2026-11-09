@@ -202,6 +202,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-09",
+      "title": "The Ice Cream Truck That Played in a Blizzard",
+      "topic": "A retired-season ice cream truck driver finds a lonely boy celebrating his birthday alone in a blizzard and turns the street into a party, a kindness the boy later repays by carrying on.",
+      "genre": "heartwarming short fiction about an unexpected act of kindness",
+      "posted": {
+        "youtube": {
+          "id": "P9uB136ct_o",
+          "url": "https://youtube.com/shorts/P9uB136ct_o"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
