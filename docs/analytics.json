@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T19:18:10+00:00",
+  "updated": "2026-11-09T22:04:16+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -7,14 +7,14 @@
         "handle": "@story_time-i2e",
         "subscribers": 15,
         "views": 1681,
-        "videos": 16
+        "videos": 17
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 16,
-      "views": 1701,
+      "videos": 17,
+      "views": 1569,
       "likes": 95,
       "comments": 12,
-      "avg_views": 106.3,
+      "avg_views": 92.3,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -27,20 +27,29 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 8,
-      "views": 1360,
-      "likes": 40,
+      "views": 1377,
+      "likes": 42,
       "comments": 10,
-      "avg_views": 170.0,
+      "avg_views": 172.1,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
   "videos": {
+    "8_fG6ixpyec": {
+      "agent": "stories-1",
+      "title": "Washer Number Nine Runs Alone at 3 A.M.",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-09T19:35:04+00:00",
+      "views": 4,
+      "likes": 0,
+      "comments": 0
+    },
     "P9uB136ct_o": {
       "agent": "stories-1",
       "title": "The Ice Cream Truck That Played in a Blizzard",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-09T16:43:49+00:00",
-      "views": 5,
+      "views": 6,
       "likes": 0,
       "comments": 0
     },
@@ -58,7 +67,7 @@
       "title": "133 Days Alone on a Raft: The Poon Lim Survival Story",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-08T12:17:27+00:00",
-      "views": 683,
+      "views": 545,
       "likes": 13,
       "comments": 0
     },
@@ -67,7 +76,7 @@
       "title": "The Book Nobody Alive Can Read",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-07T19:23:18+00:00",
-      "views": 270,
+      "views": 271,
       "likes": 9,
       "comments": 0
     },
@@ -184,8 +193,8 @@
       "title": "You've Seen It 1,000 Times, But Can You Draw It?",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-09T17:15:36+00:00",
-      "views": 3,
-      "likes": 1,
+      "views": 14,
+      "likes": 2,
       "comments": 0
     },
     "JM1hxIbex3g": {
@@ -193,8 +202,8 @@
       "title": "Why Everyone Noticed Your Awkward Moment Less Than You Think",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-08T16:45:36+00:00",
-      "views": 178,
-      "likes": 7,
+      "views": 184,
+      "likes": 8,
       "comments": 0
     },
     "eJ5FTgFpCzI": {
@@ -418,6 +427,19 @@
         },
         "psychology-1": {
           "views": 1360,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-09T22:04:16+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1569,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1377,
           "subscribers": 10
         }
       }
