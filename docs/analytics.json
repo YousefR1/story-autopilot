@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T10:18:12+00:00",
+  "updated": "2026-11-09T13:38:02+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -11,10 +11,10 @@
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 15,
-      "views": 1665,
+      "views": 1690,
       "likes": 95,
       "comments": 12,
-      "avg_views": 111.0,
+      "avg_views": 112.7,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -27,10 +27,10 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 7,
-      "views": 1354,
+      "views": 1355,
       "likes": 39,
       "comments": 10,
-      "avg_views": 193.4,
+      "avg_views": 193.6,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -58,7 +58,7 @@
       "title": "The Book Nobody Alive Can Read",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-07T19:23:18+00:00",
-      "views": 240,
+      "views": 265,
       "likes": 9,
       "comments": 0
     },
@@ -184,7 +184,7 @@
       "title": "Why Vague Horoscopes Feel Like They're Just for You",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-07T16:46:41+00:00",
-      "views": 13,
+      "views": 14,
       "likes": 2,
       "comments": 0
     },
@@ -361,6 +361,19 @@
         },
         "psychology-1": {
           "views": 1354,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-09T13:38:02+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1690,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1355,
           "subscribers": 10
         }
       }
