@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T21:55:15+00:00",
+  "updated": "2026-11-09T01:34:18+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -11,26 +11,26 @@
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 15,
-      "views": 1597,
+      "views": 1646,
       "likes": 92,
       "comments": 12,
-      "avg_views": 106.5,
+      "avg_views": 109.7,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
       "channel": {
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
-        "subscribers": 9,
+        "subscribers": 10,
         "views": 1157,
         "videos": 7
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 7,
-      "views": 1284,
+      "views": 1322,
       "likes": 36,
       "comments": 10,
-      "avg_views": 183.4,
+      "avg_views": 188.9,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -40,7 +40,7 @@
       "title": "The War That Started Over a Stolen Bucket",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-08T19:22:36+00:00",
-      "views": 93,
+      "views": 129,
       "likes": 0,
       "comments": 0
     },
@@ -58,7 +58,7 @@
       "title": "The Book Nobody Alive Can Read",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-07T19:23:18+00:00",
-      "views": 212,
+      "views": 226,
       "likes": 8,
       "comments": 0
     },
@@ -103,7 +103,7 @@
       "title": "33 Miners Trapped 700 Meters Down. Then Came the Note.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-05T17:11:10+00:00",
-      "views": 4,
+      "views": 3,
       "likes": 4,
       "comments": 1
     },
@@ -175,7 +175,7 @@
       "title": "Why Everyone Noticed Your Awkward Moment Less Than You Think",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-08T16:45:36+00:00",
-      "views": 118,
+      "views": 153,
       "likes": 6,
       "comments": 0
     },
@@ -184,7 +184,7 @@
       "title": "Why Vague Horoscopes Feel Like They're Just for You",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-07T16:46:41+00:00",
-      "views": 7,
+      "views": 9,
       "likes": 1,
       "comments": 0
     },
@@ -202,7 +202,7 @@
       "title": "The Gorilla Experiment That Proved You Miss Obvious Things",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-05T17:19:53+00:00",
-      "views": 11,
+      "views": 12,
       "likes": 4,
       "comments": 2
     },
@@ -310,6 +310,19 @@
         "psychology-1": {
           "views": 1284,
           "subscribers": 9
+        }
+      }
+    },
+    {
+      "time": "2026-11-09T01:34:18+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1646,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1322,
+          "subscribers": 10
         }
       }
     }
