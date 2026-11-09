@@ -215,6 +215,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-09",
+      "title": "Washer Number Nine Runs Alone at 3 A.M.",
+      "topic": "A laundromat legend about washer number nine, which tumbles lost things at 3 a.m. before their owners lose them, and one night shows the night clerk her own name badge.",
+      "genre": "eerie urban-legend style tale (presented as legend, not fact)",
+      "posted": {
+        "youtube": {
+          "id": "8_fG6ixpyec",
+          "url": "https://youtube.com/shorts/8_fG6ixpyec"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
