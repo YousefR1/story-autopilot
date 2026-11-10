@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T19:21:00+00:00",
+  "updated": "2026-11-10T21:59:05+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -7,14 +7,14 @@
         "handle": "@story_time-i2e",
         "subscribers": 15,
         "views": 1566,
-        "videos": 17
+        "videos": 18
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 17,
-      "views": 1619,
+      "videos": 18,
+      "views": 1629,
       "likes": 103,
       "comments": 13,
-      "avg_views": 95.2,
+      "avg_views": 90.5,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -27,14 +27,23 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 9,
-      "views": 1428,
-      "likes": 48,
+      "views": 1488,
+      "likes": 51,
       "comments": 10,
-      "avg_views": 158.7,
+      "avg_views": 165.3,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
   "videos": {
+    "op_uT8CDDgk": {
+      "agent": "stories-1",
+      "title": "Wet Footprints Climbed the Lighthouse Stairs Every Night",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-10T19:32:32+00:00",
+      "views": 2,
+      "likes": 0,
+      "comments": 0
+    },
     "8_fG6ixpyec": {
       "agent": "stories-1",
       "title": "Washer Number Nine Runs Alone at 3 A.M.",
@@ -58,7 +67,7 @@
       "title": "The War That Started Over a Stolen Bucket",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-08T19:22:36+00:00",
-      "views": 136,
+      "views": 137,
       "likes": 2,
       "comments": 0
     },
@@ -67,7 +76,7 @@
       "title": "133 Days Alone on a Raft: The Poon Lim Survival Story",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-08T12:17:27+00:00",
-      "views": 581,
+      "views": 588,
       "likes": 14,
       "comments": 0
     },
@@ -193,8 +202,8 @@
       "title": "Why You Can't Quit Boring Things (Sunk Cost Effect)",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-10T16:58:57+00:00",
-      "views": 13,
-      "likes": 3,
+      "views": 71,
+      "likes": 6,
       "comments": 0
     },
     "nu0WIbbQg5o": {
@@ -202,7 +211,7 @@
       "title": "You've Seen It 1,000 Times, But Can You Draw It?",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-09T17:15:36+00:00",
-      "views": 25,
+      "views": 27,
       "likes": 3,
       "comments": 0
     },
@@ -319,6 +328,19 @@
         },
         "psychology-1": {
           "views": 1428,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-10T21:59:05+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1629,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1488,
           "subscribers": 10
         }
       }
