@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T22:04:16+00:00",
+  "updated": "2026-11-10T01:27:34+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -11,10 +11,10 @@
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 17,
-      "views": 1569,
+      "views": 1576,
       "likes": 95,
       "comments": 12,
-      "avg_views": 92.3,
+      "avg_views": 92.7,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -27,10 +27,10 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 8,
-      "views": 1377,
+      "views": 1382,
       "likes": 42,
       "comments": 10,
-      "avg_views": 172.1,
+      "avg_views": 172.8,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -67,7 +67,7 @@
       "title": "133 Days Alone on a Raft: The Poon Lim Survival Story",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-08T12:17:27+00:00",
-      "views": 545,
+      "views": 552,
       "likes": 13,
       "comments": 0
     },
@@ -193,7 +193,7 @@
       "title": "You've Seen It 1,000 Times, But Can You Draw It?",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-09T17:15:36+00:00",
-      "views": 14,
+      "views": 19,
       "likes": 2,
       "comments": 0
     },
@@ -440,6 +440,19 @@
         },
         "psychology-1": {
           "views": 1377,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-10T01:27:34+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1576,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1382,
           "subscribers": 10
         }
       }
