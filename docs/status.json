@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T12:40:07+00:00",
+  "updated": "2026-11-10T16:58:57+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -985,12 +985,64 @@
       "state": "idle",
       "consecutive_failures": 0,
       "totals": {
-        "videos": 9,
-        "youtube": 8,
+        "videos": 10,
+        "youtube": 9,
         "tiktok": 0,
         "failures": 0
       },
       "runs": [
+        {
+          "started": "2026-11-10T16:57:29+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 16.8
+            },
+            {
+              "step": "voiceover",
+              "seconds": 8.2
+            },
+            {
+              "step": "caption timing",
+              "seconds": 5.0
+            },
+            {
+              "step": "ai images",
+              "seconds": 21.7
+            },
+            {
+              "step": "render",
+              "seconds": 32.7
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.2
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 3.0
+            }
+          ],
+          "result": "posted",
+          "title": "Why You Can't Quit Boring Things (Sunk Cost Effect)",
+          "genre": "a hidden bias that shapes everyday decisions",
+          "kind": "fact",
+          "topic": "The sunk cost effect: we keep doing something because we've already invested time or money in it, even when quitting would be better.",
+          "video": {
+            "duration": 43.4,
+            "size_mb": 8.5,
+            "mean_db": -23.2
+          },
+          "posted": {
+            "youtube": {
+              "id": "qeASklg7UOM",
+              "url": "https://youtube.com/shorts/qeASklg7UOM"
+            }
+          },
+          "finished": "2026-11-10T16:58:57+00:00",
+          "seconds": 88.2
+        },
         {
           "started": "2026-11-09T17:14:13+00:00",
           "dry_run": false,
@@ -1452,7 +1504,7 @@
         }
       ],
       "schedule": "1 a day at 17:11 Oslo (.github/workflows/psychology.yml)",
-      "last_run": "2026-11-09T17:15:36+00:00"
+      "last_run": "2026-11-10T16:58:57+00:00"
     }
   }
 }

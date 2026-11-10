@@ -111,6 +111,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Why You Can't Quit Boring Things (Sunk Cost Effect)",
+      "topic": "The sunk cost effect: we keep doing something because we've already invested time or money in it, even when quitting would be better.",
+      "genre": "a hidden bias that shapes everyday decisions",
+      "posted": {
+        "youtube": {
+          "id": "qeASklg7UOM",
+          "url": "https://youtube.com/shorts/qeASklg7UOM"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
