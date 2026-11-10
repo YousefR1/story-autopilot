@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T10:14:24+00:00",
+  "updated": "2026-11-10T13:28:09+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -11,10 +11,10 @@
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 17,
-      "views": 1606,
+      "views": 1613,
       "likes": 103,
       "comments": 13,
-      "avg_views": 94.5,
+      "avg_views": 94.9,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -27,10 +27,10 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 8,
-      "views": 1410,
+      "views": 1411,
       "likes": 45,
       "comments": 10,
-      "avg_views": 176.2,
+      "avg_views": 176.4,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -67,7 +67,7 @@
       "title": "133 Days Alone on a Raft: The Poon Lim Survival Story",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-08T12:17:27+00:00",
-      "views": 568,
+      "views": 575,
       "likes": 14,
       "comments": 0
     },
@@ -202,7 +202,7 @@
       "title": "Why Everyone Noticed Your Awkward Moment Less Than You Think",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-08T16:45:36+00:00",
-      "views": 209,
+      "views": 210,
       "likes": 9,
       "comments": 0
     },
@@ -271,6 +271,19 @@
         },
         "psychology-1": {
           "views": 1410,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-10T13:28:09+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1613,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1411,
           "subscribers": 10
         }
       }
