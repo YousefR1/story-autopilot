@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T19:23:33+00:00",
+  "updated": "2026-11-11T22:21:01+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -7,14 +7,14 @@
         "handle": "@story_time-i2e",
         "subscribers": 15,
         "views": 1664,
-        "videos": 19
+        "videos": 20
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 19,
-      "views": 1671,
-      "likes": 105,
+      "videos": 20,
+      "views": 1692,
+      "likes": 106,
       "comments": 13,
-      "avg_views": 87.9,
+      "avg_views": 84.6,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -27,14 +27,23 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 10,
-      "views": 1610,
-      "likes": 51,
+      "views": 1633,
+      "likes": 50,
       "comments": 10,
-      "avg_views": 161.0,
+      "avg_views": 163.3,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
   "videos": {
+    "0VeANJIN7J4": {
+      "agent": "stories-1",
+      "title": "Four Men Left Her Behind in the Arctic. She Outlived Them All.",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-11T19:38:24+00:00",
+      "views": 12,
+      "likes": 1,
+      "comments": 0
+    },
     "0soFke3EwA0": {
       "agent": "stories-1",
       "title": "The Secret Code at the CIA That Nobody Can Crack",
@@ -49,7 +58,7 @@
       "title": "Wet Footprints Climbed the Lighthouse Stairs Every Night",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-10T19:32:32+00:00",
-      "views": 3,
+      "views": 6,
       "likes": 1,
       "comments": 0
     },
@@ -85,7 +94,7 @@
       "title": "133 Days Alone on a Raft: The Poon Lim Survival Story",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-08T12:17:27+00:00",
-      "views": 624,
+      "views": 630,
       "likes": 14,
       "comments": 0
     },
@@ -211,8 +220,8 @@
       "title": "Why You Nod Along With a Group (Asch's Famous Experiment)",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-11T17:01:49+00:00",
-      "views": 1,
-      "likes": 1,
+      "views": 13,
+      "likes": 0,
       "comments": 0
     },
     "qeASklg7UOM": {
@@ -220,7 +229,7 @@
       "title": "Why You Can't Quit Boring Things (Sunk Cost Effect)",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-10T16:58:57+00:00",
-      "views": 184,
+      "views": 195,
       "likes": 5,
       "comments": 0
     },
@@ -359,6 +368,19 @@
         },
         "psychology-1": {
           "views": 1610,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-11T22:21:01+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1692,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1633,
           "subscribers": 10
         }
       }
