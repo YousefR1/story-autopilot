@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T10:19:40+00:00",
+  "updated": "2026-11-11T13:34:51+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -7,14 +7,14 @@
         "handle": "@story_time-i2e",
         "subscribers": 15,
         "views": 1629,
-        "videos": 18
+        "videos": 19
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 18,
-      "views": 1656,
-      "likes": 104,
+      "videos": 19,
+      "views": 1670,
+      "likes": 105,
       "comments": 13,
-      "avg_views": 92.0,
+      "avg_views": 87.9,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -27,14 +27,23 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 9,
-      "views": 1588,
-      "likes": 51,
+      "views": 1592,
+      "likes": 50,
       "comments": 10,
-      "avg_views": 176.4,
+      "avg_views": 176.9,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
   "videos": {
+    "0soFke3EwA0": {
+      "agent": "stories-1",
+      "title": "The Secret Code at the CIA That Nobody Can Crack",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-11T12:38:12+00:00",
+      "views": 4,
+      "likes": 1,
+      "comments": 0
+    },
     "op_uT8CDDgk": {
       "agent": "stories-1",
       "title": "Wet Footprints Climbed the Lighthouse Stairs Every Night",
@@ -76,7 +85,7 @@
       "title": "133 Days Alone on a Raft: The Poon Lim Survival Story",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-08T12:17:27+00:00",
-      "views": 614,
+      "views": 624,
       "likes": 14,
       "comments": 0
     },
@@ -202,8 +211,8 @@
       "title": "Why You Can't Quit Boring Things (Sunk Cost Effect)",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-10T16:58:57+00:00",
-      "views": 163,
-      "likes": 6,
+      "views": 167,
+      "likes": 5,
       "comments": 0
     },
     "nu0WIbbQg5o": {
@@ -238,7 +247,7 @@
       "title": "You Judge People Before They Speak. Here's Why",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-06T17:30:36+00:00",
-      "views": 1116,
+      "views": 1115,
       "likes": 14,
       "comments": 0
     },
@@ -247,7 +256,7 @@
       "title": "The Gorilla Experiment That Proved You Miss Obvious Things",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-05T17:19:53+00:00",
-      "views": 14,
+      "views": 15,
       "likes": 4,
       "comments": 2
     },
@@ -302,6 +311,19 @@
         },
         "psychology-1": {
           "views": 1588,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-11T13:34:51+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1670,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1592,
           "subscribers": 10
         }
       }
