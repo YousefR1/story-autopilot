@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T07:39:06+00:00",
+  "updated": "2026-11-11T10:19:40+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -22,15 +22,15 @@
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
         "subscribers": 10,
-        "views": 1365,
+        "views": 1418,
         "videos": 9
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 9,
-      "views": 1583,
-      "likes": 50,
+      "views": 1588,
+      "likes": 51,
       "comments": 10,
-      "avg_views": 175.9,
+      "avg_views": 176.4,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -202,8 +202,8 @@
       "title": "Why You Can't Quit Boring Things (Sunk Cost Effect)",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-10T16:58:57+00:00",
-      "views": 158,
-      "likes": 5,
+      "views": 163,
+      "likes": 6,
       "comments": 0
     },
     "nu0WIbbQg5o": {
@@ -289,6 +289,19 @@
         },
         "psychology-1": {
           "views": 1583,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-11T10:19:40+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1656,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1588,
           "subscribers": 10
         }
       }
