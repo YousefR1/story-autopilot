@@ -241,6 +241,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-11",
+      "title": "The Secret Code at the CIA That Nobody Can Crack",
+      "topic": "Kryptos, the copper sculpture at CIA headquarters whose final 97-character passage has never been publicly solved",
+      "genre": "unsolved real-world mystery (well documented)",
+      "posted": {
+        "youtube": {
+          "id": "0soFke3EwA0",
+          "url": "https://youtube.com/shorts/0soFke3EwA0"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
