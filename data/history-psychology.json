@@ -124,6 +124,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-11",
+      "title": "Why You Nod Along With a Group (Asch's Famous Experiment)",
+      "topic": "Asch's conformity experiment: people often go along with a group's obviously wrong answer, but a single dissenter makes it easier to speak up.",
+      "genre": "why people behave strangely in groups",
+      "posted": {
+        "youtube": {
+          "id": "ThM_I0Q2iHk",
+          "url": "https://youtube.com/shorts/ThM_I0Q2iHk"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
