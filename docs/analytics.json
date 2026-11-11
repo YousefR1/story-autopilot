@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T01:27:25+00:00",
+  "updated": "2026-11-11T04:18:42+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -11,10 +11,10 @@
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 18,
-      "views": 1635,
-      "likes": 103,
+      "views": 1637,
+      "likes": 104,
       "comments": 13,
-      "avg_views": 90.8,
+      "avg_views": 90.9,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -27,10 +27,10 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 9,
-      "views": 1528,
+      "views": 1538,
       "likes": 50,
       "comments": 10,
-      "avg_views": 169.8,
+      "avg_views": 170.9,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -40,8 +40,8 @@
       "title": "Wet Footprints Climbed the Lighthouse Stairs Every Night",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-10T19:32:32+00:00",
-      "views": 2,
-      "likes": 0,
+      "views": 3,
+      "likes": 1,
       "comments": 0
     },
     "8_fG6ixpyec": {
@@ -76,7 +76,7 @@
       "title": "133 Days Alone on a Raft: The Poon Lim Survival Story",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-08T12:17:27+00:00",
-      "views": 594,
+      "views": 595,
       "likes": 14,
       "comments": 0
     },
@@ -202,7 +202,7 @@
       "title": "Why You Can't Quit Boring Things (Sunk Cost Effect)",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-10T16:58:57+00:00",
-      "views": 108,
+      "views": 113,
       "likes": 5,
       "comments": 0
     },
@@ -211,7 +211,7 @@
       "title": "You've Seen It 1,000 Times, But Can You Draw It?",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-09T17:15:36+00:00",
-      "views": 30,
+      "views": 35,
       "likes": 3,
       "comments": 0
     },
@@ -354,6 +354,19 @@
         },
         "psychology-1": {
           "views": 1528,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-11T04:18:42+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1637,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1538,
           "subscribers": 10
         }
       }
