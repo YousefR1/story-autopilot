@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-11T16:12:44+00:00",
+  "updated": "2026-11-11T19:23:33+00:00",
   "agents": {
     "stories-1": {
       "channel": {
         "title": "Content_Support",
         "handle": "@story_time-i2e",
         "subscribers": 15,
-        "views": 1629,
+        "views": 1664,
         "videos": 19
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 19,
-      "views": 1669,
+      "views": 1671,
       "likes": 105,
       "comments": 13,
-      "avg_views": 87.8,
+      "avg_views": 87.9,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -23,14 +23,14 @@
         "handle": "@mind_quirks1",
         "subscribers": 10,
         "views": 1418,
-        "videos": 9
+        "videos": 10
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
-      "videos": 9,
-      "views": 1601,
-      "likes": 50,
+      "videos": 10,
+      "views": 1610,
+      "likes": 51,
       "comments": 10,
-      "avg_views": 177.9,
+      "avg_views": 161.0,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -40,7 +40,7 @@
       "title": "The Secret Code at the CIA That Nobody Can Crack",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-11T12:38:12+00:00",
-      "views": 4,
+      "views": 6,
       "likes": 1,
       "comments": 0
     },
@@ -206,12 +206,21 @@
       "likes": 12,
       "comments": 4
     },
+    "ThM_I0Q2iHk": {
+      "agent": "psychology-1",
+      "title": "Why You Nod Along With a Group (Asch's Famous Experiment)",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-11T17:01:49+00:00",
+      "views": 1,
+      "likes": 1,
+      "comments": 0
+    },
     "qeASklg7UOM": {
       "agent": "psychology-1",
       "title": "Why You Can't Quit Boring Things (Sunk Cost Effect)",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-10T16:58:57+00:00",
-      "views": 176,
+      "views": 184,
       "likes": 5,
       "comments": 0
     },
@@ -337,6 +346,19 @@
         },
         "psychology-1": {
           "views": 1601,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-11T19:23:33+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1671,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1610,
           "subscribers": 10
         }
       }
