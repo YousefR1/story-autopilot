@@ -280,6 +280,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": "The Piano Tuner Nobody Called",
+      "topic": "A piano tuner arrives at a grieving old man's house for a job nobody seems to have ordered, and discovers a little neighbor girl paid for it with her coin savings so she could hear his music again.",
+      "genre": "heartwarming short fiction about an unexpected act of kindness",
+      "posted": {
+        "youtube": {
+          "id": "7sCOUzLtElY",
+          "url": "https://youtube.com/shorts/7sCOUzLtElY"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T17:08:54+00:00",
+  "updated": "2026-11-12T19:33:55+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -11,12 +11,64 @@
       "state": "idle",
       "consecutive_failures": 0,
       "totals": {
-        "videos": 22,
-        "youtube": 21,
+        "videos": 23,
+        "youtube": 22,
         "tiktok": 0,
         "failures": 3
       },
       "runs": [
+        {
+          "started": "2026-11-12T19:32:08+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 38.3
+            },
+            {
+              "step": "voiceover",
+              "seconds": 9.8
+            },
+            {
+              "step": "caption timing",
+              "seconds": 4.5
+            },
+            {
+              "step": "ai images",
+              "seconds": 20.4
+            },
+            {
+              "step": "render",
+              "seconds": 28.0
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.1
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 5.6
+            }
+          ],
+          "result": "posted",
+          "title": "The Piano Tuner Nobody Called",
+          "genre": "heartwarming short fiction about an unexpected act of kindness",
+          "kind": "fiction",
+          "topic": "A piano tuner arrives at a grieving old man's house for a job nobody seems to have ordered, and discovers a little neighbor girl paid for it with her coin savings so she could hear his music again.",
+          "video": {
+            "duration": 52.4,
+            "size_mb": 10.8,
+            "mean_db": -23.7
+          },
+          "posted": {
+            "youtube": {
+              "id": "7sCOUzLtElY",
+              "url": "https://youtube.com/shorts/7sCOUzLtElY"
+            }
+          },
+          "finished": "2026-11-12T19:33:55+00:00",
+          "seconds": 107.2
+        },
         {
           "started": "2026-11-12T12:34:48+00:00",
           "dry_run": false,
@@ -1181,7 +1233,7 @@
         }
       ],
       "schedule": "Runs daily from .github/workflows/daily.yml (edit the cron line there).",
-      "last_run": "2026-11-12T12:36:37+00:00"
+      "last_run": "2026-11-12T19:33:55+00:00"
     },
     "psychology-1": {
       "id": "psychology-1",
