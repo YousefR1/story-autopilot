@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T22:21:01+00:00",
+  "updated": "2026-11-12T01:37:37+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -11,10 +11,10 @@
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 20,
-      "views": 1692,
+      "views": 1699,
       "likes": 106,
       "comments": 13,
-      "avg_views": 84.6,
+      "avg_views": 85.0,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -22,15 +22,15 @@
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
         "subscribers": 10,
-        "views": 1418,
+        "views": 1596,
         "videos": 10
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 10,
-      "views": 1633,
+      "views": 1642,
       "likes": 50,
       "comments": 10,
-      "avg_views": 163.3,
+      "avg_views": 164.2,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -40,7 +40,7 @@
       "title": "Four Men Left Her Behind in the Arctic. She Outlived Them All.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-11T19:38:24+00:00",
-      "views": 12,
+      "views": 19,
       "likes": 1,
       "comments": 0
     },
@@ -220,7 +220,7 @@
       "title": "Why You Nod Along With a Group (Asch's Famous Experiment)",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-11T17:01:49+00:00",
-      "views": 13,
+      "views": 18,
       "likes": 0,
       "comments": 0
     },
@@ -229,7 +229,7 @@
       "title": "Why You Can't Quit Boring Things (Sunk Cost Effect)",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-10T16:58:57+00:00",
-      "views": 195,
+      "views": 199,
       "likes": 5,
       "comments": 0
     },
@@ -381,6 +381,19 @@
         },
         "psychology-1": {
           "views": 1633,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-12T01:37:37+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1699,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1642,
           "subscribers": 10
         }
       }
