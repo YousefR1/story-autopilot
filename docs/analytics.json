@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T10:23:19+00:00",
+  "updated": "2026-11-12T13:38:19+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -7,14 +7,14 @@
         "handle": "@story_time-i2e",
         "subscribers": 15,
         "views": 1680,
-        "videos": 20
+        "videos": 21
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 20,
-      "views": 1705,
+      "videos": 21,
+      "views": 1726,
       "likes": 106,
       "comments": 13,
-      "avg_views": 85.2,
+      "avg_views": 82.2,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -27,14 +27,23 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 10,
-      "views": 1645,
+      "views": 1647,
       "likes": 50,
       "comments": 10,
-      "avg_views": 164.5,
+      "avg_views": 164.7,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
   "videos": {
+    "cdqtMIpzzX4": {
+      "agent": "stories-1",
+      "title": "The Night Telegraphs Worked With No Power",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-12T12:36:37+00:00",
+      "views": 19,
+      "likes": 0,
+      "comments": 0
+    },
     "0VeANJIN7J4": {
       "agent": "stories-1",
       "title": "Four Men Left Her Behind in the Arctic. She Outlived Them All.",
@@ -76,7 +85,7 @@
       "title": "The Ice Cream Truck That Played in a Blizzard",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-09T16:43:49+00:00",
-      "views": 7,
+      "views": 8,
       "likes": 1,
       "comments": 0
     },
@@ -94,7 +103,7 @@
       "title": "133 Days Alone on a Raft: The Poon Lim Survival Story",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-08T12:17:27+00:00",
-      "views": 632,
+      "views": 633,
       "likes": 14,
       "comments": 0
     },
@@ -229,7 +238,7 @@
       "title": "Why You Can't Quit Boring Things (Sunk Cost Effect)",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-10T16:58:57+00:00",
-      "views": 200,
+      "views": 202,
       "likes": 5,
       "comments": 0
     },
@@ -329,6 +338,19 @@
         },
         "psychology-1": {
           "views": 1645,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-12T13:38:19+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1726,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1647,
           "subscribers": 10
         }
       }
