@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T19:38:24+00:00",
+  "updated": "2026-11-12T12:36:37+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -11,12 +11,64 @@
       "state": "idle",
       "consecutive_failures": 0,
       "totals": {
-        "videos": 21,
-        "youtube": 20,
+        "videos": 22,
+        "youtube": 21,
         "tiktok": 0,
         "failures": 3
       },
       "runs": [
+        {
+          "started": "2026-11-12T12:34:48+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 15.4
+            },
+            {
+              "step": "voiceover",
+              "seconds": 9.5
+            },
+            {
+              "step": "caption timing",
+              "seconds": 4.9
+            },
+            {
+              "step": "ai images",
+              "seconds": 22.6
+            },
+            {
+              "step": "render",
+              "seconds": 54.1
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.2
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 1.7
+            }
+          ],
+          "result": "posted",
+          "title": "The Night Telegraphs Worked With No Power",
+          "genre": "strange but true moment from history (well documented)",
+          "kind": "true",
+          "topic": "During the 1859 solar storm known as the Carrington Event, telegraph operators in Boston and Portland, Maine disconnected their batteries and still sent messages using current from the aurora.",
+          "video": {
+            "duration": 53.1,
+            "size_mb": 11.7,
+            "mean_db": -23.2
+          },
+          "posted": {
+            "youtube": {
+              "id": "cdqtMIpzzX4",
+              "url": "https://youtube.com/shorts/cdqtMIpzzX4"
+            }
+          },
+          "finished": "2026-11-12T12:36:37+00:00",
+          "seconds": 108.8
+        },
         {
           "started": "2026-11-11T19:36:51+00:00",
           "dry_run": false,
@@ -1129,7 +1181,7 @@
         }
       ],
       "schedule": "Runs daily from .github/workflows/daily.yml (edit the cron line there).",
-      "last_run": "2026-11-11T19:38:24+00:00"
+      "last_run": "2026-11-12T12:36:37+00:00"
     },
     "psychology-1": {
       "id": "psychology-1",

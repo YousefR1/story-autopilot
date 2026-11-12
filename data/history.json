@@ -267,6 +267,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": "The Night Telegraphs Worked With No Power",
+      "topic": "During the 1859 solar storm known as the Carrington Event, telegraph operators in Boston and Portland, Maine disconnected their batteries and still sent messages using current from the aurora.",
+      "genre": "strange but true moment from history (well documented)",
+      "posted": {
+        "youtube": {
+          "id": "cdqtMIpzzX4",
+          "url": "https://youtube.com/shorts/cdqtMIpzzX4"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
