@@ -1,17 +1,17 @@
 {
-  "updated": "2026-11-12T13:38:19+00:00",
+  "updated": "2026-11-12T16:23:42+00:00",
   "agents": {
     "stories-1": {
       "channel": {
         "title": "Content_Support",
         "handle": "@story_time-i2e",
         "subscribers": 15,
-        "views": 1680,
+        "views": 1706,
         "videos": 21
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 21,
-      "views": 1726,
+      "views": 1727,
       "likes": 106,
       "comments": 13,
       "avg_views": 82.2,
@@ -27,10 +27,10 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 10,
-      "views": 1647,
+      "views": 1649,
       "likes": 50,
       "comments": 10,
-      "avg_views": 164.7,
+      "avg_views": 164.9,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -85,7 +85,7 @@
       "title": "The Ice Cream Truck That Played in a Blizzard",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-09T16:43:49+00:00",
-      "views": 8,
+      "views": 9,
       "likes": 1,
       "comments": 0
     },
@@ -229,7 +229,7 @@
       "title": "Why You Nod Along With a Group (Asch's Famous Experiment)",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-11T17:01:49+00:00",
-      "views": 20,
+      "views": 22,
       "likes": 0,
       "comments": 0
     },
@@ -351,6 +351,19 @@
         },
         "psychology-1": {
           "views": 1647,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-12T16:23:42+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1727,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1649,
           "subscribers": 10
         }
       }
