@@ -1,17 +1,17 @@
 {
-  "updated": "2026-11-12T07:42:23+00:00",
+  "updated": "2026-11-12T10:23:19+00:00",
   "agents": {
     "stories-1": {
       "channel": {
         "title": "Content_Support",
         "handle": "@story_time-i2e",
         "subscribers": 15,
-        "views": 1664,
+        "views": 1680,
         "videos": 20
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 20,
-      "views": 1704,
+      "views": 1705,
       "likes": 106,
       "comments": 13,
       "avg_views": 85.2,
@@ -58,7 +58,7 @@
       "title": "Wet Footprints Climbed the Lighthouse Stairs Every Night",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-10T19:32:32+00:00",
-      "views": 6,
+      "views": 7,
       "likes": 1,
       "comments": 0
     },
@@ -312,6 +312,19 @@
       "agents": {
         "stories-1": {
           "views": 1704,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1645,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-12T10:23:19+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1705,
           "subscribers": 15
         },
         "psychology-1": {
