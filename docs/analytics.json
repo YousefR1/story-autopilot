@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-12T19:19:28+00:00",
+  "updated": "2026-11-12T22:06:14+00:00",
   "agents": {
     "stories-1": {
       "channel": {
         "title": "Content_Support",
         "handle": "@story_time-i2e",
         "subscribers": 15,
-        "views": 1680,
-        "videos": 21
+        "views": 1706,
+        "videos": 22
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 21,
-      "views": 1741,
+      "videos": 22,
+      "views": 1743,
       "likes": 106,
       "comments": 13,
-      "avg_views": 82.9,
+      "avg_views": 79.2,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -27,20 +27,29 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 11,
-      "views": 1674,
+      "views": 1681,
       "likes": 51,
       "comments": 10,
-      "avg_views": 152.2,
+      "avg_views": 152.8,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
   "videos": {
+    "7sCOUzLtElY": {
+      "agent": "stories-1",
+      "title": "The Piano Tuner Nobody Called",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-12T19:33:55+00:00",
+      "views": 0,
+      "likes": 0,
+      "comments": 0
+    },
     "cdqtMIpzzX4": {
       "agent": "stories-1",
       "title": "The Night Telegraphs Worked With No Power",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-12T12:36:37+00:00",
-      "views": 31,
+      "views": 32,
       "likes": 0,
       "comments": 0
     },
@@ -49,7 +58,7 @@
       "title": "Four Men Left Her Behind in the Arctic. She Outlived Them All.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-11T19:38:24+00:00",
-      "views": 22,
+      "views": 23,
       "likes": 1,
       "comments": 0
     },
@@ -229,7 +238,7 @@
       "title": "Habits Don't Take 21 Days. Here's What Research Found",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-12T17:08:54+00:00",
-      "views": 18,
+      "views": 25,
       "likes": 1,
       "comments": 0
     },
@@ -386,6 +395,19 @@
         },
         "psychology-1": {
           "views": 1674,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-12T22:06:14+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1743,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1681,
           "subscribers": 10
         }
       }
