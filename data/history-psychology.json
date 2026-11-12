@@ -137,6 +137,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Habits Don't Take 21 Days. Here's What Research Found",
+      "topic": "A University College London study found habits took about 66 days on average to feel automatic, with a huge range between people, so the '21 days' idea is a myth.",
+      "genre": "the psychology of habits and procrastination",
+      "posted": {
+        "youtube": {
+          "id": "Ie5YMjZ_bv4",
+          "url": "https://youtube.com/shorts/Ie5YMjZ_bv4"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []

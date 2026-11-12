@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T12:36:37+00:00",
+  "updated": "2026-11-12T17:08:54+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -1193,12 +1193,64 @@
       "state": "idle",
       "consecutive_failures": 0,
       "totals": {
-        "videos": 11,
-        "youtube": 10,
+        "videos": 12,
+        "youtube": 11,
         "tiktok": 0,
         "failures": 0
       },
       "runs": [
+        {
+          "started": "2026-11-12T17:07:38+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 18.0
+            },
+            {
+              "step": "voiceover",
+              "seconds": 6.7
+            },
+            {
+              "step": "caption timing",
+              "seconds": 4.1
+            },
+            {
+              "step": "ai images",
+              "seconds": 21.9
+            },
+            {
+              "step": "render",
+              "seconds": 22.4
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.1
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 2.4
+            }
+          ],
+          "result": "posted",
+          "title": "Habits Don't Take 21 Days. Here's What Research Found",
+          "genre": "the psychology of habits and procrastination",
+          "kind": "fact",
+          "topic": "A University College London study found habits took about 66 days on average to feel automatic, with a huge range between people, so the '21 days' idea is a myth.",
+          "video": {
+            "duration": 42.2,
+            "size_mb": 8.6,
+            "mean_db": -23.0
+          },
+          "posted": {
+            "youtube": {
+              "id": "Ie5YMjZ_bv4",
+              "url": "https://youtube.com/shorts/Ie5YMjZ_bv4"
+            }
+          },
+          "finished": "2026-11-12T17:08:54+00:00",
+          "seconds": 76.2
+        },
         {
           "started": "2026-11-11T17:00:22+00:00",
           "dry_run": false,
@@ -1764,7 +1816,7 @@
         }
       ],
       "schedule": "1 a day at 17:11 Oslo (.github/workflows/psychology.yml)",
-      "last_run": "2026-11-11T17:01:49+00:00"
+      "last_run": "2026-11-12T17:08:54+00:00"
     }
   }
 }
