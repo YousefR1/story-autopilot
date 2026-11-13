@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T16:10:43+00:00",
+  "updated": "2026-11-13T19:18:54+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -7,14 +7,14 @@
         "handle": "@story_time-i2e",
         "subscribers": 15,
         "views": 1744,
-        "videos": 23
+        "videos": 24
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 23,
+      "videos": 24,
       "views": 1758,
       "likes": 106,
       "comments": 13,
-      "avg_views": 76.4,
+      "avg_views": 73.2,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -22,19 +22,28 @@
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
         "subscribers": 10,
-        "views": 1684,
-        "videos": 11
+        "views": 1695,
+        "videos": 12
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
-      "videos": 11,
-      "views": 1697,
+      "videos": 12,
+      "views": 1698,
       "likes": 51,
       "comments": 10,
-      "avg_views": 154.3,
+      "avg_views": 141.5,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
   "videos": {
+    "kEnQ7fSyHWY": {
+      "agent": "stories-1",
+      "title": "The Empty Pool Counted Its Own Laps at Night",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-13T16:33:06+00:00",
+      "views": 0,
+      "likes": 0,
+      "comments": 0
+    },
     "1fMNFmMvsVc": {
       "agent": "stories-1",
       "title": "The Streetlight That Went Dark to Warn Her",
@@ -242,6 +251,15 @@
       "likes": 12,
       "comments": 4
     },
+    "jp0tbE9ODjg": {
+      "agent": "psychology-1",
+      "title": "Paid $1 to Lie, They Started Believing It",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-13T17:00:10+00:00",
+      "views": 0,
+      "likes": 0,
+      "comments": 0
+    },
     "Ie5YMjZ_bv4": {
       "agent": "psychology-1",
       "title": "Habits Don't Take 21 Days. Here's What Research Found",
@@ -256,7 +274,7 @@
       "title": "Why You Nod Along With a Group (Asch's Famous Experiment)",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-11T17:01:49+00:00",
-      "views": 25,
+      "views": 26,
       "likes": 0,
       "comments": 0
     },
@@ -378,6 +396,19 @@
         },
         "psychology-1": {
           "views": 1697,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-13T19:18:54+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1758,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1698,
           "subscribers": 10
         }
       }
