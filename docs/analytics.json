@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-13T10:19:55+00:00",
+  "updated": "2026-11-13T13:32:21+00:00",
   "agents": {
     "stories-1": {
       "channel": {
         "title": "Content_Support",
         "handle": "@story_time-i2e",
         "subscribers": 15,
-        "views": 1706,
-        "videos": 22
+        "views": 1744,
+        "videos": 23
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 22,
-      "views": 1744,
+      "videos": 23,
+      "views": 1753,
       "likes": 106,
       "comments": 13,
-      "avg_views": 79.3,
+      "avg_views": 76.2,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -27,14 +27,23 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 11,
-      "views": 1695,
+      "views": 1696,
       "likes": 51,
       "comments": 10,
-      "avg_views": 154.1,
+      "avg_views": 154.2,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
   "videos": {
+    "1fMNFmMvsVc": {
+      "agent": "stories-1",
+      "title": "The Streetlight That Went Dark to Warn Her",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-13T12:37:15+00:00",
+      "views": 9,
+      "likes": 0,
+      "comments": 0
+    },
     "7sCOUzLtElY": {
       "agent": "stories-1",
       "title": "The Piano Tuner Nobody Called",
@@ -247,7 +256,7 @@
       "title": "Why You Nod Along With a Group (Asch's Famous Experiment)",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-11T17:01:49+00:00",
-      "views": 24,
+      "views": 25,
       "likes": 0,
       "comments": 0
     },
@@ -343,6 +352,19 @@
         },
         "psychology-1": {
           "views": 1695,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-13T13:32:21+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1753,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1696,
           "subscribers": 10
         }
       }
