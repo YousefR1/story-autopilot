@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T12:37:15+00:00",
+  "updated": "2026-11-13T16:33:06+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -11,12 +11,64 @@
       "state": "idle",
       "consecutive_failures": 0,
       "totals": {
-        "videos": 24,
-        "youtube": 23,
+        "videos": 25,
+        "youtube": 24,
         "tiktok": 0,
         "failures": 3
       },
       "runs": [
+        {
+          "started": "2026-11-13T16:31:11+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 33.5
+            },
+            {
+              "step": "voiceover",
+              "seconds": 9.0
+            },
+            {
+              "step": "caption timing",
+              "seconds": 4.5
+            },
+            {
+              "step": "ai images",
+              "seconds": 22.6
+            },
+            {
+              "step": "render",
+              "seconds": 43.0
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.2
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 1.6
+            }
+          ],
+          "result": "posted",
+          "title": "The Empty Pool Counted Its Own Laps at Night",
+          "genre": "creepy short fiction with a twist ending (clearly fiction)",
+          "kind": "fiction",
+          "topic": "A night-shift lifeguard hears splashing in an empty indoor pool and finds the swimmer is the reflection of a girl who is standing behind him, a ghost who only wanted someone to count her laps",
+          "video": {
+            "duration": 59.9,
+            "size_mb": 12.3,
+            "mean_db": -23.8
+          },
+          "posted": {
+            "youtube": {
+              "id": "kEnQ7fSyHWY",
+              "url": "https://youtube.com/shorts/kEnQ7fSyHWY"
+            }
+          },
+          "finished": "2026-11-13T16:33:06+00:00",
+          "seconds": 115.2
+        },
         {
           "started": "2026-11-13T12:35:15+00:00",
           "dry_run": false,
@@ -1285,7 +1337,7 @@
         }
       ],
       "schedule": "Runs daily from .github/workflows/daily.yml (edit the cron line there).",
-      "last_run": "2026-11-13T12:37:15+00:00"
+      "last_run": "2026-11-13T16:33:06+00:00"
     },
     "psychology-1": {
       "id": "psychology-1",
