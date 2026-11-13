@@ -150,6 +150,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Paid $1 to Lie, They Started Believing It",
+      "topic": "Festinger and Carlsmith's cognitive dissonance experiment: people paid only $1 to say a boring task was fun later rated it as more enjoyable than people paid $20",
+      "genre": "a famous psychology experiment and what it revealed",
+      "posted": {
+        "youtube": {
+          "id": "jp0tbE9ODjg",
+          "url": "https://youtube.com/shorts/jp0tbE9ODjg"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
