@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T19:33:55+00:00",
+  "updated": "2026-11-13T12:37:15+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -11,12 +11,64 @@
       "state": "idle",
       "consecutive_failures": 0,
       "totals": {
-        "videos": 23,
-        "youtube": 22,
+        "videos": 24,
+        "youtube": 23,
         "tiktok": 0,
         "failures": 3
       },
       "runs": [
+        {
+          "started": "2026-11-13T12:35:15+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 43.4
+            },
+            {
+              "step": "voiceover",
+              "seconds": 10.3
+            },
+            {
+              "step": "caption timing",
+              "seconds": 6.5
+            },
+            {
+              "step": "ai images",
+              "seconds": 18.8
+            },
+            {
+              "step": "render",
+              "seconds": 38.5
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.2
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 2.2
+            }
+          ],
+          "result": "posted",
+          "title": "The Streetlight That Went Dark to Warn Her",
+          "genre": "eerie urban-legend style tale (presented as legend, not fact)",
+          "kind": "legend",
+          "topic": "A town legend about a single streetlight that goes dark as a warning, and the baker who obeyed it.",
+          "video": {
+            "duration": 57.9,
+            "size_mb": 14.0,
+            "mean_db": -24.5
+          },
+          "posted": {
+            "youtube": {
+              "id": "1fMNFmMvsVc",
+              "url": "https://youtube.com/shorts/1fMNFmMvsVc"
+            }
+          },
+          "finished": "2026-11-13T12:37:15+00:00",
+          "seconds": 120.5
+        },
         {
           "started": "2026-11-12T19:32:08+00:00",
           "dry_run": false,
@@ -1233,7 +1285,7 @@
         }
       ],
       "schedule": "Runs daily from .github/workflows/daily.yml (edit the cron line there).",
-      "last_run": "2026-11-12T19:33:55+00:00"
+      "last_run": "2026-11-13T12:37:15+00:00"
     },
     "psychology-1": {
       "id": "psychology-1",

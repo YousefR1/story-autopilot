@@ -293,6 +293,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-13",
+      "title": "The Streetlight That Went Dark to Warn Her",
+      "topic": "A town legend about a single streetlight that goes dark as a warning, and the baker who obeyed it.",
+      "genre": "eerie urban-legend style tale (presented as legend, not fact)",
+      "posted": {
+        "youtube": {
+          "id": "1fMNFmMvsVc",
+          "url": "https://youtube.com/shorts/1fMNFmMvsVc"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
