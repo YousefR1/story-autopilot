@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T01:31:43+00:00",
+  "updated": "2026-11-13T04:18:28+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -27,10 +27,10 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 11,
-      "views": 1684,
+      "views": 1691,
       "likes": 51,
       "comments": 10,
-      "avg_views": 153.1,
+      "avg_views": 153.7,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -238,7 +238,7 @@
       "title": "Habits Don't Take 21 Days. Here's What Research Found",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-12T17:08:54+00:00",
-      "views": 28,
+      "views": 34,
       "likes": 1,
       "comments": 0
     },
@@ -247,7 +247,7 @@
       "title": "Why You Nod Along With a Group (Asch's Famous Experiment)",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-11T17:01:49+00:00",
-      "views": 22,
+      "views": 23,
       "likes": 0,
       "comments": 0
     },
@@ -421,6 +421,19 @@
         },
         "psychology-1": {
           "views": 1684,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-13T04:18:28+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1745,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1691,
           "subscribers": 10
         }
       }
