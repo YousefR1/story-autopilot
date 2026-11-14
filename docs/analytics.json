@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T10:05:51+00:00",
+  "updated": "2026-11-14T13:15:29+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -7,14 +7,14 @@
         "handle": "@story_time-i2e",
         "subscribers": 15,
         "views": 1801,
-        "videos": 25
+        "videos": 26
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 25,
-      "views": 1813,
+      "videos": 26,
+      "views": 1818,
       "likes": 107,
       "comments": 13,
-      "avg_views": 72.5,
+      "avg_views": 69.9,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -35,6 +35,15 @@
     }
   },
   "videos": {
+    "PREOvXp5k0k": {
+      "agent": "stories-1",
+      "title": "Alone in Antarctica: Mawson's Impossible Walk Home",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-14T12:17:58+00:00",
+      "views": 4,
+      "likes": 0,
+      "comments": 0
+    },
     "JJalMY0w1KU": {
       "agent": "stories-1",
       "title": "The Lost Colony That Left Only One Word Behind",
@@ -67,7 +76,7 @@
       "title": "The Piano Tuner Nobody Called",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-12T19:33:55+00:00",
-      "views": 3,
+      "views": 4,
       "likes": 0,
       "comments": 0
     },
@@ -375,6 +384,19 @@
       "agents": {
         "stories-1": {
           "views": 1813,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1715,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-14T13:15:29+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1818,
           "subscribers": 15
         },
         "psychology-1": {
