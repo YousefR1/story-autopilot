@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T16:47:45+00:00",
+  "updated": "2026-11-14T19:24:02+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -11,12 +11,64 @@
       "state": "idle",
       "consecutive_failures": 0,
       "totals": {
-        "videos": 27,
-        "youtube": 26,
+        "videos": 28,
+        "youtube": 27,
         "tiktok": 0,
         "failures": 3
       },
       "runs": [
+        {
+          "started": "2026-11-14T19:22:39+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 16.8
+            },
+            {
+              "step": "voiceover",
+              "seconds": 9.2
+            },
+            {
+              "step": "caption timing",
+              "seconds": 3.2
+            },
+            {
+              "step": "ai images",
+              "seconds": 18.5
+            },
+            {
+              "step": "render",
+              "seconds": 32.3
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.2
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 2.2
+            }
+          ],
+          "result": "posted",
+          "title": "The Smell That Forced Parliament to Flee in 1858",
+          "genre": "strange but true moment from history (well documented)",
+          "kind": "true",
+          "topic": "The Great Stink of London in 1858, when the stench of the Thames forced Parliament to approve the city's modern sewer system",
+          "video": {
+            "duration": 52.0,
+            "size_mb": 12.8,
+            "mean_db": -23.5
+          },
+          "posted": {
+            "youtube": {
+              "id": "EJkgEFNVvU8",
+              "url": "https://youtube.com/shorts/EJkgEFNVvU8"
+            }
+          },
+          "finished": "2026-11-14T19:24:02+00:00",
+          "seconds": 83.0
+        },
         {
           "started": "2026-11-14T12:16:24+00:00",
           "dry_run": false,
@@ -1441,7 +1493,7 @@
         }
       ],
       "schedule": "Runs daily from .github/workflows/daily.yml (edit the cron line there).",
-      "last_run": "2026-11-14T12:17:58+00:00"
+      "last_run": "2026-11-14T19:24:02+00:00"
     },
     "psychology-1": {
       "id": "psychology-1",

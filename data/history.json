@@ -345,6 +345,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-14",
+      "title": "The Smell That Forced Parliament to Flee in 1858",
+      "topic": "The Great Stink of London in 1858, when the stench of the Thames forced Parliament to approve the city's modern sewer system",
+      "genre": "strange but true moment from history (well documented)",
+      "posted": {
+        "youtube": {
+          "id": "EJkgEFNVvU8",
+          "url": "https://youtube.com/shorts/EJkgEFNVvU8"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
