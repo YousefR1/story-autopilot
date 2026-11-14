@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-14T01:27:42+00:00",
+  "updated": "2026-11-14T04:14:17+00:00",
   "agents": {
     "stories-1": {
       "channel": {
         "title": "Content_Support",
         "handle": "@story_time-i2e",
         "subscribers": 15,
-        "views": 1744,
+        "views": 1801,
         "videos": 25
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 25,
-      "views": 1808,
+      "views": 1809,
       "likes": 107,
       "comments": 13,
-      "avg_views": 72.3,
+      "avg_views": 72.4,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -22,7 +22,7 @@
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
         "subscribers": 10,
-        "views": 1695,
+        "views": 1714,
         "videos": 12
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
@@ -40,7 +40,7 @@
       "title": "The Lost Colony That Left Only One Word Behind",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-13T19:34:44+00:00",
-      "views": 46,
+      "views": 47,
       "likes": 1,
       "comments": 0
     },
@@ -440,6 +440,19 @@
       "agents": {
         "stories-1": {
           "views": 1808,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1715,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-14T04:14:17+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1809,
           "subscribers": 15
         },
         "psychology-1": {
