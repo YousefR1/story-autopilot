@@ -332,6 +332,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-14",
+      "title": "Alone in Antarctica: Mawson's Impossible Walk Home",
+      "topic": "In 1912, Antarctic explorer Douglas Mawson loses both companions and walks back alone across the ice, reaching base hours after his ship sailed.",
+      "genre": "remarkable true survival story (well documented)",
+      "posted": {
+        "youtube": {
+          "id": "PREOvXp5k0k",
+          "url": "https://youtube.com/shorts/PREOvXp5k0k"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
