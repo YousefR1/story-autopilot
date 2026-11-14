@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T22:04:06+00:00",
+  "updated": "2026-11-14T01:27:42+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -11,10 +11,10 @@
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 25,
-      "views": 1792,
-      "likes": 106,
+      "views": 1808,
+      "likes": 107,
       "comments": 13,
-      "avg_views": 71.7,
+      "avg_views": 72.3,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -27,10 +27,10 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 12,
-      "views": 1709,
+      "views": 1715,
       "likes": 51,
       "comments": 10,
-      "avg_views": 142.4,
+      "avg_views": 142.9,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -40,8 +40,8 @@
       "title": "The Lost Colony That Left Only One Word Behind",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-13T19:34:44+00:00",
-      "views": 32,
-      "likes": 0,
+      "views": 46,
+      "likes": 1,
       "comments": 0
     },
     "kEnQ7fSyHWY": {
@@ -94,7 +94,7 @@
       "title": "The Secret Code at the CIA That Nobody Can Crack",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-11T12:38:12+00:00",
-      "views": 8,
+      "views": 9,
       "likes": 1,
       "comments": 0
     },
@@ -139,7 +139,7 @@
       "title": "133 Days Alone on a Raft: The Poon Lim Survival Story",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-08T12:17:27+00:00",
-      "views": 633,
+      "views": 634,
       "likes": 14,
       "comments": 0
     },
@@ -265,7 +265,7 @@
       "title": "Paid $1 to Lie, They Started Believing It",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-13T17:00:10+00:00",
-      "views": 7,
+      "views": 12,
       "likes": 0,
       "comments": 0
     },
@@ -274,7 +274,7 @@
       "title": "Habits Don't Take 21 Days. Here's What Research Found",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-12T17:08:54+00:00",
-      "views": 41,
+      "views": 42,
       "likes": 1,
       "comments": 0
     },
@@ -431,6 +431,19 @@
         },
         "psychology-1": {
           "views": 1709,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-14T01:27:42+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1808,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1715,
           "subscribers": 10
         }
       }
