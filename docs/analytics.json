@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-14T19:07:53+00:00",
+  "updated": "2026-11-14T21:55:34+00:00",
   "agents": {
     "stories-1": {
       "channel": {
         "title": "Content_Support",
         "handle": "@story_time-i2e",
         "subscribers": 15,
-        "views": 1801,
-        "videos": 26
+        "views": 1813,
+        "videos": 27
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 26,
-      "views": 1903,
+      "videos": 27,
+      "views": 1962,
       "likes": 119,
       "comments": 13,
-      "avg_views": 73.2,
+      "avg_views": 72.7,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -35,12 +35,21 @@
     }
   },
   "videos": {
+    "EJkgEFNVvU8": {
+      "agent": "stories-1",
+      "title": "The Smell That Forced Parliament to Flee in 1858",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-14T19:24:02+00:00",
+      "views": 46,
+      "likes": 0,
+      "comments": 0
+    },
     "PREOvXp5k0k": {
       "agent": "stories-1",
       "title": "Alone in Antarctica: Mawson's Impossible Walk Home",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-14T12:17:58+00:00",
-      "views": 60,
+      "views": 72,
       "likes": 2,
       "comments": 0
     },
@@ -49,7 +58,7 @@
       "title": "The Lost Colony That Left Only One Word Behind",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-13T19:34:44+00:00",
-      "views": 51,
+      "views": 52,
       "likes": 2,
       "comments": 0
     },
@@ -432,6 +441,19 @@
       "agents": {
         "stories-1": {
           "views": 1903,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1728,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-14T21:55:34+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1962,
           "subscribers": 15
         },
         "psychology-1": {
