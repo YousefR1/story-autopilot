@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T10:06:27+00:00",
+  "updated": "2026-11-15T13:18:02+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -7,14 +7,14 @@
         "handle": "@story_time-i2e",
         "subscribers": 15,
         "views": 1990,
-        "videos": 27
+        "videos": 28
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 27,
+      "videos": 28,
       "views": 2009,
       "likes": 120,
       "comments": 13,
-      "avg_views": 74.4,
+      "avg_views": 71.8,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -28,13 +28,22 @@
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 13,
       "views": 1756,
-      "likes": 54,
+      "likes": 55,
       "comments": 10,
       "avg_views": 135.1,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
   "videos": {
+    "EnBG_ZrtR5k": {
+      "agent": "stories-1",
+      "title": "The Bus Driver Gave Away His Coat. Then Came Morning.",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-15T12:19:17+00:00",
+      "views": 0,
+      "likes": 0,
+      "comments": 0
+    },
     "EJkgEFNVvU8": {
       "agent": "stories-1",
       "title": "The Smell That Forced Parliament to Flee in 1858",
@@ -293,7 +302,7 @@
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-13T17:00:10+00:00",
       "views": 14,
-      "likes": 0,
+      "likes": 1,
       "comments": 0
     },
     "Ie5YMjZ_bv4": {
@@ -399,6 +408,19 @@
   "history": [
     {
       "time": "2026-11-15T10:06:27+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2009,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1756,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-15T13:18:02+00:00",
       "agents": {
         "stories-1": {
           "views": 2009,
