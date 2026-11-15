@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T01:31:57+00:00",
+  "updated": "2026-11-15T04:16:15+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -11,10 +11,10 @@
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 27,
-      "views": 1973,
+      "views": 2003,
       "likes": 120,
       "comments": 13,
-      "avg_views": 73.1,
+      "avg_views": 74.2,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -40,7 +40,7 @@
       "title": "The Smell That Forced Parliament to Flee in 1858",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-14T19:24:02+00:00",
-      "views": 52,
+      "views": 82,
       "likes": 1,
       "comments": 0
     },
@@ -467,6 +467,19 @@
       "agents": {
         "stories-1": {
           "views": 1973,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1754,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-15T04:16:15+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2003,
           "subscribers": 15
         },
         "psychology-1": {
