@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T15:58:22+00:00",
+  "updated": "2026-11-15T19:09:04+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -10,11 +10,11 @@
         "videos": 28
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 28,
-      "views": 2009,
+      "videos": 29,
+      "views": 2017,
       "likes": 120,
       "comments": 13,
-      "avg_views": 71.8,
+      "avg_views": 69.6,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -22,25 +22,34 @@
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
         "subscribers": 10,
-        "views": 1752,
-        "videos": 13
+        "views": 1756,
+        "videos": 14
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
-      "videos": 13,
-      "views": 1757,
+      "videos": 14,
+      "views": 1766,
       "likes": 54,
       "comments": 10,
-      "avg_views": 135.2,
+      "avg_views": 126.1,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
   "videos": {
+    "2AyEjymmY8I": {
+      "agent": "stories-1",
+      "title": "The 2 A.M. Train Stop That Isn't on Any Map",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-15T16:18:26+00:00",
+      "views": 4,
+      "likes": 0,
+      "comments": 0
+    },
     "EnBG_ZrtR5k": {
       "agent": "stories-1",
       "title": "The Bus Driver Gave Away His Coat. Then Came Morning.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-15T12:19:17+00:00",
-      "views": 0,
+      "views": 4,
       "likes": 0,
       "comments": 0
     },
@@ -287,12 +296,21 @@
       "likes": 12,
       "comments": 4
     },
+    "HCaU1pIudas": {
+      "agent": "psychology-1",
+      "title": "Your Eyes Can Change What You Hear (McGurk Effect)",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-15T16:49:06+00:00",
+      "views": 8,
+      "likes": 0,
+      "comments": 0
+    },
     "pTKJbAeHEaI": {
       "agent": "psychology-1",
       "title": "Why You Copy People's Body Language Without Noticing",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-14T16:47:45+00:00",
-      "views": 38,
+      "views": 39,
       "likes": 3,
       "comments": 0
     },
@@ -441,6 +459,19 @@
         },
         "psychology-1": {
           "views": 1757,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-15T19:09:04+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2017,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1766,
           "subscribers": 10
         }
       }
