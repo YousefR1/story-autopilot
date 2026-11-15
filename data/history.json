@@ -371,6 +371,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-15",
+      "title": "The 2 A.M. Train Stop That Isn't on Any Map",
+      "topic": "An urban legend about a late-night train that announces a nonexistent station, and the woman who refuses to step off.",
+      "genre": "eerie urban-legend style tale (presented as legend, not fact)",
+      "posted": {
+        "youtube": {
+          "id": "2AyEjymmY8I",
+          "url": "https://youtube.com/shorts/2AyEjymmY8I"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []

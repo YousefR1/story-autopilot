@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T12:19:17+00:00",
+  "updated": "2026-11-15T16:18:26+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -11,12 +11,64 @@
       "state": "idle",
       "consecutive_failures": 0,
       "totals": {
-        "videos": 29,
-        "youtube": 28,
+        "videos": 30,
+        "youtube": 29,
         "tiktok": 0,
         "failures": 3
       },
       "runs": [
+        {
+          "started": "2026-11-15T16:17:02+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 20.3
+            },
+            {
+              "step": "voiceover",
+              "seconds": 8.5
+            },
+            {
+              "step": "caption timing",
+              "seconds": 3.4
+            },
+            {
+              "step": "ai images",
+              "seconds": 20.1
+            },
+            {
+              "step": "render",
+              "seconds": 27.3
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.1
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 3.1
+            }
+          ],
+          "result": "posted",
+          "title": "The 2 A.M. Train Stop That Isn't on Any Map",
+          "genre": "eerie urban-legend style tale (presented as legend, not fact)",
+          "kind": "legend",
+          "topic": "An urban legend about a late-night train that announces a nonexistent station, and the woman who refuses to step off.",
+          "video": {
+            "duration": 45.8,
+            "size_mb": 9.4,
+            "mean_db": -24.4
+          },
+          "posted": {
+            "youtube": {
+              "id": "2AyEjymmY8I",
+              "url": "https://youtube.com/shorts/2AyEjymmY8I"
+            }
+          },
+          "finished": "2026-11-15T16:18:26+00:00",
+          "seconds": 83.3
+        },
         {
           "started": "2026-11-15T12:18:00+00:00",
           "dry_run": false,
@@ -1545,7 +1597,7 @@
         }
       ],
       "schedule": "Runs daily from .github/workflows/daily.yml (edit the cron line there).",
-      "last_run": "2026-11-15T12:19:17+00:00"
+      "last_run": "2026-11-15T16:18:26+00:00"
     },
     "psychology-1": {
       "id": "psychology-1",
