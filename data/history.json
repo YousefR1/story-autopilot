@@ -358,6 +358,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-15",
+      "title": "The Bus Driver Gave Away His Coat. Then Came Morning.",
+      "topic": "A night-shift bus driver notices a boy without a coat at a freezing stop, and the next morning discovers a neighborhood has quietly answered his small kindness with a hundred coats.",
+      "genre": "heartwarming short fiction about an unexpected act of kindness",
+      "posted": {
+        "youtube": {
+          "id": "EnBG_ZrtR5k",
+          "url": "https://youtube.com/shorts/EnBG_ZrtR5k"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
