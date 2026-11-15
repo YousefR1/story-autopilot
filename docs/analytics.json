@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T21:55:34+00:00",
+  "updated": "2026-11-15T01:31:57+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -11,10 +11,10 @@
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 27,
-      "views": 1962,
-      "likes": 119,
+      "views": 1973,
+      "likes": 120,
       "comments": 13,
-      "avg_views": 72.7,
+      "avg_views": 73.1,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -27,10 +27,10 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 13,
-      "views": 1728,
-      "likes": 51,
+      "views": 1754,
+      "likes": 54,
       "comments": 10,
-      "avg_views": 132.9,
+      "avg_views": 134.9,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -40,8 +40,8 @@
       "title": "The Smell That Forced Parliament to Flee in 1858",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-14T19:24:02+00:00",
-      "views": 46,
-      "likes": 0,
+      "views": 52,
+      "likes": 1,
       "comments": 0
     },
     "PREOvXp5k0k": {
@@ -49,7 +49,7 @@
       "title": "Alone in Antarctica: Mawson's Impossible Walk Home",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-14T12:17:58+00:00",
-      "views": 72,
+      "views": 77,
       "likes": 2,
       "comments": 0
     },
@@ -283,8 +283,8 @@
       "title": "Why You Copy People's Body Language Without Noticing",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-14T16:47:45+00:00",
-      "views": 12,
-      "likes": 0,
+      "views": 37,
+      "likes": 3,
       "comments": 0
     },
     "jp0tbE9ODjg": {
@@ -292,7 +292,7 @@
       "title": "Paid $1 to Lie, They Started Believing It",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-13T17:00:10+00:00",
-      "views": 12,
+      "views": 13,
       "likes": 0,
       "comments": 0
     },
@@ -458,6 +458,19 @@
         },
         "psychology-1": {
           "views": 1728,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-15T01:31:57+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 1973,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1754,
           "subscribers": 10
         }
       }
