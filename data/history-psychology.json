@@ -176,6 +176,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-15",
+      "title": "Your Eyes Can Change What You Hear (McGurk Effect)",
+      "topic": "The McGurk effect: what you see on a speaker's lips can change the sound you think you hear.",
+      "genre": "why the brain falls for certain tricks and illusions",
+      "posted": {
+        "youtube": {
+          "id": "HCaU1pIudas",
+          "url": "https://youtube.com/shorts/HCaU1pIudas"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
