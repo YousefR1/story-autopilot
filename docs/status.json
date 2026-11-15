@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T16:49:06+00:00",
+  "updated": "2026-11-15T19:25:08+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -11,12 +11,64 @@
       "state": "idle",
       "consecutive_failures": 0,
       "totals": {
-        "videos": 30,
-        "youtube": 29,
+        "videos": 31,
+        "youtube": 30,
         "tiktok": 0,
         "failures": 3
       },
       "runs": [
+        {
+          "started": "2026-11-15T19:23:25+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 44.1
+            },
+            {
+              "step": "voiceover",
+              "seconds": 7.4
+            },
+            {
+              "step": "caption timing",
+              "seconds": 2.8
+            },
+            {
+              "step": "ai images",
+              "seconds": 17.0
+            },
+            {
+              "step": "render",
+              "seconds": 29.2
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.1
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 1.9
+            }
+          ],
+          "result": "posted",
+          "title": "The Canyon Echo Answered One Second Too Late",
+          "genre": "creepy short fiction with a twist ending (clearly fiction)",
+          "kind": "fiction",
+          "topic": "A lone hiker realizes the late 'echo' in a canyon is really a stranded man repeating her words so she won't leave.",
+          "video": {
+            "duration": 47.9,
+            "size_mb": 10.7,
+            "mean_db": -23.9
+          },
+          "posted": {
+            "youtube": {
+              "id": "0aml-0D_-jg",
+              "url": "https://youtube.com/shorts/0aml-0D_-jg"
+            }
+          },
+          "finished": "2026-11-15T19:25:08+00:00",
+          "seconds": 103.3
+        },
         {
           "started": "2026-11-15T16:17:02+00:00",
           "dry_run": false,
@@ -1597,7 +1649,7 @@
         }
       ],
       "schedule": "Runs daily from .github/workflows/daily.yml (edit the cron line there).",
-      "last_run": "2026-11-15T16:18:26+00:00"
+      "last_run": "2026-11-15T19:25:08+00:00"
     },
     "psychology-1": {
       "id": "psychology-1",
