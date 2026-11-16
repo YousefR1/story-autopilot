@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T15:30:05+00:00",
+  "updated": "2026-11-16T19:21:35+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -22,15 +22,15 @@
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
         "subscribers": 10,
-        "views": 1780,
-        "videos": 14
+        "views": 1784,
+        "videos": 15
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
-      "videos": 14,
-      "views": 1784,
+      "videos": 15,
+      "views": 1786,
       "likes": 55,
       "comments": 10,
-      "avg_views": 127.4,
+      "avg_views": 119.1,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -305,12 +305,21 @@
       "likes": 12,
       "comments": 4
     },
+    "-HDnEQ5GrOI": {
+      "agent": "psychology-1",
+      "title": "Why Nostalgia Feels Warm and Sad at the Same Time",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-16T17:21:52+00:00",
+      "views": 0,
+      "likes": 0,
+      "comments": 0
+    },
     "HCaU1pIudas": {
       "agent": "psychology-1",
       "title": "Your Eyes Can Change What You Hear (McGurk Effect)",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-15T16:49:06+00:00",
-      "views": 21,
+      "views": 22,
       "likes": 1,
       "comments": 0
     },
@@ -328,7 +337,7 @@
       "title": "Paid $1 to Lie, They Started Believing It",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-13T17:00:10+00:00",
-      "views": 14,
+      "views": 15,
       "likes": 0,
       "comments": 0
     },
@@ -455,6 +464,19 @@
         },
         "psychology-1": {
           "views": 1784,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-16T19:21:35+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2035,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1786,
           "subscribers": 10
         }
       }
