@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T14:08:21+00:00",
+  "updated": "2026-11-16T17:21:52+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -1670,12 +1670,64 @@
       "state": "idle",
       "consecutive_failures": 0,
       "totals": {
-        "videos": 15,
-        "youtube": 14,
+        "videos": 16,
+        "youtube": 15,
         "tiktok": 0,
         "failures": 0
       },
       "runs": [
+        {
+          "started": "2026-11-16T17:20:25+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 17.3
+            },
+            {
+              "step": "voiceover",
+              "seconds": 9.2
+            },
+            {
+              "step": "caption timing",
+              "seconds": 4.9
+            },
+            {
+              "step": "ai images",
+              "seconds": 21.3
+            },
+            {
+              "step": "render",
+              "seconds": 32.3
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.1
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 1.8
+            }
+          ],
+          "result": "posted",
+          "title": "Why Nostalgia Feels Warm and Sad at the Same Time",
+          "genre": "the science of emotions like boredom, nostalgia or awkwardness",
+          "kind": "fact",
+          "topic": "Nostalgia was named for the pain of missing home, and research by Sedikides and Wildschut suggests nostalgic memories are mostly social and tend to make people feel more connected and that life has meaning.",
+          "video": {
+            "duration": 54.4,
+            "size_mb": 11.5,
+            "mean_db": -22.8
+          },
+          "posted": {
+            "youtube": {
+              "id": "-HDnEQ5GrOI",
+              "url": "https://youtube.com/shorts/-HDnEQ5GrOI"
+            }
+          },
+          "finished": "2026-11-16T17:21:52+00:00",
+          "seconds": 87.4
+        },
         {
           "started": "2026-11-15T16:47:56+00:00",
           "dry_run": false,
@@ -2449,7 +2501,7 @@
         }
       ],
       "schedule": "1 a day at 17:11 Oslo (.github/workflows/psychology.yml)",
-      "last_run": "2026-11-15T16:49:06+00:00"
+      "last_run": "2026-11-16T17:21:52+00:00"
     }
   }
 }
