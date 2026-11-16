@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T01:48:30+00:00",
+  "updated": "2026-11-16T04:55:51+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -11,7 +11,7 @@
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 30,
-      "views": 2033,
+      "views": 2034,
       "likes": 120,
       "comments": 13,
       "avg_views": 67.8,
@@ -22,7 +22,7 @@
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
         "subscribers": 10,
-        "views": 1756,
+        "views": 1780,
         "videos": 14
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
@@ -58,7 +58,7 @@
       "title": "The Bus Driver Gave Away His Coat. Then Came Morning.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-15T12:19:17+00:00",
-      "views": 7,
+      "views": 10,
       "likes": 0,
       "comments": 0
     },
@@ -130,7 +130,7 @@
       "title": "Four Men Left Her Behind in the Arctic. She Outlived Them All.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-11T19:38:24+00:00",
-      "views": 27,
+      "views": 25,
       "likes": 2,
       "comments": 0
     },
@@ -503,6 +503,19 @@
       "agents": {
         "stories-1": {
           "views": 2033,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1784,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-16T04:55:51+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2034,
           "subscribers": 15
         },
         "psychology-1": {
