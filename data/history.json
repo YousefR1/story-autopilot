@@ -397,6 +397,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": "The Town That Couldn't Stop Dancing in 1518",
+      "topic": "The Dancing Plague of 1518 in Strasbourg, where a woman began dancing in the street and hundreds reportedly joined her, and the cause is still debated",
+      "genre": "unsolved real-world mystery (well documented)",
+      "posted": {
+        "youtube": {
+          "id": "n_FUbPaSvuo",
+          "url": "https://youtube.com/shorts/n_FUbPaSvuo"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
