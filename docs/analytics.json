@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-17T16:17:52+00:00",
+  "updated": "2026-11-17T19:26:26+00:00",
   "agents": {
     "stories-1": {
       "channel": {
         "title": "Content_Support",
         "handle": "@story_time-i2e",
         "subscribers": 15,
-        "views": 2059,
+        "views": 2096,
         "videos": 32
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 32,
-      "views": 2101,
+      "views": 2135,
       "likes": 121,
       "comments": 13,
-      "avg_views": 65.7,
+      "avg_views": 66.7,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -22,15 +22,15 @@
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
         "subscribers": 10,
-        "views": 1791,
-        "videos": 15
+        "views": 1796,
+        "videos": 16
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
-      "videos": 15,
+      "videos": 16,
       "views": 1799,
       "likes": 55,
       "comments": 10,
-      "avg_views": 119.9,
+      "avg_views": 112.4,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -40,7 +40,7 @@
       "title": "Tape, Cardboard, and a Lifeboat in Space: Apollo 13",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-17T12:33:38+00:00",
-      "views": 5,
+      "views": 39,
       "likes": 0,
       "comments": 0
     },
@@ -323,6 +323,15 @@
       "likes": 12,
       "comments": 4
     },
+    "uWlpgvdwnf4": {
+      "agent": "psychology-1",
+      "title": "Why You Forget Things the Moment You Walk Through a Door",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-17T17:11:35+00:00",
+      "views": 0,
+      "likes": 0,
+      "comments": 0
+    },
     "-HDnEQ5GrOI": {
       "agent": "psychology-1",
       "title": "Why Nostalgia Feels Warm and Sad at the Same Time",
@@ -491,6 +500,19 @@
       "agents": {
         "stories-1": {
           "views": 2101,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1799,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-17T19:26:26+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2135,
           "subscribers": 15
         },
         "psychology-1": {
