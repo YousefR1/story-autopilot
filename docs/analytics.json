@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T10:27:24+00:00",
+  "updated": "2026-11-17T13:36:24+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -7,14 +7,14 @@
         "handle": "@story_time-i2e",
         "subscribers": 15,
         "views": 2059,
-        "videos": 31
+        "videos": 32
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 31,
-      "views": 2094,
+      "videos": 32,
+      "views": 2124,
       "likes": 121,
       "comments": 13,
-      "avg_views": 67.5,
+      "avg_views": 66.4,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -27,14 +27,23 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 15,
-      "views": 1796,
+      "views": 1798,
       "likes": 55,
       "comments": 10,
-      "avg_views": 119.7,
+      "avg_views": 119.9,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
   "videos": {
+    "LSQwcEyPitM": {
+      "agent": "stories-1",
+      "title": "Tape, Cardboard, and a Lifeboat in Space: Apollo 13",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-17T12:33:38+00:00",
+      "views": 28,
+      "likes": 0,
+      "comments": 0
+    },
     "n_FUbPaSvuo": {
       "agent": "stories-1",
       "title": "The Town That Couldn't Stop Dancing in 1518",
@@ -94,7 +103,7 @@
       "title": "The Lost Colony That Left Only One Word Behind",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-13T19:34:44+00:00",
-      "views": 53,
+      "views": 55,
       "likes": 2,
       "comments": 0
     },
@@ -328,7 +337,7 @@
       "title": "Your Eyes Can Change What You Hear (McGurk Effect)",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-15T16:49:06+00:00",
-      "views": 28,
+      "views": 30,
       "likes": 1,
       "comments": 0
     },
@@ -460,6 +469,19 @@
         },
         "psychology-1": {
           "views": 1796,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-17T13:36:24+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2124,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1798,
           "subscribers": 10
         }
       }
