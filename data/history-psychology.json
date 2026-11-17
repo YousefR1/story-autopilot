@@ -202,6 +202,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Why You Forget Things the Moment You Walk Through a Door",
+      "topic": "The doorway effect: passing through a doorway tends to make people forget what they were just thinking about, because the brain treats it like a boundary between scenes in memory.",
+      "genre": "a surprising quirk of how memory works",
+      "posted": {
+        "youtube": {
+          "id": "uWlpgvdwnf4",
+          "url": "https://youtube.com/shorts/uWlpgvdwnf4"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
