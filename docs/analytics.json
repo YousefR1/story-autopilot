@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T13:36:24+00:00",
+  "updated": "2026-11-17T16:17:52+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -11,10 +11,10 @@
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 32,
-      "views": 2124,
+      "views": 2101,
       "likes": 121,
       "comments": 13,
-      "avg_views": 66.4,
+      "avg_views": 65.7,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -27,7 +27,7 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 15,
-      "views": 1798,
+      "views": 1799,
       "likes": 55,
       "comments": 10,
       "avg_views": 119.9,
@@ -40,7 +40,7 @@
       "title": "Tape, Cardboard, and a Lifeboat in Space: Apollo 13",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-17T12:33:38+00:00",
-      "views": 28,
+      "views": 5,
       "likes": 0,
       "comments": 0
     },
@@ -328,7 +328,7 @@
       "title": "Why Nostalgia Feels Warm and Sad at the Same Time",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-16T17:21:52+00:00",
-      "views": 4,
+      "views": 5,
       "likes": 0,
       "comments": 0
     },
@@ -482,6 +482,19 @@
         },
         "psychology-1": {
           "views": 1798,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-17T16:17:52+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2101,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1799,
           "subscribers": 10
         }
       }
