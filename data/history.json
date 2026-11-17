@@ -410,6 +410,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Tape, Cardboard, and a Lifeboat in Space: Apollo 13",
+      "topic": "The Apollo 13 crew survives an oxygen tank explosion in 1970 by using the lunar module as a lifeboat and building an improvised air filter from spare parts.",
+      "genre": "remarkable true survival story (well documented)",
+      "posted": {
+        "youtube": {
+          "id": "LSQwcEyPitM",
+          "url": "https://youtube.com/shorts/LSQwcEyPitM"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
