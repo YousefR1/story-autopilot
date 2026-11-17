@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T22:08:03+00:00",
+  "updated": "2026-11-17T01:37:50+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -11,10 +11,10 @@
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 31,
-      "views": 2046,
+      "views": 2052,
       "likes": 120,
       "comments": 13,
-      "avg_views": 66.0,
+      "avg_views": 66.2,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -27,10 +27,10 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 15,
-      "views": 1789,
+      "views": 1791,
       "likes": 55,
       "comments": 10,
-      "avg_views": 119.3,
+      "avg_views": 119.4,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -40,7 +40,7 @@
       "title": "The Town That Couldn't Stop Dancing in 1518",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-16T19:37:17+00:00",
-      "views": 8,
+      "views": 14,
       "likes": 0,
       "comments": 0
     },
@@ -319,7 +319,7 @@
       "title": "Why Nostalgia Feels Warm and Sad at the Same Time",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-16T17:21:52+00:00",
-      "views": 3,
+      "views": 4,
       "likes": 0,
       "comments": 0
     },
@@ -328,7 +328,7 @@
       "title": "Your Eyes Can Change What You Hear (McGurk Effect)",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-15T16:49:06+00:00",
-      "views": 22,
+      "views": 23,
       "likes": 1,
       "comments": 0
     },
@@ -499,6 +499,19 @@
         },
         "psychology-1": {
           "views": 1789,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-17T01:37:50+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2052,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1791,
           "subscribers": 10
         }
       }
