@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T19:26:26+00:00",
+  "updated": "2026-11-17T22:14:23+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -7,14 +7,14 @@
         "handle": "@story_time-i2e",
         "subscribers": 15,
         "views": 2096,
-        "videos": 32
+        "videos": 33
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 32,
-      "views": 2135,
-      "likes": 121,
+      "videos": 33,
+      "views": 2140,
+      "likes": 122,
       "comments": 13,
-      "avg_views": 66.7,
+      "avg_views": 64.8,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -35,6 +35,15 @@
     }
   },
   "videos": {
+    "t4EXG-Ok5y8": {
+      "agent": "stories-1",
+      "title": "The Bear Who Was Officially Enlisted as a Soldier",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-17T19:42:02+00:00",
+      "views": 4,
+      "likes": 1,
+      "comments": 0
+    },
     "LSQwcEyPitM": {
       "agent": "stories-1",
       "title": "Tape, Cardboard, and a Lifeboat in Space: Apollo 13",
@@ -49,7 +58,7 @@
       "title": "The Town That Couldn't Stop Dancing in 1518",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-16T19:37:17+00:00",
-      "views": 56,
+      "views": 57,
       "likes": 1,
       "comments": 0
     },
@@ -513,6 +522,19 @@
       "agents": {
         "stories-1": {
           "views": 2135,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1799,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-17T22:14:23+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2140,
           "subscribers": 15
         },
         "psychology-1": {
