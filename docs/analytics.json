@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-17T01:37:50+00:00",
+  "updated": "2026-11-17T04:16:45+00:00",
   "agents": {
     "stories-1": {
       "channel": {
         "title": "Content_Support",
         "handle": "@story_time-i2e",
         "subscribers": 15,
-        "views": 2035,
+        "views": 2059,
         "videos": 31
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 31,
-      "views": 2052,
-      "likes": 120,
+      "views": 2094,
+      "likes": 121,
       "comments": 13,
-      "avg_views": 66.2,
+      "avg_views": 67.5,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -22,15 +22,15 @@
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
         "subscribers": 10,
-        "views": 1784,
+        "views": 1791,
         "videos": 15
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 15,
-      "views": 1791,
+      "views": 1794,
       "likes": 55,
       "comments": 10,
-      "avg_views": 119.4,
+      "avg_views": 119.6,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -40,8 +40,8 @@
       "title": "The Town That Couldn't Stop Dancing in 1518",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-16T19:37:17+00:00",
-      "views": 14,
-      "likes": 0,
+      "views": 56,
+      "likes": 1,
       "comments": 0
     },
     "0aml-0D_-jg": {
@@ -328,7 +328,7 @@
       "title": "Your Eyes Can Change What You Hear (McGurk Effect)",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-15T16:49:06+00:00",
-      "views": 23,
+      "views": 26,
       "likes": 1,
       "comments": 0
     },
@@ -512,6 +512,19 @@
         },
         "psychology-1": {
           "views": 1791,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-17T04:16:45+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2094,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1794,
           "subscribers": 10
         }
       }
