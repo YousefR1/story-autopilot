@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T16:21:17+00:00",
+  "updated": "2026-11-18T19:20:30+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -11,10 +11,10 @@
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 34,
-      "views": 2149,
-      "likes": 123,
+      "views": 2152,
+      "likes": 124,
       "comments": 13,
-      "avg_views": 63.2,
+      "avg_views": 63.3,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -23,14 +23,14 @@
         "handle": "@mind_quirks1",
         "subscribers": 10,
         "views": 1800,
-        "videos": 16
+        "videos": 17
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
-      "videos": 16,
-      "views": 1803,
+      "videos": 17,
+      "views": 1805,
       "likes": 55,
       "comments": 10,
-      "avg_views": 112.7,
+      "avg_views": 106.2,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -40,8 +40,8 @@
       "title": "Five Barbers Turned Him Away. Then Walt Closed the Shop.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-18T12:36:46+00:00",
-      "views": 5,
-      "likes": 1,
+      "views": 8,
+      "likes": 2,
       "comments": 0
     },
     "t4EXG-Ok5y8": {
@@ -341,6 +341,15 @@
       "likes": 12,
       "comments": 4
     },
+    "jk5_joyZ6h0": {
+      "agent": "psychology-1",
+      "title": "Do You Really Like It, or Do You Just Know It?",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-18T17:14:00+00:00",
+      "views": 0,
+      "likes": 0,
+      "comments": 0
+    },
     "uWlpgvdwnf4": {
       "agent": "psychology-1",
       "title": "Why You Forget Things the Moment You Walk Through a Door",
@@ -364,7 +373,7 @@
       "title": "Your Eyes Can Change What You Hear (McGurk Effect)",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-15T16:49:06+00:00",
-      "views": 30,
+      "views": 32,
       "likes": 1,
       "comments": 0
     },
@@ -522,6 +531,19 @@
         },
         "psychology-1": {
           "views": 1803,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-18T19:20:30+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2152,
+          "subscribers": 16
+        },
+        "psychology-1": {
+          "views": 1805,
           "subscribers": 10
         }
       }
