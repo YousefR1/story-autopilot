@@ -449,6 +449,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-18",
+      "title": "The Crossing Guard Who Still Shows Up for Work",
+      "topic": "A local legend about a ghostly crossing guard in a yellow raincoat who appears at a foggy intersection only on mornings when danger is coming.",
+      "genre": "eerie urban-legend style tale (presented as legend, not fact)",
+      "posted": {
+        "youtube": {
+          "id": "jxM2DcshWR8",
+          "url": "https://youtube.com/shorts/jxM2DcshWR8"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
