@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-18T10:25:37+00:00",
+  "updated": "2026-11-18T13:38:42+00:00",
   "agents": {
     "stories-1": {
       "channel": {
         "title": "Content_Support",
         "handle": "@story_time-i2e",
-        "subscribers": 15,
+        "subscribers": 16,
         "views": 2138,
-        "videos": 33
+        "videos": 34
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 33,
-      "views": 2144,
-      "likes": 122,
+      "videos": 34,
+      "views": 2149,
+      "likes": 123,
       "comments": 13,
-      "avg_views": 65.0,
+      "avg_views": 63.2,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -35,6 +35,15 @@
     }
   },
   "videos": {
+    "3Q01CWavTm8": {
+      "agent": "stories-1",
+      "title": "Five Barbers Turned Him Away. Then Walt Closed the Shop.",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-18T12:36:46+00:00",
+      "views": 5,
+      "likes": 1,
+      "comments": 0
+    },
     "t4EXG-Ok5y8": {
       "agent": "stories-1",
       "title": "The Bear Who Was Officially Enlisted as a Soldier",
@@ -346,7 +355,7 @@
       "title": "Why Nostalgia Feels Warm and Sad at the Same Time",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-16T17:21:52+00:00",
-      "views": 6,
+      "views": 7,
       "likes": 0,
       "comments": 0
     },
@@ -364,7 +373,7 @@
       "title": "Why You Copy People's Body Language Without Noticing",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-14T16:47:45+00:00",
-      "views": 44,
+      "views": 43,
       "likes": 3,
       "comments": 0
     },
@@ -484,6 +493,19 @@
         "stories-1": {
           "views": 2144,
           "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1803,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-18T13:38:42+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2149,
+          "subscribers": 16
         },
         "psychology-1": {
           "views": 1803,
