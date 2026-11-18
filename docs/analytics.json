@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T01:43:47+00:00",
+  "updated": "2026-11-18T04:18:13+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -27,10 +27,10 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 16,
-      "views": 1802,
+      "views": 1803,
       "likes": 55,
       "comments": 10,
-      "avg_views": 112.6,
+      "avg_views": 112.7,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -346,7 +346,7 @@
       "title": "Why Nostalgia Feels Warm and Sad at the Same Time",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-16T17:21:52+00:00",
-      "views": 5,
+      "views": 6,
       "likes": 0,
       "comments": 0
     },
@@ -552,6 +552,19 @@
         },
         "psychology-1": {
           "views": 1802,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-18T04:18:13+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2145,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1803,
           "subscribers": 10
         }
       }
