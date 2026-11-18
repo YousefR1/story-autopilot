@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T19:20:30+00:00",
+  "updated": "2026-11-18T22:11:05+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -7,14 +7,14 @@
         "handle": "@story_time-i2e",
         "subscribers": 16,
         "views": 2138,
-        "videos": 34
+        "videos": 35
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 34,
-      "views": 2152,
+      "videos": 35,
+      "views": 2158,
       "likes": 124,
       "comments": 13,
-      "avg_views": 63.3,
+      "avg_views": 61.7,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -35,12 +35,21 @@
     }
   },
   "videos": {
+    "jxM2DcshWR8": {
+      "agent": "stories-1",
+      "title": "The Crossing Guard Who Still Shows Up for Work",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-18T19:37:12+00:00",
+      "views": 1,
+      "likes": 0,
+      "comments": 0
+    },
     "3Q01CWavTm8": {
       "agent": "stories-1",
       "title": "Five Barbers Turned Him Away. Then Walt Closed the Shop.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-18T12:36:46+00:00",
-      "views": 8,
+      "views": 10,
       "likes": 2,
       "comments": 0
     },
@@ -112,7 +121,7 @@
       "title": "Alone in Antarctica: Mawson's Impossible Walk Home",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-14T12:17:58+00:00",
-      "views": 78,
+      "views": 80,
       "likes": 2,
       "comments": 0
     },
@@ -175,7 +184,7 @@
       "title": "The Secret Code at the CIA That Nobody Can Crack",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-11T12:38:12+00:00",
-      "views": 11,
+      "views": 12,
       "likes": 2,
       "comments": 0
     },
@@ -540,6 +549,19 @@
       "agents": {
         "stories-1": {
           "views": 2152,
+          "subscribers": 16
+        },
+        "psychology-1": {
+          "views": 1805,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-18T22:11:05+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2158,
           "subscribers": 16
         },
         "psychology-1": {
