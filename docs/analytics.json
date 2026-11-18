@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T22:14:23+00:00",
+  "updated": "2026-11-18T01:43:47+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -11,10 +11,10 @@
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 33,
-      "views": 2140,
+      "views": 2145,
       "likes": 122,
       "comments": 13,
-      "avg_views": 64.8,
+      "avg_views": 65.0,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -27,10 +27,10 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 16,
-      "views": 1799,
+      "views": 1802,
       "likes": 55,
       "comments": 10,
-      "avg_views": 112.4,
+      "avg_views": 112.6,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -40,7 +40,7 @@
       "title": "The Bear Who Was Officially Enlisted as a Soldier",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-17T19:42:02+00:00",
-      "views": 4,
+      "views": 7,
       "likes": 1,
       "comments": 0
     },
@@ -49,7 +49,7 @@
       "title": "Tape, Cardboard, and a Lifeboat in Space: Apollo 13",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-17T12:33:38+00:00",
-      "views": 39,
+      "views": 41,
       "likes": 0,
       "comments": 0
     },
@@ -337,7 +337,7 @@
       "title": "Why You Forget Things the Moment You Walk Through a Door",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-17T17:11:35+00:00",
-      "views": 0,
+      "views": 3,
       "likes": 0,
       "comments": 0
     },
@@ -539,6 +539,19 @@
         },
         "psychology-1": {
           "views": 1799,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-18T01:43:47+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2145,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1802,
           "subscribers": 10
         }
       }
