@@ -215,6 +215,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Do You Really Like It, or Do You Just Know It?",
+      "topic": "The mere exposure effect: we tend to like things more simply because we've encountered them more often (Zajonc's research).",
+      "genre": "a hidden bias that shapes everyday decisions",
+      "posted": {
+        "youtube": {
+          "id": "jk5_joyZ6h0",
+          "url": "https://youtube.com/shorts/jk5_joyZ6h0"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
