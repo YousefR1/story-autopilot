@@ -228,6 +228,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Why Crowds Freeze: The Smoke-Filled Room Experiment",
+      "topic": "The bystander effect: in Latané and Darley's smoke-filled room experiment, people were less likely to react to a possible emergency when others nearby stayed calm.",
+      "genre": "why people behave strangely in groups",
+      "posted": {
+        "youtube": {
+          "id": "FSmhq4JB5dU",
+          "url": "https://youtube.com/shorts/FSmhq4JB5dU"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
