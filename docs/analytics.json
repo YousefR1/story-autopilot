@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T22:11:05+00:00",
+  "updated": "2026-11-19T01:38:48+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -11,8 +11,8 @@
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 35,
-      "views": 2158,
-      "likes": 124,
+      "views": 2159,
+      "likes": 125,
       "comments": 13,
       "avg_views": 61.7,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
@@ -40,8 +40,8 @@
       "title": "The Crossing Guard Who Still Shows Up for Work",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-18T19:37:12+00:00",
-      "views": 1,
-      "likes": 0,
+      "views": 2,
+      "likes": 1,
       "comments": 0
     },
     "3Q01CWavTm8": {
@@ -562,6 +562,19 @@
       "agents": {
         "stories-1": {
           "views": 2158,
+          "subscribers": 16
+        },
+        "psychology-1": {
+          "views": 1805,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-19T01:38:48+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2159,
           "subscribers": 16
         },
         "psychology-1": {
