@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T17:14:20+00:00",
+  "updated": "2026-11-19T19:40:17+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -9,14 +9,66 @@
         "youtube"
       ],
       "state": "idle",
-      "consecutive_failures": 1,
+      "consecutive_failures": 0,
       "totals": {
-        "videos": 37,
-        "youtube": 36,
+        "videos": 38,
+        "youtube": 37,
         "tiktok": 0,
         "failures": 6
       },
       "runs": [
+        {
+          "started": "2026-11-19T19:38:35+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 38.9
+            },
+            {
+              "step": "voiceover",
+              "seconds": 7.9
+            },
+            {
+              "step": "caption timing",
+              "seconds": 3.3
+            },
+            {
+              "step": "ai images",
+              "seconds": 20.5
+            },
+            {
+              "step": "render",
+              "seconds": 28.6
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.1
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 1.7
+            }
+          ],
+          "result": "posted",
+          "title": "The Hijacker Who Jumped With $200,000 and Vanished",
+          "genre": "unsolved real-world mystery (well documented)",
+          "kind": "true",
+          "topic": "The 1971 hijacking by a man called Dan Cooper, who parachuted from a Boeing 727 with $200,000 and was never found",
+          "video": {
+            "duration": 50.2,
+            "size_mb": 8.9,
+            "mean_db": -23.4
+          },
+          "posted": {
+            "youtube": {
+              "id": "IPST5s1fHyE",
+              "url": "https://youtube.com/shorts/IPST5s1fHyE"
+            }
+          },
+          "finished": "2026-11-19T19:40:17+00:00",
+          "seconds": 101.4
+        },
         {
           "started": "2026-11-19T16:40:32+00:00",
           "dry_run": false,
@@ -1988,7 +2040,7 @@
         }
       ],
       "schedule": "Runs daily from .github/workflows/daily.yml (edit the cron line there).",
-      "last_run": "2026-11-19T16:41:33+00:00"
+      "last_run": "2026-11-19T19:40:17+00:00"
     },
     "psychology-1": {
       "id": "psychology-1",

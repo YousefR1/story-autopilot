@@ -475,6 +475,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-19",
+      "title": "The Hijacker Who Jumped With $200,000 and Vanished",
+      "topic": "The 1971 hijacking by a man called Dan Cooper, who parachuted from a Boeing 727 with $200,000 and was never found",
+      "genre": "unsolved real-world mystery (well documented)",
+      "posted": {
+        "youtube": {
+          "id": "IPST5s1fHyE",
+          "url": "https://youtube.com/shorts/IPST5s1fHyE"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
