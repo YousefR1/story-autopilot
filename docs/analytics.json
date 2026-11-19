@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T10:26:13+00:00",
+  "updated": "2026-11-19T13:39:57+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -7,14 +7,14 @@
         "handle": "@story_time-i2e",
         "subscribers": 16,
         "views": 2157,
-        "videos": 35
+        "videos": 36
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 35,
+      "videos": 36,
       "views": 2160,
       "likes": 125,
       "comments": 13,
-      "avg_views": 61.7,
+      "avg_views": 60.0,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -27,7 +27,7 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 17,
-      "views": 1805,
+      "views": 1806,
       "likes": 55,
       "comments": 10,
       "avg_views": 106.2,
@@ -35,6 +35,15 @@
     }
   },
   "videos": {
+    "fTT3jnlIAic": {
+      "agent": "stories-1",
+      "title": "The Voicemails Came From Her Own Number at 2 A.M.",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-19T12:41:27+00:00",
+      "views": 0,
+      "likes": 0,
+      "comments": 0
+    },
     "jxM2DcshWR8": {
       "agent": "stories-1",
       "title": "The Crossing Guard Who Still Shows Up for Work",
@@ -445,7 +454,7 @@
       "title": "Why Everyone Noticed Your Awkward Moment Less Than You Think",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-08T16:45:36+00:00",
-      "views": 213,
+      "views": 214,
       "likes": 9,
       "comments": 0
     },
@@ -527,6 +536,19 @@
         },
         "psychology-1": {
           "views": 1805,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-19T13:39:57+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2160,
+          "subscribers": 16
+        },
+        "psychology-1": {
+          "views": 1806,
           "subscribers": 10
         }
       }
