@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T07:43:14+00:00",
+  "updated": "2026-11-19T10:26:13+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -11,7 +11,7 @@
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 35,
-      "views": 2159,
+      "views": 2160,
       "likes": 125,
       "comments": 13,
       "avg_views": 61.7,
@@ -166,7 +166,7 @@
       "title": "The Night Telegraphs Worked With No Power",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-12T12:36:37+00:00",
-      "views": 36,
+      "views": 37,
       "likes": 1,
       "comments": 0
     },
@@ -510,6 +510,19 @@
       "agents": {
         "stories-1": {
           "views": 2159,
+          "subscribers": 16
+        },
+        "psychology-1": {
+          "views": 1805,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-19T10:26:13+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2160,
           "subscribers": 16
         },
         "psychology-1": {
