@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T16:22:40+00:00",
+  "updated": "2026-11-19T19:24:18+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -23,14 +23,14 @@
         "handle": "@mind_quirks1",
         "subscribers": 10,
         "views": 1805,
-        "videos": 17
+        "videos": 18
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
-      "videos": 17,
-      "views": 1807,
-      "likes": 55,
+      "videos": 18,
+      "views": 1809,
+      "likes": 54,
       "comments": 10,
-      "avg_views": 106.3,
+      "avg_views": 100.5,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -359,6 +359,15 @@
       "likes": 12,
       "comments": 4
     },
+    "FSmhq4JB5dU": {
+      "agent": "psychology-1",
+      "title": "Why Crowds Freeze: The Smoke-Filled Room Experiment",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-19T17:14:20+00:00",
+      "views": 1,
+      "likes": 0,
+      "comments": 0
+    },
     "jk5_joyZ6h0": {
       "agent": "psychology-1",
       "title": "Do You Really Like It, or Do You Just Know It?",
@@ -400,7 +409,7 @@
       "title": "Why You Copy People's Body Language Without Noticing",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-14T16:47:45+00:00",
-      "views": 43,
+      "views": 44,
       "likes": 3,
       "comments": 0
     },
@@ -473,7 +482,7 @@
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-06T17:30:36+00:00",
       "views": 1115,
-      "likes": 14,
+      "likes": 13,
       "comments": 0
     },
     "hHK-Wy3e1jg": {
@@ -562,6 +571,19 @@
         },
         "psychology-1": {
           "views": 1807,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-19T19:24:18+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2162,
+          "subscribers": 16
+        },
+        "psychology-1": {
+          "views": 1809,
           "subscribers": 10
         }
       }
