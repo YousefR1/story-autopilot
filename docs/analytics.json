@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T19:26:10+00:00",
+  "updated": "2026-11-20T22:08:47+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -7,14 +7,14 @@
         "handle": "@story_time-i2e",
         "subscribers": 15,
         "views": 2175,
-        "videos": 37
+        "videos": 38
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 37,
-      "views": 2174,
-      "likes": 128,
+      "videos": 38,
+      "views": 2193,
+      "likes": 129,
       "comments": 13,
-      "avg_views": 58.8,
+      "avg_views": 57.7,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -35,6 +35,15 @@
     }
   },
   "videos": {
+    "rqARQI75Bnk": {
+      "agent": "stories-1",
+      "title": "She Fell 33,000 Feet Without a Parachute and Survived",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-20T19:39:54+00:00",
+      "views": 19,
+      "likes": 1,
+      "comments": 0
+    },
     "IPST5s1fHyE": {
       "agent": "stories-1",
       "title": "The Hijacker Who Jumped With $200,000 and Vanished",
@@ -598,6 +607,19 @@
       "agents": {
         "stories-1": {
           "views": 2174,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1813,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-20T22:08:47+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2193,
           "subscribers": 15
         },
         "psychology-1": {
