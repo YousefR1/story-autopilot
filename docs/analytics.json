@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-20T01:32:44+00:00",
+  "updated": "2026-11-20T04:17:57+00:00",
   "agents": {
     "stories-1": {
       "channel": {
         "title": "Content_Support",
         "handle": "@story_time-i2e",
         "subscribers": 15,
-        "views": 2157,
+        "views": 2175,
         "videos": 37
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 37,
-      "views": 2174,
+      "views": 2173,
       "likes": 128,
       "comments": 13,
-      "avg_views": 58.8,
+      "avg_views": 58.7,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -40,7 +40,7 @@
       "title": "The Hijacker Who Jumped With $200,000 and Vanished",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-19T19:40:17+00:00",
-      "views": 11,
+      "views": 10,
       "likes": 3,
       "comments": 0
     },
@@ -615,6 +615,19 @@
       "agents": {
         "stories-1": {
           "views": 2174,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1809,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-20T04:17:57+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2173,
           "subscribers": 15
         },
         "psychology-1": {
