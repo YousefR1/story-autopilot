@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T13:36:39+00:00",
+  "updated": "2026-11-20T16:16:36+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -27,10 +27,10 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 18,
-      "views": 1811,
+      "views": 1812,
       "likes": 54,
       "comments": 10,
-      "avg_views": 100.6,
+      "avg_views": 100.7,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -373,7 +373,7 @@
       "title": "Why Crowds Freeze: The Smoke-Filled Room Experiment",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-19T17:14:20+00:00",
-      "views": 1,
+      "views": 2,
       "likes": 0,
       "comments": 0
     },
@@ -567,6 +567,19 @@
         },
         "psychology-1": {
           "views": 1811,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-20T16:16:36+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2174,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1812,
           "subscribers": 10
         }
       }
