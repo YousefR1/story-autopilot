@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T16:16:36+00:00",
+  "updated": "2026-11-20T19:26:10+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -23,14 +23,14 @@
         "handle": "@mind_quirks1",
         "subscribers": 10,
         "views": 1809,
-        "videos": 18
+        "videos": 19
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
-      "videos": 18,
-      "views": 1812,
+      "videos": 19,
+      "views": 1813,
       "likes": 54,
       "comments": 10,
-      "avg_views": 100.7,
+      "avg_views": 95.4,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -368,6 +368,15 @@
       "likes": 12,
       "comments": 4
     },
+    "EqYFadbnTD8": {
+      "agent": "psychology-1",
+      "title": "Procrastination Isn't Laziness. It's Dodging a Feeling",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-20T17:29:28+00:00",
+      "views": 0,
+      "likes": 0,
+      "comments": 0
+    },
     "FSmhq4JB5dU": {
       "agent": "psychology-1",
       "title": "Why Crowds Freeze: The Smoke-Filled Room Experiment",
@@ -418,7 +427,7 @@
       "title": "Why You Copy People's Body Language Without Noticing",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-14T16:47:45+00:00",
-      "views": 44,
+      "views": 45,
       "likes": 3,
       "comments": 0
     },
@@ -580,6 +589,19 @@
         },
         "psychology-1": {
           "views": 1812,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-20T19:26:10+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2174,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1813,
           "subscribers": 10
         }
       }
