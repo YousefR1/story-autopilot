@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T19:40:17+00:00",
+  "updated": "2026-11-20T12:37:52+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -9,14 +9,23 @@
         "youtube"
       ],
       "state": "idle",
-      "consecutive_failures": 0,
+      "consecutive_failures": 1,
       "totals": {
         "videos": 38,
         "youtube": 37,
         "tiktok": 0,
-        "failures": 6
+        "failures": 7
       },
       "runs": [
+        {
+          "started": "2026-11-20T12:36:51+00:00",
+          "dry_run": false,
+          "steps": [],
+          "result": "failed",
+          "error": "Could not get a valid script: Expecting ',' delimiter: line 34 column 6 (char 2313)",
+          "finished": "2026-11-20T12:37:52+00:00",
+          "seconds": 61.2
+        },
         {
           "started": "2026-11-19T19:38:35+00:00",
           "dry_run": false,
@@ -2040,7 +2049,7 @@
         }
       ],
       "schedule": "Runs daily from .github/workflows/daily.yml (edit the cron line there).",
-      "last_run": "2026-11-19T19:40:17+00:00"
+      "last_run": "2026-11-20T12:37:52+00:00"
     },
     "psychology-1": {
       "id": "psychology-1",
