@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T07:42:12+00:00",
+  "updated": "2026-11-20T10:25:34+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -27,7 +27,7 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 18,
-      "views": 1810,
+      "views": 1811,
       "likes": 54,
       "comments": 10,
       "avg_views": 100.6,
@@ -382,7 +382,7 @@
       "title": "Do You Really Like It, or Do You Just Know It?",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-18T17:14:00+00:00",
-      "views": 0,
+      "views": 1,
       "likes": 0,
       "comments": 0
     },
@@ -541,6 +541,19 @@
         },
         "psychology-1": {
           "views": 1810,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-20T10:25:34+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2174,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1811,
           "subscribers": 10
         }
       }
