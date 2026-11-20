@@ -241,6 +241,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-20",
+      "title": "Procrastination Isn't Laziness. It's Dodging a Feeling",
+      "topic": "Procrastination is often less about time management and more about avoiding the uncomfortable feelings a task brings up, a pattern psychology research links to mood regulation.",
+      "genre": "the psychology of habits and procrastination",
+      "posted": {
+        "youtube": {
+          "id": "EqYFadbnTD8",
+          "url": "https://youtube.com/shorts/EqYFadbnTD8"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
