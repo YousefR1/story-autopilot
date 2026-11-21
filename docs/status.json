@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T16:54:18+00:00",
+  "updated": "2026-11-21T19:29:37+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -11,12 +11,64 @@
       "state": "idle",
       "consecutive_failures": 0,
       "totals": {
-        "videos": 41,
-        "youtube": 40,
+        "videos": 42,
+        "youtube": 41,
         "tiktok": 0,
         "failures": 7
       },
       "runs": [
+        {
+          "started": "2026-11-21T19:27:03+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 60.3
+            },
+            {
+              "step": "voiceover",
+              "seconds": 8.5
+            },
+            {
+              "step": "caption timing",
+              "seconds": 4.2
+            },
+            {
+              "step": "ai images",
+              "seconds": 28.1
+            },
+            {
+              "step": "render",
+              "seconds": 50.3
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.2
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 1.7
+            }
+          ],
+          "result": "posted",
+          "title": "The Library Slot That Clicked Open Every Midnight",
+          "genre": "eerie urban-legend style tale (presented as legend, not fact)",
+          "kind": "legend",
+          "topic": "A night clerk at an old city library finds books dropped through the return slot at midnight, until one returns a debt of his own.",
+          "video": {
+            "duration": 49.1,
+            "size_mb": 10.9,
+            "mean_db": -23.7
+          },
+          "posted": {
+            "youtube": {
+              "id": "vkWprizWyGg",
+              "url": "https://youtube.com/shorts/vkWprizWyGg"
+            }
+          },
+          "finished": "2026-11-21T19:29:37+00:00",
+          "seconds": 153.7
+        },
         {
           "started": "2026-11-21T16:24:13+00:00",
           "dry_run": false,
@@ -2205,7 +2257,7 @@
         }
       ],
       "schedule": "Runs daily from .github/workflows/daily.yml (edit the cron line there).",
-      "last_run": "2026-11-21T16:26:37+00:00"
+      "last_run": "2026-11-21T19:29:37+00:00"
     },
     "psychology-1": {
       "id": "psychology-1",

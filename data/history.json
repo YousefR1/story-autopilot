@@ -527,6 +527,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-21",
+      "title": "The Library Slot That Clicked Open Every Midnight",
+      "topic": "A night clerk at an old city library finds books dropped through the return slot at midnight, until one returns a debt of his own.",
+      "genre": "eerie urban-legend style tale (presented as legend, not fact)",
+      "posted": {
+        "youtube": {
+          "id": "vkWprizWyGg",
+          "url": "https://youtube.com/shorts/vkWprizWyGg"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
