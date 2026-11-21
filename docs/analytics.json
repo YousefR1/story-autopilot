@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T10:08:09+00:00",
+  "updated": "2026-11-21T13:23:07+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -7,14 +7,14 @@
         "handle": "@story_time-i2e",
         "subscribers": 15,
         "views": 2175,
-        "videos": 38
+        "videos": 39
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 38,
-      "views": 2200,
-      "likes": 129,
+      "videos": 39,
+      "views": 2239,
+      "likes": 133,
       "comments": 13,
-      "avg_views": 57.9,
+      "avg_views": 57.4,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -35,6 +35,15 @@
     }
   },
   "videos": {
+    "mXbNdF60-lo": {
+      "agent": "stories-1",
+      "title": "The Man Who Mailed Himself to Freedom in 1849",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-21T12:27:06+00:00",
+      "views": 39,
+      "likes": 4,
+      "comments": 0
+    },
     "rqARQI75Bnk": {
       "agent": "stories-1",
       "title": "She Fell 33,000 Feet Without a Parachute and Survived",
@@ -568,6 +577,19 @@
       "agents": {
         "stories-1": {
           "views": 2200,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1815,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-21T13:23:07+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2239,
           "subscribers": 15
         },
         "psychology-1": {
