@@ -254,6 +254,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-21",
+      "title": "The Bobo Doll Experiment: Kids Copy What They Watch",
+      "topic": "Bandura's Bobo doll experiment showed children can learn behavior just by watching others (observational learning).",
+      "genre": "a famous psychology experiment and what it revealed",
+      "posted": {
+        "youtube": {
+          "id": "4DV1EFwpMGU",
+          "url": "https://youtube.com/shorts/4DV1EFwpMGU"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
