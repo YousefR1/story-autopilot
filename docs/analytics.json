@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T16:04:12+00:00",
+  "updated": "2026-11-21T19:13:04+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -10,11 +10,11 @@
         "videos": 39
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 39,
-      "views": 2295,
-      "likes": 137,
+      "videos": 40,
+      "views": 2354,
+      "likes": 138,
       "comments": 13,
-      "avg_views": 58.8,
+      "avg_views": 58.9,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -22,25 +22,34 @@
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
         "subscribers": 10,
-        "views": 1813,
-        "videos": 19
+        "views": 1815,
+        "videos": 20
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
-      "videos": 19,
-      "views": 1815,
+      "videos": 20,
+      "views": 1816,
       "likes": 54,
       "comments": 10,
-      "avg_views": 95.5,
+      "avg_views": 90.8,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
   "videos": {
+    "1MAek1-rjJ4": {
+      "agent": "stories-1",
+      "title": "The Deckhand Lowered the Ramp for One Late Girl",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-21T16:26:37+00:00",
+      "views": 10,
+      "likes": 0,
+      "comments": 0
+    },
     "mXbNdF60-lo": {
       "agent": "stories-1",
       "title": "The Man Who Mailed Himself to Freedom in 1849",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-21T12:27:06+00:00",
-      "views": 96,
+      "views": 146,
       "likes": 8,
       "comments": 0
     },
@@ -50,7 +59,7 @@
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-20T19:39:54+00:00",
       "views": 24,
-      "likes": 1,
+      "likes": 2,
       "comments": 0
     },
     "IPST5s1fHyE": {
@@ -67,7 +76,7 @@
       "title": "The Voicemails Came From Her Own Number at 2 A.M.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-19T12:41:27+00:00",
-      "views": 4,
+      "views": 3,
       "likes": 0,
       "comments": 0
     },
@@ -386,6 +395,15 @@
       "likes": 12,
       "comments": 4
     },
+    "4DV1EFwpMGU": {
+      "agent": "psychology-1",
+      "title": "The Bobo Doll Experiment: Kids Copy What They Watch",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-21T16:54:18+00:00",
+      "views": 1,
+      "likes": 0,
+      "comments": 0
+    },
     "EqYFadbnTD8": {
       "agent": "psychology-1",
       "title": "Procrastination Isn't Laziness. It's Dodging a Feeling",
@@ -607,6 +625,19 @@
         },
         "psychology-1": {
           "views": 1815,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-21T19:13:04+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2354,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1816,
           "subscribers": 10
         }
       }
