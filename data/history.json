@@ -501,6 +501,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-21",
+      "title": "The Man Who Mailed Himself to Freedom in 1849",
+      "topic": "In 1849, Henry Brown escaped slavery by having himself shipped in a wooden crate from Richmond, Virginia to Philadelphia, earning the name Henry Box Brown.",
+      "genre": "strange but true moment from history (well documented)",
+      "posted": {
+        "youtube": {
+          "id": "mXbNdF60-lo",
+          "url": "https://youtube.com/shorts/mXbNdF60-lo"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
