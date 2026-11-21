@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T01:38:13+00:00",
+  "updated": "2026-11-21T04:15:31+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -11,10 +11,10 @@
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 38,
-      "views": 2197,
+      "views": 2200,
       "likes": 129,
       "comments": 13,
-      "avg_views": 57.8,
+      "avg_views": 57.9,
       "top": "133 Days Alone on a Raft: The Poon Lim Survival Story"
     },
     "psychology-1": {
@@ -22,7 +22,7 @@
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
         "subscribers": 10,
-        "views": 1809,
+        "views": 1813,
         "videos": 19
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
@@ -40,7 +40,7 @@
       "title": "She Fell 33,000 Feet Without a Parachute and Survived",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-20T19:39:54+00:00",
-      "views": 22,
+      "views": 25,
       "likes": 1,
       "comments": 0
     },
@@ -633,6 +633,19 @@
       "agents": {
         "stories-1": {
           "views": 2197,
+          "subscribers": 15
+        },
+        "psychology-1": {
+          "views": 1813,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-21T04:15:31+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 2200,
           "subscribers": 15
         },
         "psychology-1": {
