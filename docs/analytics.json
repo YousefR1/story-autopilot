@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T01:33:43+00:00",
+  "updated": "2026-11-22T04:17:30+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -11,10 +11,10 @@
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 41,
-      "views": 3204,
+      "views": 3220,
       "likes": 156,
       "comments": 14,
-      "avg_views": 78.1,
+      "avg_views": 78.5,
       "top": "The Library Slot That Clicked Open Every Midnight"
     },
     "psychology-1": {
@@ -40,7 +40,7 @@
       "title": "The Library Slot That Clicked Open Every Midnight",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-21T19:29:37+00:00",
-      "views": 828,
+      "views": 837,
       "likes": 16,
       "comments": 0
     },
@@ -58,7 +58,7 @@
       "title": "The Man Who Mailed Himself to Freedom in 1849",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-21T12:27:06+00:00",
-      "views": 147,
+      "views": 154,
       "likes": 8,
       "comments": 0
     },
@@ -669,6 +669,19 @@
       "agents": {
         "stories-1": {
           "views": 3204,
+          "subscribers": 17
+        },
+        "psychology-1": {
+          "views": 1818,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-22T04:17:30+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 3220,
           "subscribers": 17
         },
         "psychology-1": {
