@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T13:21:14+00:00",
+  "updated": "2026-11-22T16:03:36+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -11,10 +11,10 @@
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 42,
-      "views": 3223,
+      "views": 3225,
       "likes": 156,
       "comments": 14,
-      "avg_views": 76.7,
+      "avg_views": 76.8,
       "top": "The Library Slot That Clicked Open Every Midnight"
     },
     "psychology-1": {
@@ -40,7 +40,7 @@
       "title": "The Flour Handprints Appeared Every Morning at 4 A.M.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-22T12:26:25+00:00",
-      "views": 0,
+      "views": 2,
       "likes": 0,
       "comments": 0
     },
@@ -626,6 +626,19 @@
       "agents": {
         "stories-1": {
           "views": 3223,
+          "subscribers": 17
+        },
+        "psychology-1": {
+          "views": 1822,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-22T16:03:36+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 3225,
           "subscribers": 17
         },
         "psychology-1": {
