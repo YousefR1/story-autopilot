@@ -553,6 +553,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-22",
+      "title": "Nine Hikers Fled Their Tent at Night. Nobody Knows Why.",
+      "topic": "The unsolved 1959 Dyatlov Pass incident, in which nine hikers fled their tent in the Ural Mountains into a freezing night and never returned",
+      "genre": "unsolved real-world mystery (well documented)",
+      "posted": {
+        "youtube": {
+          "id": "ohF2igtsH0Q",
+          "url": "https://youtube.com/shorts/ohF2igtsH0Q"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
