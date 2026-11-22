@@ -267,6 +267,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-22",
+      "title": "The '93% Body Language' Fact Is a Myth. Here's the Truth",
+      "topic": "The popular claim that 93% of communication is body language is a myth; Albert Mehrabian's 1960s experiments only showed that when words and tone clash about feelings, people tend to trust the tone and face.",
+      "genre": "body language and first impressions",
+      "posted": {
+        "youtube": {
+          "id": "_1w1PpYycxI",
+          "url": "https://youtube.com/shorts/_1w1PpYycxI"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []

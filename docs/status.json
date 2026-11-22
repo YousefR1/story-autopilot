@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T12:26:25+00:00",
+  "updated": "2026-11-22T16:54:48+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -2321,12 +2321,64 @@
       "state": "idle",
       "consecutive_failures": 0,
       "totals": {
-        "videos": 21,
-        "youtube": 20,
+        "videos": 22,
+        "youtube": 21,
         "tiktok": 0,
         "failures": 0
       },
       "runs": [
+        {
+          "started": "2026-11-22T16:53:28+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 16.6
+            },
+            {
+              "step": "voiceover",
+              "seconds": 8.8
+            },
+            {
+              "step": "caption timing",
+              "seconds": 3.9
+            },
+            {
+              "step": "ai images",
+              "seconds": 19.0
+            },
+            {
+              "step": "render",
+              "seconds": 29.7
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.1
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 1.8
+            }
+          ],
+          "result": "posted",
+          "title": "The '93% Body Language' Fact Is a Myth. Here's the Truth",
+          "genre": "body language and first impressions",
+          "kind": "fact",
+          "topic": "The popular claim that 93% of communication is body language is a myth; Albert Mehrabian's 1960s experiments only showed that when words and tone clash about feelings, people tend to trust the tone and face.",
+          "video": {
+            "duration": 52.7,
+            "size_mb": 9.3,
+            "mean_db": -23.5
+          },
+          "posted": {
+            "youtube": {
+              "id": "_1w1PpYycxI",
+              "url": "https://youtube.com/shorts/_1w1PpYycxI"
+            }
+          },
+          "finished": "2026-11-22T16:54:48+00:00",
+          "seconds": 80.3
+        },
         {
           "started": "2026-11-21T16:52:44+00:00",
           "dry_run": false,
@@ -3412,7 +3464,7 @@
         }
       ],
       "schedule": "1 a day at 17:11 Oslo (.github/workflows/psychology.yml)",
-      "last_run": "2026-11-21T16:54:18+00:00"
+      "last_run": "2026-11-22T16:54:48+00:00"
     }
   }
 }
