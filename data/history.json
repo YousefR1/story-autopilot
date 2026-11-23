@@ -566,6 +566,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-23",
+      "title": "Titanic, Britannic, Olympic: She Survived All Three",
+      "topic": "Violet Jessop, the stewardess who survived the Olympic collision, the Titanic sinking, and the Britannic sinking",
+      "genre": "remarkable true survival story (well documented)",
+      "posted": {
+        "youtube": {
+          "id": "x0rD9NBFvwg",
+          "url": "https://youtube.com/shorts/x0rD9NBFvwg"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
