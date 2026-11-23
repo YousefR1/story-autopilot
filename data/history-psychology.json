@@ -280,6 +280,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-23",
+      "title": "Same Length, Different Look: The Line Illusion Your Brain Can't Fix",
+      "topic": "The Müller-Lyer illusion: two equal lines look different in length, and knowing the truth doesn't make the illusion go away.",
+      "genre": "why the brain falls for certain tricks and illusions",
+      "posted": {
+        "youtube": {
+          "id": "5sSa_pTzZ1c",
+          "url": "https://youtube.com/shorts/5sSa_pTzZ1c"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []

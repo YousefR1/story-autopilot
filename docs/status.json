@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T16:34:10+00:00",
+  "updated": "2026-11-23T17:12:07+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -2477,12 +2477,64 @@
       "state": "idle",
       "consecutive_failures": 0,
       "totals": {
-        "videos": 22,
-        "youtube": 21,
+        "videos": 23,
+        "youtube": 22,
         "tiktok": 0,
         "failures": 0
       },
       "runs": [
+        {
+          "started": "2026-11-23T17:10:33+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 18.4
+            },
+            {
+              "step": "voiceover",
+              "seconds": 9.5
+            },
+            {
+              "step": "caption timing",
+              "seconds": 4.7
+            },
+            {
+              "step": "ai images",
+              "seconds": 23.8
+            },
+            {
+              "step": "render",
+              "seconds": 34.9
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.2
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 1.9
+            }
+          ],
+          "result": "posted",
+          "title": "Same Length, Different Look: The Line Illusion Your Brain Can't Fix",
+          "genre": "why the brain falls for certain tricks and illusions",
+          "kind": "fact",
+          "topic": "The Müller-Lyer illusion: two equal lines look different in length, and knowing the truth doesn't make the illusion go away.",
+          "video": {
+            "duration": 46.5,
+            "size_mb": 8.1,
+            "mean_db": -22.4
+          },
+          "posted": {
+            "youtube": {
+              "id": "5sSa_pTzZ1c",
+              "url": "https://youtube.com/shorts/5sSa_pTzZ1c"
+            }
+          },
+          "finished": "2026-11-23T17:12:07+00:00",
+          "seconds": 93.6
+        },
         {
           "started": "2026-11-22T16:53:28+00:00",
           "dry_run": false,
@@ -3620,7 +3672,7 @@
         }
       ],
       "schedule": "1 a day at 17:11 Oslo (.github/workflows/psychology.yml)",
-      "last_run": "2026-11-22T16:54:48+00:00"
+      "last_run": "2026-11-23T17:12:07+00:00"
     }
   }
 }
