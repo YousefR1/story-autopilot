@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T12:42:40+00:00",
+  "updated": "2026-11-23T16:34:10+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -11,12 +11,64 @@
       "state": "idle",
       "consecutive_failures": 0,
       "totals": {
-        "videos": 45,
-        "youtube": 44,
+        "videos": 46,
+        "youtube": 45,
         "tiktok": 0,
         "failures": 7
       },
       "runs": [
+        {
+          "started": "2026-11-23T16:32:18+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 35.7
+            },
+            {
+              "step": "voiceover",
+              "seconds": 7.2
+            },
+            {
+              "step": "caption timing",
+              "seconds": 2.9
+            },
+            {
+              "step": "ai images",
+              "seconds": 34.6
+            },
+            {
+              "step": "render",
+              "seconds": 28.6
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.1
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 2.1
+            }
+          ],
+          "result": "posted",
+          "title": "The Man Who Sold the Eiffel Tower. Twice.",
+          "genre": "strange but true moment from history (well documented)",
+          "kind": "true",
+          "topic": "In 1925 the con man Victor Lustig posed as a government official and 'sold' the Eiffel Tower to a scrap metal dealer, then returned to Paris and tried to do it again.",
+          "video": {
+            "duration": 45.6,
+            "size_mb": 9.9,
+            "mean_db": -24.0
+          },
+          "posted": {
+            "youtube": {
+              "id": "Ks15xeD09eg",
+              "url": "https://youtube.com/shorts/Ks15xeD09eg"
+            }
+          },
+          "finished": "2026-11-23T16:34:10+00:00",
+          "seconds": 111.8
+        },
         {
           "started": "2026-11-23T12:40:19+00:00",
           "dry_run": false,
@@ -2413,7 +2465,7 @@
         }
       ],
       "schedule": "Runs daily from .github/workflows/daily.yml (edit the cron line there).",
-      "last_run": "2026-11-23T12:42:40+00:00"
+      "last_run": "2026-11-23T16:34:10+00:00"
     },
     "psychology-1": {
       "id": "psychology-1",
