@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T01:40:38+00:00",
+  "updated": "2026-11-23T04:33:49+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -11,7 +11,7 @@
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 43,
-      "views": 3262,
+      "views": 3263,
       "likes": 157,
       "comments": 14,
       "avg_views": 75.9,
@@ -301,7 +301,7 @@
       "title": "133 Days Alone on a Raft: The Poon Lim Survival Story",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-08T12:17:27+00:00",
-      "views": 636,
+      "views": 637,
       "likes": 14,
       "comments": 0
     },
@@ -696,6 +696,19 @@
       "agents": {
         "stories-1": {
           "views": 3262,
+          "subscribers": 17
+        },
+        "psychology-1": {
+          "views": 1826,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-23T04:33:49+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 3263,
           "subscribers": 17
         },
         "psychology-1": {
