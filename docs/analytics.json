@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T16:24:56+00:00",
+  "updated": "2026-11-23T19:24:53+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -7,14 +7,14 @@
         "handle": "@story_time-i2e",
         "subscribers": 17,
         "views": 2217,
-        "videos": 44
+        "videos": 45
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 44,
-      "views": 3525,
+      "videos": 45,
+      "views": 3544,
       "likes": 157,
       "comments": 15,
-      "avg_views": 80.1,
+      "avg_views": 78.8,
       "top": "The Library Slot That Clicked Open Every Midnight"
     },
     "psychology-1": {
@@ -23,24 +23,33 @@
         "handle": "@mind_quirks1",
         "subscribers": 10,
         "views": 1817,
-        "videos": 21
+        "videos": 22
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
-      "videos": 21,
-      "views": 1826,
-      "likes": 55,
+      "videos": 22,
+      "views": 1844,
+      "likes": 56,
       "comments": 10,
-      "avg_views": 87.0,
+      "avg_views": 83.8,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
   "videos": {
+    "Ks15xeD09eg": {
+      "agent": "stories-1",
+      "title": "The Man Who Sold the Eiffel Tower. Twice.",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-23T16:34:10+00:00",
+      "views": 4,
+      "likes": 0,
+      "comments": 0
+    },
     "x0rD9NBFvwg": {
       "agent": "stories-1",
       "title": "Titanic, Britannic, Olympic: She Survived All Three",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-23T12:42:40+00:00",
-      "views": 12,
+      "views": 22,
       "likes": 0,
       "comments": 1
     },
@@ -49,7 +58,7 @@
       "title": "Nine Hikers Fled Their Tent at Night. Nobody Knows Why.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-22T19:31:19+00:00",
-      "views": 41,
+      "views": 45,
       "likes": 0,
       "comments": 0
     },
@@ -58,7 +67,7 @@
       "title": "The Flour Handprints Appeared Every Morning at 4 A.M.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-22T12:26:25+00:00",
-      "views": 16,
+      "views": 17,
       "likes": 0,
       "comments": 0
     },
@@ -431,12 +440,21 @@
       "likes": 12,
       "comments": 4
     },
+    "5sSa_pTzZ1c": {
+      "agent": "psychology-1",
+      "title": "Same Length, Different Look: The Line Illusion Your Brain Can't Fix",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-23T17:12:07+00:00",
+      "views": 17,
+      "likes": 1,
+      "comments": 0
+    },
     "_1w1PpYycxI": {
       "agent": "psychology-1",
       "title": "The '93% Body Language' Fact Is a Myth. Here's the Truth",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-22T16:54:48+00:00",
-      "views": 1,
+      "views": 2,
       "likes": 0,
       "comments": 0
     },
@@ -657,6 +675,19 @@
         },
         "psychology-1": {
           "views": 1826,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-23T19:24:53+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 3544,
+          "subscribers": 17
+        },
+        "psychology-1": {
+          "views": 1844,
           "subscribers": 10
         }
       }
