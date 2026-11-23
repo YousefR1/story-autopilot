@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T22:01:55+00:00",
+  "updated": "2026-11-23T01:40:38+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -11,10 +11,10 @@
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 43,
-      "views": 3238,
-      "likes": 156,
+      "views": 3262,
+      "likes": 157,
       "comments": 14,
-      "avg_views": 75.3,
+      "avg_views": 75.9,
       "top": "The Library Slot That Clicked Open Every Midnight"
     },
     "psychology-1": {
@@ -27,10 +27,10 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 21,
-      "views": 1822,
+      "views": 1826,
       "likes": 54,
       "comments": 10,
-      "avg_views": 86.8,
+      "avg_views": 87.0,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -40,7 +40,7 @@
       "title": "Nine Hikers Fled Their Tent at Night. Nobody Knows Why.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-22T19:31:19+00:00",
-      "views": 8,
+      "views": 23,
       "likes": 0,
       "comments": 0
     },
@@ -49,7 +49,7 @@
       "title": "The Flour Handprints Appeared Every Morning at 4 A.M.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-22T12:26:25+00:00",
-      "views": 13,
+      "views": 14,
       "likes": 0,
       "comments": 0
     },
@@ -67,7 +67,7 @@
       "title": "The Deckhand Lowered the Ramp for One Late Girl",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-21T16:26:37+00:00",
-      "views": 12,
+      "views": 13,
       "likes": 1,
       "comments": 0
     },
@@ -76,8 +76,8 @@
       "title": "The Man Who Mailed Himself to Freedom in 1849",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-21T12:27:06+00:00",
-      "views": 158,
-      "likes": 8,
+      "views": 165,
+      "likes": 9,
       "comments": 0
     },
     "rqARQI75Bnk": {
@@ -427,7 +427,7 @@
       "title": "The '93% Body Language' Fact Is a Myth. Here's the Truth",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-22T16:54:48+00:00",
-      "views": 0,
+      "views": 1,
       "likes": 0,
       "comments": 0
     },
@@ -436,7 +436,7 @@
       "title": "The Bobo Doll Experiment: Kids Copy What They Watch",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-21T16:54:18+00:00",
-      "views": 5,
+      "views": 8,
       "likes": 0,
       "comments": 0
     },
@@ -687,6 +687,19 @@
         },
         "psychology-1": {
           "views": 1822,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-23T01:40:38+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 3262,
+          "subscribers": 17
+        },
+        "psychology-1": {
+          "views": 1826,
           "subscribers": 10
         }
       }
