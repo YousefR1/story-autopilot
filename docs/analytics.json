@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T19:24:03+00:00",
+  "updated": "2026-11-24T22:17:11+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -7,14 +7,14 @@
         "handle": "@story_time-i2e",
         "subscribers": 17,
         "views": 3606,
-        "videos": 46
+        "videos": 47
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 46,
-      "views": 3619,
-      "likes": 160,
+      "videos": 47,
+      "views": 3629,
+      "likes": 161,
       "comments": 15,
-      "avg_views": 78.7,
+      "avg_views": 77.2,
       "top": "The Library Slot That Clicked Open Every Midnight"
     },
     "psychology-1": {
@@ -27,14 +27,23 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 23,
-      "views": 1996,
-      "likes": 58,
+      "views": 2035,
+      "likes": 59,
       "comments": 10,
-      "avg_views": 86.8,
+      "avg_views": 88.5,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
   "videos": {
+    "00rz6mQdC2Q": {
+      "agent": "stories-1",
+      "title": "The Diner That Only Appears in Fog",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-24T19:39:13+00:00",
+      "views": 4,
+      "likes": 1,
+      "comments": 0
+    },
     "z_oWFebcRME": {
       "agent": "stories-1",
       "title": "He Plowed One Forgotten Driveway for 11 Winters",
@@ -49,7 +58,7 @@
       "title": "The Man Who Sold the Eiffel Tower. Twice.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-23T16:34:10+00:00",
-      "views": 17,
+      "views": 19,
       "likes": 1,
       "comments": 0
     },
@@ -58,7 +67,7 @@
       "title": "Titanic, Britannic, Olympic: She Survived All Three",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-23T12:42:40+00:00",
-      "views": 67,
+      "views": 69,
       "likes": 1,
       "comments": 1
     },
@@ -85,7 +94,7 @@
       "title": "The Library Slot That Clicked Open Every Midnight",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-21T19:29:37+00:00",
-      "views": 1040,
+      "views": 1042,
       "likes": 16,
       "comments": 0
     },
@@ -454,7 +463,7 @@
       "title": "They'd Rather Shock Themselves Than Be Bored",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-24T17:12:41+00:00",
-      "views": 15,
+      "views": 31,
       "likes": 1,
       "comments": 0
     },
@@ -463,8 +472,8 @@
       "title": "Same Length, Different Look: The Line Illusion Your Brain Can't Fix",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-23T17:12:07+00:00",
-      "views": 146,
-      "likes": 2,
+      "views": 169,
+      "likes": 3,
       "comments": 0
     },
     "_1w1PpYycxI": {
@@ -719,6 +728,19 @@
         },
         "psychology-1": {
           "views": 1996,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-24T22:17:11+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 3629,
+          "subscribers": 17
+        },
+        "psychology-1": {
+          "views": 2035,
           "subscribers": 10
         }
       }
