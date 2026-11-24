@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-23T22:12:28+00:00",
+  "updated": "2026-11-24T01:40:05+00:00",
   "agents": {
     "stories-1": {
       "channel": {
         "title": "Content_Support",
         "handle": "@story_time-i2e",
         "subscribers": 17,
-        "views": 2217,
+        "views": 3452,
         "videos": 45
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 45,
-      "views": 3548,
-      "likes": 157,
+      "views": 3555,
+      "likes": 158,
       "comments": 15,
-      "avg_views": 78.8,
+      "avg_views": 79.0,
       "top": "The Library Slot That Clicked Open Every Midnight"
     },
     "psychology-1": {
@@ -27,10 +27,10 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 22,
-      "views": 1899,
+      "views": 1942,
       "likes": 56,
       "comments": 10,
-      "avg_views": 86.3,
+      "avg_views": 88.3,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -40,7 +40,7 @@
       "title": "The Man Who Sold the Eiffel Tower. Twice.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-23T16:34:10+00:00",
-      "views": 4,
+      "views": 5,
       "likes": 0,
       "comments": 0
     },
@@ -49,7 +49,7 @@
       "title": "Titanic, Britannic, Olympic: She Survived All Three",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-23T12:42:40+00:00",
-      "views": 24,
+      "views": 28,
       "likes": 0,
       "comments": 1
     },
@@ -58,8 +58,8 @@
       "title": "Nine Hikers Fled Their Tent at Night. Nobody Knows Why.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-22T19:31:19+00:00",
-      "views": 46,
-      "likes": 0,
+      "views": 47,
+      "likes": 1,
       "comments": 0
     },
     "_Efljo7JMWs": {
@@ -76,7 +76,7 @@
       "title": "The Library Slot That Clicked Open Every Midnight",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-21T19:29:37+00:00",
-      "views": 1039,
+      "views": 1040,
       "likes": 16,
       "comments": 0
     },
@@ -445,7 +445,7 @@
       "title": "Same Length, Different Look: The Line Illusion Your Brain Can't Fix",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-23T17:12:07+00:00",
-      "views": 68,
+      "views": 110,
       "likes": 1,
       "comments": 0
     },
@@ -454,7 +454,7 @@
       "title": "The '93% Body Language' Fact Is a Myth. Here's the Truth",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-22T16:54:48+00:00",
-      "views": 4,
+      "views": 5,
       "likes": 0,
       "comments": 0
     },
@@ -701,6 +701,19 @@
         },
         "psychology-1": {
           "views": 1899,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-24T01:40:05+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 3555,
+          "subscribers": 17
+        },
+        "psychology-1": {
+          "views": 1942,
           "subscribers": 10
         }
       }
