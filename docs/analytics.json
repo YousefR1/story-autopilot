@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-24T16:30:59+00:00",
+  "updated": "2026-11-24T19:24:03+00:00",
   "agents": {
     "stories-1": {
       "channel": {
         "title": "Content_Support",
         "handle": "@story_time-i2e",
         "subscribers": 17,
-        "views": 3549,
+        "views": 3606,
         "videos": 46
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 46,
-      "views": 3613,
-      "likes": 159,
+      "views": 3619,
+      "likes": 160,
       "comments": 15,
-      "avg_views": 78.5,
+      "avg_views": 78.7,
       "top": "The Library Slot That Clicked Open Every Midnight"
     },
     "psychology-1": {
@@ -22,15 +22,15 @@
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
         "subscribers": 10,
-        "views": 1831,
-        "videos": 19
+        "views": 1966,
+        "videos": 23
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
-      "videos": 22,
-      "views": 1978,
-      "likes": 57,
+      "videos": 23,
+      "views": 1996,
+      "likes": 58,
       "comments": 10,
-      "avg_views": 89.9,
+      "avg_views": 86.8,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -58,8 +58,8 @@
       "title": "Titanic, Britannic, Olympic: She Survived All Three",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-23T12:42:40+00:00",
-      "views": 62,
-      "likes": 0,
+      "views": 67,
+      "likes": 1,
       "comments": 1
     },
     "ohF2igtsH0Q": {
@@ -67,7 +67,7 @@
       "title": "Nine Hikers Fled Their Tent at Night. Nobody Knows Why.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-22T19:31:19+00:00",
-      "views": 53,
+      "views": 54,
       "likes": 1,
       "comments": 0
     },
@@ -449,12 +449,21 @@
       "likes": 12,
       "comments": 4
     },
+    "FdGLpYTWyzs": {
+      "agent": "psychology-1",
+      "title": "They'd Rather Shock Themselves Than Be Bored",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-24T17:12:41+00:00",
+      "views": 15,
+      "likes": 1,
+      "comments": 0
+    },
     "5sSa_pTzZ1c": {
       "agent": "psychology-1",
       "title": "Same Length, Different Look: The Line Illusion Your Brain Can't Fix",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-23T17:12:07+00:00",
-      "views": 143,
+      "views": 146,
       "likes": 2,
       "comments": 0
     },
@@ -697,6 +706,19 @@
         },
         "psychology-1": {
           "views": 1978,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-24T19:24:03+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 3619,
+          "subscribers": 17
+        },
+        "psychology-1": {
+          "views": 1996,
           "subscribers": 10
         }
       }
