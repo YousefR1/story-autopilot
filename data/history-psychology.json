@@ -293,6 +293,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-24",
+      "title": "They'd Rather Shock Themselves Than Be Bored",
+      "topic": "In a well-known 2014 study led by Timothy Wilson, many people chose to give themselves a mild electric shock rather than sit alone with their thoughts, which suggests boredom pushes us to seek stimulation.",
+      "genre": "the science of emotions like boredom, nostalgia or awkwardness",
+      "posted": {
+        "youtube": {
+          "id": "FdGLpYTWyzs",
+          "url": "https://youtube.com/shorts/FdGLpYTWyzs"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
