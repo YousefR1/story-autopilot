@@ -605,6 +605,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-24",
+      "title": "The Diner That Only Appears in Fog",
+      "topic": "A legend of a roadside diner that only appears in fog, where time stops and a trucker loses six hours.",
+      "genre": "eerie urban-legend style tale (presented as legend, not fact)",
+      "posted": {
+        "youtube": {
+          "id": "00rz6mQdC2Q",
+          "url": "https://youtube.com/shorts/00rz6mQdC2Q"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
