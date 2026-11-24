@@ -1,15 +1,657 @@
 {
- "updated": "2026-11-24T07:44:31+00:00",
- "channels": [
-  {
-   "agent_id": "stories-1",
-   "name": "Daily Stories",
-   "error": "No read access yet. Reconnect this channel with docs/connect-youtube.html and replace its token secret."
+  "updated": "2026-11-24T07:45:18+00:00",
+  "agents": {
+    "stories-1": {
+      "channel": {
+        "title": "Content_Support",
+        "handle": "@story_time-i2e",
+        "subscribers": 17,
+        "views": 3452,
+        "videos": 45
+      },
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "videos": 45,
+      "views": 3573,
+      "likes": 158,
+      "comments": 15,
+      "avg_views": 79.4,
+      "top": "The Library Slot That Clicked Open Every Midnight"
+    },
+    "psychology-1": {
+      "channel": {
+        "title": "Mind_Quirks",
+        "handle": "@mind_quirks1",
+        "subscribers": 10,
+        "views": 1831,
+        "videos": 22
+      },
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "videos": 22,
+      "views": 1961,
+      "likes": 56,
+      "comments": 10,
+      "avg_views": 89.1,
+      "top": "You Judge People Before They Speak. Here's Why"
+    }
   },
-  {
-   "agent_id": "psychology-1",
-   "name": "Psychology Facts",
-   "error": "No read access yet. Reconnect this channel with docs/connect-youtube.html and replace its token secret."
-  }
- ]
+  "videos": {
+    "Ks15xeD09eg": {
+      "agent": "stories-1",
+      "title": "The Man Who Sold the Eiffel Tower. Twice.",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-23T16:34:10+00:00",
+      "views": 8,
+      "likes": 0,
+      "comments": 0
+    },
+    "x0rD9NBFvwg": {
+      "agent": "stories-1",
+      "title": "Titanic, Britannic, Olympic: She Survived All Three",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-23T12:42:40+00:00",
+      "views": 40,
+      "likes": 0,
+      "comments": 1
+    },
+    "ohF2igtsH0Q": {
+      "agent": "stories-1",
+      "title": "Nine Hikers Fled Their Tent at Night. Nobody Knows Why.",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-22T19:31:19+00:00",
+      "views": 49,
+      "likes": 1,
+      "comments": 0
+    },
+    "_Efljo7JMWs": {
+      "agent": "stories-1",
+      "title": "The Flour Handprints Appeared Every Morning at 4 A.M.",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-22T12:26:25+00:00",
+      "views": 18,
+      "likes": 0,
+      "comments": 0
+    },
+    "vkWprizWyGg": {
+      "agent": "stories-1",
+      "title": "The Library Slot That Clicked Open Every Midnight",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-21T19:29:37+00:00",
+      "views": 1040,
+      "likes": 16,
+      "comments": 0
+    },
+    "1MAek1-rjJ4": {
+      "agent": "stories-1",
+      "title": "The Deckhand Lowered the Ramp for One Late Girl",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-21T16:26:37+00:00",
+      "views": 14,
+      "likes": 1,
+      "comments": 0
+    },
+    "mXbNdF60-lo": {
+      "agent": "stories-1",
+      "title": "The Man Who Mailed Himself to Freedom in 1849",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-21T12:27:06+00:00",
+      "views": 186,
+      "likes": 9,
+      "comments": 0
+    },
+    "rqARQI75Bnk": {
+      "agent": "stories-1",
+      "title": "She Fell 33,000 Feet Without a Parachute and Survived",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-20T19:39:54+00:00",
+      "views": 33,
+      "likes": 3,
+      "comments": 0
+    },
+    "IPST5s1fHyE": {
+      "agent": "stories-1",
+      "title": "The Hijacker Who Jumped With $200,000 and Vanished",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-19T19:40:17+00:00",
+      "views": 12,
+      "likes": 3,
+      "comments": 0
+    },
+    "fTT3jnlIAic": {
+      "agent": "stories-1",
+      "title": "The Voicemails Came From Her Own Number at 2 A.M.",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-19T12:41:27+00:00",
+      "views": 4,
+      "likes": 0,
+      "comments": 0
+    },
+    "jxM2DcshWR8": {
+      "agent": "stories-1",
+      "title": "The Crossing Guard Who Still Shows Up for Work",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-18T19:37:12+00:00",
+      "views": 4,
+      "likes": 1,
+      "comments": 0
+    },
+    "3Q01CWavTm8": {
+      "agent": "stories-1",
+      "title": "Five Barbers Turned Him Away. Then Walt Closed the Shop.",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-18T12:36:46+00:00",
+      "views": 14,
+      "likes": 2,
+      "comments": 1
+    },
+    "t4EXG-Ok5y8": {
+      "agent": "stories-1",
+      "title": "The Bear Who Was Officially Enlisted as a Soldier",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-17T19:42:02+00:00",
+      "views": 8,
+      "likes": 1,
+      "comments": 0
+    },
+    "LSQwcEyPitM": {
+      "agent": "stories-1",
+      "title": "Tape, Cardboard, and a Lifeboat in Space: Apollo 13",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-17T12:33:38+00:00",
+      "views": 40,
+      "likes": 0,
+      "comments": 0
+    },
+    "n_FUbPaSvuo": {
+      "agent": "stories-1",
+      "title": "The Town That Couldn't Stop Dancing in 1518",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-16T19:37:17+00:00",
+      "views": 59,
+      "likes": 1,
+      "comments": 0
+    },
+    "0aml-0D_-jg": {
+      "agent": "stories-1",
+      "title": "The Canyon Echo Answered One Second Too Late",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-15T19:25:08+00:00",
+      "views": 3,
+      "likes": 0,
+      "comments": 0
+    },
+    "2AyEjymmY8I": {
+      "agent": "stories-1",
+      "title": "The 2 A.M. Train Stop That Isn't on Any Map",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-15T16:18:26+00:00",
+      "views": 9,
+      "likes": 0,
+      "comments": 0
+    },
+    "EnBG_ZrtR5k": {
+      "agent": "stories-1",
+      "title": "The Bus Driver Gave Away His Coat. Then Came Morning.",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-15T12:19:17+00:00",
+      "views": 10,
+      "likes": 0,
+      "comments": 0
+    },
+    "EJkgEFNVvU8": {
+      "agent": "stories-1",
+      "title": "The Smell That Forced Parliament to Flee in 1858",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-14T19:24:02+00:00",
+      "views": 92,
+      "likes": 1,
+      "comments": 0
+    },
+    "PREOvXp5k0k": {
+      "agent": "stories-1",
+      "title": "Alone in Antarctica: Mawson's Impossible Walk Home",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-14T12:17:58+00:00",
+      "views": 80,
+      "likes": 2,
+      "comments": 0
+    },
+    "JJalMY0w1KU": {
+      "agent": "stories-1",
+      "title": "The Lost Colony That Left Only One Word Behind",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-13T19:34:44+00:00",
+      "views": 55,
+      "likes": 2,
+      "comments": 0
+    },
+    "kEnQ7fSyHWY": {
+      "agent": "stories-1",
+      "title": "The Empty Pool Counted Its Own Laps at Night",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-13T16:33:06+00:00",
+      "views": 2,
+      "likes": 1,
+      "comments": 0
+    },
+    "1fMNFmMvsVc": {
+      "agent": "stories-1",
+      "title": "The Streetlight That Went Dark to Warn Her",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-13T12:37:15+00:00",
+      "views": 17,
+      "likes": 1,
+      "comments": 0
+    },
+    "7sCOUzLtElY": {
+      "agent": "stories-1",
+      "title": "The Piano Tuner Nobody Called",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-12T19:33:55+00:00",
+      "views": 6,
+      "likes": 1,
+      "comments": 0
+    },
+    "cdqtMIpzzX4": {
+      "agent": "stories-1",
+      "title": "The Night Telegraphs Worked With No Power",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-12T12:36:37+00:00",
+      "views": 37,
+      "likes": 1,
+      "comments": 0
+    },
+    "0VeANJIN7J4": {
+      "agent": "stories-1",
+      "title": "Four Men Left Her Behind in the Arctic. She Outlived Them All.",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-11T19:38:24+00:00",
+      "views": 25,
+      "likes": 2,
+      "comments": 0
+    },
+    "0soFke3EwA0": {
+      "agent": "stories-1",
+      "title": "The Secret Code at the CIA That Nobody Can Crack",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-11T12:38:12+00:00",
+      "views": 12,
+      "likes": 2,
+      "comments": 0
+    },
+    "op_uT8CDDgk": {
+      "agent": "stories-1",
+      "title": "Wet Footprints Climbed the Lighthouse Stairs Every Night",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-10T19:32:32+00:00",
+      "views": 9,
+      "likes": 2,
+      "comments": 0
+    },
+    "8_fG6ixpyec": {
+      "agent": "stories-1",
+      "title": "Washer Number Nine Runs Alone at 3 A.M.",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-09T19:35:04+00:00",
+      "views": 10,
+      "likes": 2,
+      "comments": 0
+    },
+    "P9uB136ct_o": {
+      "agent": "stories-1",
+      "title": "The Ice Cream Truck That Played in a Blizzard",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-09T16:43:49+00:00",
+      "views": 10,
+      "likes": 2,
+      "comments": 0
+    },
+    "gw_TO9YTJjY": {
+      "agent": "stories-1",
+      "title": "The War That Started Over a Stolen Bucket",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-08T19:22:36+00:00",
+      "views": 138,
+      "likes": 2,
+      "comments": 0
+    },
+    "3ai6bnmQjgc": {
+      "agent": "stories-1",
+      "title": "133 Days Alone on a Raft: The Poon Lim Survival Story",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-08T12:17:27+00:00",
+      "views": 637,
+      "likes": 14,
+      "comments": 0
+    },
+    "L4DIgQTg2J8": {
+      "agent": "stories-1",
+      "title": "The Book Nobody Alive Can Read",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-07T19:23:18+00:00",
+      "views": 271,
+      "likes": 10,
+      "comments": 0
+    },
+    "McS7-bvDuVc": {
+      "agent": "stories-1",
+      "title": "The Postcards Kept Getting Closer to Her Bedroom",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-07T16:18:29+00:00",
+      "views": 9,
+      "likes": 3,
+      "comments": 0
+    },
+    "kRRsbcRUdhA": {
+      "agent": "stories-1",
+      "title": "The Payphone That Rang Once, Then Saved a Trucker",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-06T19:32:00+00:00",
+      "views": 10,
+      "likes": 2,
+      "comments": 0
+    },
+    "d0WTTVfcoK0": {
+      "agent": "stories-1",
+      "title": "The Girl Who Rode the Night Bus Every Night",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-06T12:31:44+00:00",
+      "views": 11,
+      "likes": 2,
+      "comments": 0
+    },
+    "yLQx5jyzHsM": {
+      "agent": "stories-1",
+      "title": "The Time the Army Lost a War to Emus",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-05T19:31:49+00:00",
+      "views": 47,
+      "likes": 6,
+      "comments": 1
+    },
+    "-DQ-Bn0ZHNk": {
+      "agent": "stories-1",
+      "title": "33 Miners Trapped 700 Meters Down. Then Came the Note.",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-05T17:11:10+00:00",
+      "views": 5,
+      "likes": 4,
+      "comments": 2
+    },
+    "hDgqfQ3i6pc": {
+      "agent": "stories-1",
+      "title": "The 72-Second Signal From Space That Never Came Back",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-05T12:35:40+00:00",
+      "views": 82,
+      "likes": 8,
+      "comments": 1
+    },
+    "WCO0ytZjFRo": {
+      "agent": "stories-1",
+      "title": "The Knocking Inside the Locked Lighthouse Room",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-04T19:37:05+00:00",
+      "views": 21,
+      "likes": 4,
+      "comments": 1
+    },
+    "KnL8W02-66c": {
+      "agent": "stories-1",
+      "title": "The Hotel Elevator That Stopped on Floor Fourteen",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-04T12:25:05+00:00",
+      "views": 6,
+      "likes": 5,
+      "comments": 1
+    },
+    "uHT28jz3VcI": {
+      "agent": "stories-1",
+      "title": "He Was Supposed to Tow the Car. Then He Saw the Cake.",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-03T19:31:46+00:00",
+      "views": 23,
+      "likes": 8,
+      "comments": 1
+    },
+    "t5_feZiYmDE": {
+      "agent": "stories-1",
+      "title": "The Pig That Nearly Started a War Between Two Empires",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-03T16:31:09+00:00",
+      "views": 70,
+      "likes": 7,
+      "comments": 1
+    },
+    "BH_0v-Q0piw": {
+      "agent": "stories-1",
+      "title": "28 Men, One Lifeboat, and the Impossible Rescue",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-03T12:31:14+00:00",
+      "views": 166,
+      "likes": 14,
+      "comments": 1
+    },
+    "1MUvGeLjQuU": {
+      "agent": "stories-1",
+      "title": "The Ship Found Sailing With Nobody Aboard",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-02T19:48:07+00:00",
+      "views": 171,
+      "likes": 12,
+      "comments": 4
+    },
+    "5sSa_pTzZ1c": {
+      "agent": "psychology-1",
+      "title": "Same Length, Different Look: The Line Illusion Your Brain Can't Fix",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-23T17:12:07+00:00",
+      "views": 127,
+      "likes": 1,
+      "comments": 0
+    },
+    "_1w1PpYycxI": {
+      "agent": "psychology-1",
+      "title": "The '93% Body Language' Fact Is a Myth. Here's the Truth",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-22T16:54:48+00:00",
+      "views": 5,
+      "likes": 0,
+      "comments": 0
+    },
+    "4DV1EFwpMGU": {
+      "agent": "psychology-1",
+      "title": "The Bobo Doll Experiment: Kids Copy What They Watch",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-21T16:54:18+00:00",
+      "views": 12,
+      "likes": 0,
+      "comments": 0
+    },
+    "EqYFadbnTD8": {
+      "agent": "psychology-1",
+      "title": "Procrastination Isn't Laziness. It's Dodging a Feeling",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-20T17:29:28+00:00",
+      "views": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "FSmhq4JB5dU": {
+      "agent": "psychology-1",
+      "title": "Why Crowds Freeze: The Smoke-Filled Room Experiment",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-19T17:14:20+00:00",
+      "views": 5,
+      "likes": 0,
+      "comments": 0
+    },
+    "jk5_joyZ6h0": {
+      "agent": "psychology-1",
+      "title": "Do You Really Like It, or Do You Just Know It?",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-18T17:14:00+00:00",
+      "views": 1,
+      "likes": 0,
+      "comments": 0
+    },
+    "uWlpgvdwnf4": {
+      "agent": "psychology-1",
+      "title": "Why You Forget Things the Moment You Walk Through a Door",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-17T17:11:35+00:00",
+      "views": 3,
+      "likes": 0,
+      "comments": 0
+    },
+    "-HDnEQ5GrOI": {
+      "agent": "psychology-1",
+      "title": "Why Nostalgia Feels Warm and Sad at the Same Time",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-16T17:21:52+00:00",
+      "views": 8,
+      "likes": 0,
+      "comments": 0
+    },
+    "HCaU1pIudas": {
+      "agent": "psychology-1",
+      "title": "Your Eyes Can Change What You Hear (McGurk Effect)",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-15T16:49:06+00:00",
+      "views": 33,
+      "likes": 1,
+      "comments": 0
+    },
+    "pTKJbAeHEaI": {
+      "agent": "psychology-1",
+      "title": "Why You Copy People's Body Language Without Noticing",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-14T16:47:45+00:00",
+      "views": 45,
+      "likes": 3,
+      "comments": 0
+    },
+    "jp0tbE9ODjg": {
+      "agent": "psychology-1",
+      "title": "Paid $1 to Lie, They Started Believing It",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-13T17:00:10+00:00",
+      "views": 15,
+      "likes": 0,
+      "comments": 0
+    },
+    "Ie5YMjZ_bv4": {
+      "agent": "psychology-1",
+      "title": "Habits Don't Take 21 Days. Here's What Research Found",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-12T17:08:54+00:00",
+      "views": 44,
+      "likes": 1,
+      "comments": 0
+    },
+    "ThM_I0Q2iHk": {
+      "agent": "psychology-1",
+      "title": "Why You Nod Along With a Group (Asch's Famous Experiment)",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-11T17:01:49+00:00",
+      "views": 27,
+      "likes": 0,
+      "comments": 0
+    },
+    "qeASklg7UOM": {
+      "agent": "psychology-1",
+      "title": "Why You Can't Quit Boring Things (Sunk Cost Effect)",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-10T16:58:57+00:00",
+      "views": 207,
+      "likes": 5,
+      "comments": 0
+    },
+    "nu0WIbbQg5o": {
+      "agent": "psychology-1",
+      "title": "You've Seen It 1,000 Times, But Can You Draw It?",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-09T17:15:36+00:00",
+      "views": 35,
+      "likes": 3,
+      "comments": 0
+    },
+    "JM1hxIbex3g": {
+      "agent": "psychology-1",
+      "title": "Why Everyone Noticed Your Awkward Moment Less Than You Think",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-08T16:45:36+00:00",
+      "views": 214,
+      "likes": 9,
+      "comments": 0
+    },
+    "eJ5FTgFpCzI": {
+      "agent": "psychology-1",
+      "title": "Why Vague Horoscopes Feel Like They're Just for You",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-07T16:46:41+00:00",
+      "views": 16,
+      "likes": 3,
+      "comments": 0
+    },
+    "bdOOpZJTVYc": {
+      "agent": "psychology-1",
+      "title": "You Judge People Before They Speak. Here's Why",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-06T17:30:36+00:00",
+      "views": 1115,
+      "likes": 14,
+      "comments": 0
+    },
+    "hHK-Wy3e1jg": {
+      "agent": "psychology-1",
+      "title": "The Gorilla Experiment That Proved You Miss Obvious Things",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-05T17:19:53+00:00",
+      "views": 17,
+      "likes": 4,
+      "comments": 2
+    },
+    "iqShGqc341M": {
+      "agent": "psychology-1",
+      "title": "The Simple If-Then Trick That Beats Procrastination",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-04T17:00:42+00:00",
+      "views": 13,
+      "likes": 4,
+      "comments": 2
+    },
+    "2faQC2AW5XY": {
+      "agent": "psychology-1",
+      "title": "Why You Sing Quieter in a Group (Social Loafing)",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-03T17:01:33+00:00",
+      "views": 9,
+      "likes": 4,
+      "comments": 3
+    },
+    "ja9MgnFjA1A": {
+      "agent": "psychology-1",
+      "title": "The Hidden Bias That Quietly Steers Your Guesses",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-03T16:33:30+00:00",
+      "views": 10,
+      "likes": 4,
+      "comments": 3
+    }
+  },
+  "history": [
+    {
+      "time": "2026-11-24T07:45:18+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 3573,
+          "subscribers": 17
+        },
+        "psychology-1": {
+          "views": 1961,
+          "subscribers": 10
+        }
+      }
+    }
+  ]
 }
