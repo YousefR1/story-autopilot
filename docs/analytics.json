@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-24T07:45:18+00:00",
+  "updated": "2026-11-24T10:26:02+00:00",
   "agents": {
     "stories-1": {
       "channel": {
         "title": "Content_Support",
         "handle": "@story_time-i2e",
         "subscribers": 17,
-        "views": 3452,
+        "views": 3549,
         "videos": 45
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 45,
-      "views": 3573,
+      "views": 3594,
       "likes": 158,
       "comments": 15,
-      "avg_views": 79.4,
+      "avg_views": 79.9,
       "top": "The Library Slot That Clicked Open Every Midnight"
     },
     "psychology-1": {
@@ -23,14 +23,14 @@
         "handle": "@mind_quirks1",
         "subscribers": 10,
         "views": 1831,
-        "videos": 22
+        "videos": 19
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 22,
-      "views": 1961,
+      "views": 1962,
       "likes": 56,
       "comments": 10,
-      "avg_views": 89.1,
+      "avg_views": 89.2,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -40,7 +40,7 @@
       "title": "The Man Who Sold the Eiffel Tower. Twice.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-23T16:34:10+00:00",
-      "views": 8,
+      "views": 10,
       "likes": 0,
       "comments": 0
     },
@@ -49,7 +49,7 @@
       "title": "Titanic, Britannic, Olympic: She Survived All Three",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-23T12:42:40+00:00",
-      "views": 40,
+      "views": 57,
       "likes": 0,
       "comments": 1
     },
@@ -67,7 +67,7 @@
       "title": "The Flour Handprints Appeared Every Morning at 4 A.M.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-22T12:26:25+00:00",
-      "views": 18,
+      "views": 20,
       "likes": 0,
       "comments": 0
     },
@@ -454,7 +454,7 @@
       "title": "The '93% Body Language' Fact Is a Myth. Here's the Truth",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-22T16:54:48+00:00",
-      "views": 5,
+      "views": 6,
       "likes": 0,
       "comments": 0
     },
@@ -649,6 +649,19 @@
         },
         "psychology-1": {
           "views": 1961,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-24T10:26:02+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 3594,
+          "subscribers": 17
+        },
+        "psychology-1": {
+          "views": 1962,
           "subscribers": 10
         }
       }
