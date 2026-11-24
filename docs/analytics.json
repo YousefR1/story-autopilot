@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T10:26:02+00:00",
+  "updated": "2026-11-24T13:39:45+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -7,14 +7,14 @@
         "handle": "@story_time-i2e",
         "subscribers": 17,
         "views": 3549,
-        "videos": 45
+        "videos": 46
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 45,
-      "views": 3594,
-      "likes": 158,
+      "videos": 46,
+      "views": 3609,
+      "likes": 159,
       "comments": 15,
-      "avg_views": 79.9,
+      "avg_views": 78.5,
       "top": "The Library Slot That Clicked Open Every Midnight"
     },
     "psychology-1": {
@@ -27,21 +27,30 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 22,
-      "views": 1962,
-      "likes": 56,
+      "views": 1971,
+      "likes": 57,
       "comments": 10,
-      "avg_views": 89.2,
+      "avg_views": 89.6,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
   "videos": {
+    "z_oWFebcRME": {
+      "agent": "stories-1",
+      "title": "He Plowed One Forgotten Driveway for 11 Winters",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-24T12:42:37+00:00",
+      "views": 0,
+      "likes": 0,
+      "comments": 0
+    },
     "Ks15xeD09eg": {
       "agent": "stories-1",
       "title": "The Man Who Sold the Eiffel Tower. Twice.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-23T16:34:10+00:00",
-      "views": 10,
-      "likes": 0,
+      "views": 16,
+      "likes": 1,
       "comments": 0
     },
     "x0rD9NBFvwg": {
@@ -49,7 +58,7 @@
       "title": "Titanic, Britannic, Olympic: She Survived All Three",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-23T12:42:40+00:00",
-      "views": 57,
+      "views": 62,
       "likes": 0,
       "comments": 1
     },
@@ -58,7 +67,7 @@
       "title": "Nine Hikers Fled Their Tent at Night. Nobody Knows Why.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-22T19:31:19+00:00",
-      "views": 49,
+      "views": 53,
       "likes": 1,
       "comments": 0
     },
@@ -445,8 +454,8 @@
       "title": "Same Length, Different Look: The Line Illusion Your Brain Can't Fix",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-23T17:12:07+00:00",
-      "views": 127,
-      "likes": 1,
+      "views": 136,
+      "likes": 2,
       "comments": 0
     },
     "_1w1PpYycxI": {
@@ -662,6 +671,19 @@
         },
         "psychology-1": {
           "views": 1962,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-24T13:39:45+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 3609,
+          "subscribers": 17
+        },
+        "psychology-1": {
+          "views": 1971,
           "subscribers": 10
         }
       }
