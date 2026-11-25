@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T07:49:42+00:00",
+  "updated": "2026-11-25T10:27:14+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -11,10 +11,10 @@
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 47,
-      "views": 3639,
+      "views": 3643,
       "likes": 163,
       "comments": 15,
-      "avg_views": 77.4,
+      "avg_views": 77.5,
       "top": "The Library Slot That Clicked Open Every Midnight"
     },
     "psychology-1": {
@@ -22,15 +22,15 @@
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
         "subscribers": 10,
-        "views": 1966,
-        "videos": 23
+        "views": 2051,
+        "videos": 22
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 23,
-      "views": 2080,
+      "views": 2082,
       "likes": 61,
       "comments": 10,
-      "avg_views": 90.4,
+      "avg_views": 90.5,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -49,7 +49,7 @@
       "title": "He Plowed One Forgotten Driveway for 11 Winters",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-24T12:42:37+00:00",
-      "views": 5,
+      "views": 6,
       "likes": 1,
       "comments": 0
     },
@@ -58,7 +58,7 @@
       "title": "The Man Who Sold the Eiffel Tower. Twice.",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-23T16:34:10+00:00",
-      "views": 21,
+      "views": 22,
       "likes": 2,
       "comments": 0
     },
@@ -67,7 +67,7 @@
       "title": "Titanic, Britannic, Olympic: She Survived All Three",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-23T12:42:40+00:00",
-      "views": 71,
+      "views": 73,
       "likes": 1,
       "comments": 1
     },
@@ -472,7 +472,7 @@
       "title": "Same Length, Different Look: The Line Illusion Your Brain Can't Fix",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-23T17:12:07+00:00",
-      "views": 186,
+      "views": 188,
       "likes": 3,
       "comments": 0
     },
@@ -676,6 +676,19 @@
         },
         "psychology-1": {
           "views": 2080,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-25T10:27:14+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 3643,
+          "subscribers": 17
+        },
+        "psychology-1": {
+          "views": 2082,
           "subscribers": 10
         }
       }
