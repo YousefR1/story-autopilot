@@ -306,6 +306,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-25",
+      "title": "Your Most Vivid Memory Is Probably Wrong (Flashbulb Memory)",
+      "topic": "Flashbulb memories feel vivid and certain, but research (Neisser and Harsch's Challenger study) found the details often change over time while confidence stays high.",
+      "genre": "a surprising quirk of how memory works",
+      "posted": {
+        "youtube": {
+          "id": "wRGeyf9gRI8",
+          "url": "https://youtube.com/shorts/wRGeyf9gRI8"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
