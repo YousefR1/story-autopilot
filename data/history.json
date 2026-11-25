@@ -618,6 +618,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-25",
+      "title": "The Baby Monitor Sang to an Empty Nursery",
+      "topic": "A night-shift baby monitor repairman hears a lullaby on a client's monitor, only to learn the house has no baby and the voice is singing to him.",
+      "genre": "creepy short fiction with a twist ending (clearly fiction)",
+      "posted": {
+        "youtube": {
+          "id": "s48P9YgviSU",
+          "url": "https://youtube.com/shorts/s48P9YgviSU"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
