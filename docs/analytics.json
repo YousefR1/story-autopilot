@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T10:27:14+00:00",
+  "updated": "2026-11-25T13:44:58+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -7,14 +7,14 @@
         "handle": "@story_time-i2e",
         "subscribers": 17,
         "views": 3632,
-        "videos": 47
+        "videos": 48
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
-      "videos": 47,
-      "views": 3643,
+      "videos": 48,
+      "views": 3644,
       "likes": 163,
       "comments": 15,
-      "avg_views": 77.5,
+      "avg_views": 75.9,
       "top": "The Library Slot That Clicked Open Every Midnight"
     },
     "psychology-1": {
@@ -27,14 +27,23 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 23,
-      "views": 2082,
+      "views": 2083,
       "likes": 61,
       "comments": 10,
-      "avg_views": 90.5,
+      "avg_views": 90.6,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
   "videos": {
+    "s48P9YgviSU": {
+      "agent": "stories-1",
+      "title": "The Baby Monitor Sang to an Empty Nursery",
+      "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
+      "posted": "2026-11-25T12:44:26+00:00",
+      "views": 0,
+      "likes": 0,
+      "comments": 0
+    },
     "00rz6mQdC2Q": {
       "agent": "stories-1",
       "title": "The Diner That Only Appears in Fog",
@@ -67,7 +76,7 @@
       "title": "Titanic, Britannic, Olympic: She Survived All Three",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-23T12:42:40+00:00",
-      "views": 73,
+      "views": 74,
       "likes": 1,
       "comments": 1
     },
@@ -472,7 +481,7 @@
       "title": "Same Length, Different Look: The Line Illusion Your Brain Can't Fix",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-23T17:12:07+00:00",
-      "views": 188,
+      "views": 189,
       "likes": 3,
       "comments": 0
     },
@@ -689,6 +698,19 @@
         },
         "psychology-1": {
           "views": 2082,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-25T13:44:58+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 3644,
+          "subscribers": 17
+        },
+        "psychology-1": {
+          "views": 2083,
           "subscribers": 10
         }
       }
