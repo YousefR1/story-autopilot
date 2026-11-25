@@ -631,6 +631,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-25",
+      "title": "Three Keepers Vanished From a Lighthouse in 1900",
+      "topic": "The 1900 disappearance of three lighthouse keepers from the Flannan Isles off Scotland, a mystery that has never been solved",
+      "genre": "unsolved real-world mystery (well documented)",
+      "posted": {
+        "youtube": {
+          "id": "lUy_0IaDHLM",
+          "url": "https://youtube.com/shorts/lUy_0IaDHLM"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
