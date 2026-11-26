@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T13:43:20+00:00",
+  "updated": "2026-11-26T16:26:29+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -22,15 +22,15 @@
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
         "subscribers": 10,
-        "views": 2117,
+        "views": 2148,
         "videos": 24
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 24,
-      "views": 2150,
-      "likes": 62,
+      "views": 2157,
+      "likes": 63,
       "comments": 10,
-      "avg_views": 89.6,
+      "avg_views": 89.9,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -490,8 +490,8 @@
       "title": "They'd Rather Shock Themselves Than Be Bored",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-24T17:12:41+00:00",
-      "views": 106,
-      "likes": 4,
+      "views": 113,
+      "likes": 5,
       "comments": 0
     },
     "5sSa_pTzZ1c": {
@@ -716,6 +716,19 @@
         },
         "psychology-1": {
           "views": 2150,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-26T16:26:29+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 3677,
+          "subscribers": 17
+        },
+        "psychology-1": {
+          "views": 2157,
           "subscribers": 10
         }
       }
