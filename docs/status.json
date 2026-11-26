@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T17:17:00+00:00",
+  "updated": "2026-11-26T19:41:47+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -8,15 +8,24 @@
       "platforms": [
         "youtube"
       ],
-      "state": "idle",
-      "consecutive_failures": 2,
+      "state": "paused",
+      "consecutive_failures": 3,
       "totals": {
         "videos": 50,
         "youtube": 49,
         "tiktok": 0,
-        "failures": 10
+        "failures": 11
       },
       "runs": [
+        {
+          "started": "2026-11-26T19:40:40+00:00",
+          "dry_run": false,
+          "steps": [],
+          "result": "failed",
+          "error": "Could not get a valid script: Expecting ',' delimiter: line 1 column 450 (char 449)",
+          "finished": "2026-11-26T19:41:47+00:00",
+          "seconds": 67.0
+        },
         {
           "started": "2026-11-26T12:43:18+00:00",
           "dry_run": false,
@@ -2654,53 +2663,10 @@
           },
           "finished": "2026-11-02T19:48:07+00:00",
           "seconds": 109.3
-        },
-        {
-          "started": "2026-11-02T19:41:35+00:00",
-          "dry_run": true,
-          "steps": [
-            {
-              "step": "write script",
-              "seconds": 33.1
-            },
-            {
-              "step": "voiceover",
-              "seconds": 8.1
-            },
-            {
-              "step": "caption timing",
-              "seconds": 3.3
-            },
-            {
-              "step": "ai images",
-              "seconds": 24.1
-            },
-            {
-              "step": "render",
-              "seconds": 35.5
-            },
-            {
-              "step": "quality check",
-              "seconds": 0.2
-            }
-          ],
-          "result": "dry run",
-          "title": "The Security Camera Showed Someone Behind Him",
-          "genre": "creepy short fiction with a twist ending (clearly fiction)",
-          "kind": "fiction",
-          "topic": "A night-shift security guard keeps seeing a figure on the lobby camera standing behind him, until he learns the camera feed is a live view of the building's empty twin across the street, and the figure is watching him through the real window.",
-          "video": {
-            "duration": 44,
-            "size_mb": 8.1,
-            "mean_db": -24.2
-          },
-          "posted": {},
-          "finished": "2026-11-02T19:43:19+00:00",
-          "seconds": 104.7
         }
       ],
       "schedule": "Runs daily from .github/workflows/daily.yml (edit the cron line there).",
-      "last_run": "2026-11-26T12:44:23+00:00"
+      "last_run": "2026-11-26T19:41:47+00:00"
     },
     "psychology-1": {
       "id": "psychology-1",
