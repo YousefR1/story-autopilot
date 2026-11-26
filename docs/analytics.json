@@ -1,17 +1,17 @@
 {
-  "updated": "2026-11-26T19:25:34+00:00",
+  "updated": "2026-11-26T22:17:44+00:00",
   "agents": {
     "stories-1": {
       "channel": {
         "title": "Content_Support",
         "handle": "@story_time-i2e",
         "subscribers": 17,
-        "views": 3675,
+        "views": 3677,
         "videos": 49
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 49,
-      "views": 3684,
+      "views": 3686,
       "likes": 164,
       "comments": 15,
       "avg_views": 75.2,
@@ -27,10 +27,10 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 25,
-      "views": 2174,
+      "views": 2182,
       "likes": 63,
       "comments": 10,
-      "avg_views": 87.0,
+      "avg_views": 87.3,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -40,7 +40,7 @@
       "title": "Three Keepers Vanished From a Lighthouse in 1900",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-25T16:43:24+00:00",
-      "views": 28,
+      "views": 29,
       "likes": 1,
       "comments": 0
     },
@@ -58,7 +58,7 @@
       "title": "The Diner That Only Appears in Fog",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-24T19:39:13+00:00",
-      "views": 11,
+      "views": 13,
       "likes": 1,
       "comments": 0
     },
@@ -85,7 +85,7 @@
       "title": "Titanic, Britannic, Olympic: She Survived All Three",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-23T12:42:40+00:00",
-      "views": 80,
+      "views": 79,
       "likes": 1,
       "comments": 1
     },
@@ -481,7 +481,7 @@
       "title": "\"I Knew It All Along\" Is Your Brain Rewriting History",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-26T17:17:00+00:00",
-      "views": 6,
+      "views": 12,
       "likes": 0,
       "comments": 0
     },
@@ -490,7 +490,7 @@
       "title": "Your Most Vivid Memory Is Probably Wrong (Flashbulb Memory)",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-25T17:12:49+00:00",
-      "views": 11,
+      "views": 13,
       "likes": 0,
       "comments": 0
     },
@@ -751,6 +751,19 @@
         },
         "psychology-1": {
           "views": 2174,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-26T22:17:44+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 3686,
+          "subscribers": 17
+        },
+        "psychology-1": {
+          "views": 2182,
           "subscribers": 10
         }
       }
