@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T01:44:54+00:00",
+  "updated": "2026-11-26T04:27:34+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -21,16 +21,16 @@
       "channel": {
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
-        "subscribers": 11,
+        "subscribers": 10,
         "views": 2082,
         "videos": 24
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 24,
-      "views": 2123,
-      "likes": 64,
+      "views": 2132,
+      "likes": 62,
       "comments": 10,
-      "avg_views": 88.5,
+      "avg_views": 88.8,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -490,8 +490,8 @@
       "title": "They'd Rather Shock Themselves Than Be Bored",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-24T17:12:41+00:00",
-      "views": 81,
-      "likes": 6,
+      "views": 89,
+      "likes": 4,
       "comments": 0
     },
     "5sSa_pTzZ1c": {
@@ -517,7 +517,7 @@
       "title": "The Bobo Doll Experiment: Kids Copy What They Watch",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-21T16:54:18+00:00",
-      "views": 14,
+      "views": 15,
       "likes": 0,
       "comments": 0
     },
@@ -782,6 +782,19 @@
         "psychology-1": {
           "views": 2123,
           "subscribers": 11
+        }
+      }
+    },
+    {
+      "time": "2026-11-26T04:27:34+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 3676,
+          "subscribers": 17
+        },
+        "psychology-1": {
+          "views": 2132,
+          "subscribers": 10
         }
       }
     }
