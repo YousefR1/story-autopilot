@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T22:17:45+00:00",
+  "updated": "2026-11-26T01:44:54+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -11,7 +11,7 @@
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 49,
-      "views": 3675,
+      "views": 3676,
       "likes": 164,
       "comments": 15,
       "avg_views": 75.0,
@@ -21,16 +21,16 @@
       "channel": {
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
-        "subscribers": 10,
+        "subscribers": 11,
         "views": 2082,
         "videos": 24
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 24,
-      "views": 2103,
-      "likes": 62,
+      "views": 2123,
+      "likes": 64,
       "comments": 10,
-      "avg_views": 87.6,
+      "avg_views": 88.5,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -49,7 +49,7 @@
       "title": "The Baby Monitor Sang to an Empty Nursery",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-25T12:44:26+00:00",
-      "views": 1,
+      "views": 2,
       "likes": 0,
       "comments": 0
     },
@@ -481,7 +481,7 @@
       "title": "Your Most Vivid Memory Is Probably Wrong (Flashbulb Memory)",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-25T17:12:49+00:00",
-      "views": 8,
+      "views": 10,
       "likes": 0,
       "comments": 0
     },
@@ -490,8 +490,8 @@
       "title": "They'd Rather Shock Themselves Than Be Bored",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-24T17:12:41+00:00",
-      "views": 63,
-      "likes": 4,
+      "views": 81,
+      "likes": 6,
       "comments": 0
     },
     "5sSa_pTzZ1c": {
@@ -769,6 +769,19 @@
         "psychology-1": {
           "views": 2103,
           "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-26T01:44:54+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 3676,
+          "subscribers": 17
+        },
+        "psychology-1": {
+          "views": 2123,
+          "subscribers": 11
         }
       }
     }
