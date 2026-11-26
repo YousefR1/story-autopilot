@@ -1,17 +1,17 @@
 {
-  "updated": "2026-11-26T04:27:34+00:00",
+  "updated": "2026-11-26T07:47:13+00:00",
   "agents": {
     "stories-1": {
       "channel": {
         "title": "Content_Support",
         "handle": "@story_time-i2e",
         "subscribers": 17,
-        "views": 3644,
+        "views": 3675,
         "videos": 49
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 49,
-      "views": 3676,
+      "views": 3677,
       "likes": 164,
       "comments": 15,
       "avg_views": 75.0,
@@ -22,15 +22,15 @@
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
         "subscribers": 10,
-        "views": 2082,
+        "views": 2117,
         "videos": 24
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 24,
-      "views": 2132,
+      "views": 2142,
       "likes": 62,
       "comments": 10,
-      "avg_views": 88.8,
+      "avg_views": 89.2,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -67,7 +67,7 @@
       "title": "He Plowed One Forgotten Driveway for 11 Winters",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-24T12:42:37+00:00",
-      "views": 6,
+      "views": 7,
       "likes": 1,
       "comments": 0
     },
@@ -490,7 +490,7 @@
       "title": "They'd Rather Shock Themselves Than Be Bored",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-24T17:12:41+00:00",
-      "views": 89,
+      "views": 99,
       "likes": 4,
       "comments": 0
     },
@@ -794,6 +794,19 @@
         },
         "psychology-1": {
           "views": 2132,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-26T07:47:13+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 3677,
+          "subscribers": 17
+        },
+        "psychology-1": {
+          "views": 2142,
           "subscribers": 10
         }
       }
