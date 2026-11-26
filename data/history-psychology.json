@@ -319,6 +319,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-26",
+      "title": "\"I Knew It All Along\" Is Your Brain Rewriting History",
+      "topic": "Hindsight bias: once we know an outcome, we tend to believe we saw it coming (studied by Baruch Fischhoff)",
+      "genre": "a hidden bias that shapes everyday decisions",
+      "posted": {
+        "youtube": {
+          "id": "MD_NnIZG3EU",
+          "url": "https://youtube.com/shorts/MD_NnIZG3EU"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []
