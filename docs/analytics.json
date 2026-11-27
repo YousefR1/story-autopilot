@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T07:46:04+00:00",
+  "updated": "2026-11-27T10:26:05+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -27,10 +27,10 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 25,
-      "views": 2186,
+      "views": 2189,
       "likes": 63,
       "comments": 10,
-      "avg_views": 87.4,
+      "avg_views": 87.6,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -481,7 +481,7 @@
       "title": "\"I Knew It All Along\" Is Your Brain Rewriting History",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-26T17:17:00+00:00",
-      "views": 16,
+      "views": 17,
       "likes": 0,
       "comments": 0
     },
@@ -490,7 +490,7 @@
       "title": "Your Most Vivid Memory Is Probably Wrong (Flashbulb Memory)",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-25T17:12:49+00:00",
-      "views": 13,
+      "views": 14,
       "likes": 0,
       "comments": 0
     },
@@ -526,7 +526,7 @@
       "title": "The Bobo Doll Experiment: Kids Copy What They Watch",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-21T16:54:18+00:00",
-      "views": 16,
+      "views": 17,
       "likes": 0,
       "comments": 0
     },
@@ -712,6 +712,19 @@
         },
         "psychology-1": {
           "views": 2186,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-27T10:26:05+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 3687,
+          "subscribers": 17
+        },
+        "psychology-1": {
+          "views": 2189,
           "subscribers": 10
         }
       }
