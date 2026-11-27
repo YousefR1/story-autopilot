@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T22:17:44+00:00",
+  "updated": "2026-11-27T01:44:57+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -11,7 +11,7 @@
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "videos": 49,
-      "views": 3686,
+      "views": 3687,
       "likes": 164,
       "comments": 15,
       "avg_views": 75.2,
@@ -27,10 +27,10 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 25,
-      "views": 2182,
+      "views": 2186,
       "likes": 63,
       "comments": 10,
-      "avg_views": 87.3,
+      "avg_views": 87.4,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -40,7 +40,7 @@
       "title": "Three Keepers Vanished From a Lighthouse in 1900",
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
       "posted": "2026-11-25T16:43:24+00:00",
-      "views": 29,
+      "views": 30,
       "likes": 1,
       "comments": 0
     },
@@ -481,7 +481,7 @@
       "title": "\"I Knew It All Along\" Is Your Brain Rewriting History",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-26T17:17:00+00:00",
-      "views": 12,
+      "views": 16,
       "likes": 0,
       "comments": 0
     },
@@ -764,6 +764,19 @@
         },
         "psychology-1": {
           "views": 2182,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-27T01:44:57+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 3687,
+          "subscribers": 17
+        },
+        "psychology-1": {
+          "views": 2186,
           "subscribers": 10
         }
       }
