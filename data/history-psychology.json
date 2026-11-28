@@ -345,6 +345,19 @@
         }
       },
       "dry_run": false
+    },
+    {
+      "date": "2026-11-28",
+      "title": "Why Every Task Takes Longer Than You Plan (Planning Fallacy)",
+      "topic": "The planning fallacy: people tend to underestimate how long tasks will take, even when past experience says otherwise, because they picture the best-case version.",
+      "genre": "the psychology of habits and procrastination",
+      "posted": {
+        "youtube": {
+          "id": "_wAEVQQ_neI",
+          "url": "https://youtube.com/shorts/_wAEVQQ_neI"
+        }
+      },
+      "dry_run": false
     }
   ],
   "used_footage": []

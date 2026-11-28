@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T12:30:11+00:00",
+  "updated": "2026-11-28T16:56:50+00:00",
   "agents": {
     "stories-1": {
       "id": "stories-1",
@@ -2678,12 +2678,64 @@
       "state": "idle",
       "consecutive_failures": 0,
       "totals": {
-        "videos": 27,
-        "youtube": 26,
+        "videos": 28,
+        "youtube": 27,
         "tiktok": 0,
         "failures": 0
       },
       "runs": [
+        {
+          "started": "2026-11-28T16:55:25+00:00",
+          "dry_run": false,
+          "steps": [
+            {
+              "step": "write script",
+              "seconds": 16.7
+            },
+            {
+              "step": "voiceover",
+              "seconds": 7.3
+            },
+            {
+              "step": "caption timing",
+              "seconds": 5.1
+            },
+            {
+              "step": "ai images",
+              "seconds": 21.1
+            },
+            {
+              "step": "render",
+              "seconds": 32.8
+            },
+            {
+              "step": "quality check",
+              "seconds": 0.2
+            },
+            {
+              "step": "upload youtube",
+              "seconds": 1.6
+            }
+          ],
+          "result": "posted",
+          "title": "Why Every Task Takes Longer Than You Plan (Planning Fallacy)",
+          "genre": "the psychology of habits and procrastination",
+          "kind": "fact",
+          "topic": "The planning fallacy: people tend to underestimate how long tasks will take, even when past experience says otherwise, because they picture the best-case version.",
+          "video": {
+            "duration": 44.9,
+            "size_mb": 8.7,
+            "mean_db": -21.8
+          },
+          "posted": {
+            "youtube": {
+              "id": "_wAEVQQ_neI",
+              "url": "https://youtube.com/shorts/_wAEVQQ_neI"
+            }
+          },
+          "finished": "2026-11-28T16:56:50+00:00",
+          "seconds": 85.2
+        },
         {
           "started": "2026-11-27T17:15:43+00:00",
           "dry_run": false,
@@ -4081,7 +4133,7 @@
         }
       ],
       "schedule": "1 a day at 17:11 Oslo (.github/workflows/psychology.yml)",
-      "last_run": "2026-11-27T17:17:09+00:00"
+      "last_run": "2026-11-28T16:56:50+00:00"
     }
   }
 }
