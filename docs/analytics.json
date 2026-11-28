@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T13:26:06+00:00",
+  "updated": "2026-11-28T16:08:35+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -27,10 +27,10 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 26,
-      "views": 2215,
+      "views": 2217,
       "likes": 63,
       "comments": 10,
-      "avg_views": 85.2,
+      "avg_views": 85.3,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -490,7 +490,7 @@
       "title": "\"I Knew It All Along\" Is Your Brain Rewriting History",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-26T17:17:00+00:00",
-      "views": 18,
+      "views": 20,
       "likes": 0,
       "comments": 0
     },
@@ -747,6 +747,19 @@
         },
         "psychology-1": {
           "views": 2215,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-28T16:08:35+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 3688,
+          "subscribers": 17
+        },
+        "psychology-1": {
+          "views": 2217,
           "subscribers": 10
         }
       }
