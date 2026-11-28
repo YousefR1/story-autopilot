@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T10:12:07+00:00",
+  "updated": "2026-11-28T13:26:06+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -27,10 +27,10 @@
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "videos": 26,
-      "views": 2213,
+      "views": 2215,
       "likes": 63,
       "comments": 10,
-      "avg_views": 85.1,
+      "avg_views": 85.2,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -481,7 +481,7 @@
       "title": "Why Groups Go Further Than Anyone Planned (Group Polarization)",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-27T17:17:09+00:00",
-      "views": 23,
+      "views": 25,
       "likes": 0,
       "comments": 0
     },
@@ -734,6 +734,19 @@
         },
         "psychology-1": {
           "views": 2213,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-28T13:26:06+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 3688,
+          "subscribers": 17
+        },
+        "psychology-1": {
+          "views": 2215,
           "subscribers": 10
         }
       }
