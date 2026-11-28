@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-28T16:08:35+00:00",
+  "updated": "2026-11-28T19:19:19+00:00",
   "agents": {
     "stories-1": {
       "channel": {
         "title": "Content_Support",
         "handle": "@story_time-i2e",
         "subscribers": 17,
-        "views": 3687,
+        "views": 3688,
         "videos": 49
       },
       "channel_id": "UCOyHAcGzLJmt6RZJzMS-tAg",
@@ -22,15 +22,15 @@
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
         "subscribers": 10,
-        "views": 2212,
-        "videos": 26
+        "views": 2214,
+        "videos": 27
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
-      "videos": 26,
-      "views": 2217,
+      "videos": 27,
+      "views": 2229,
       "likes": 63,
       "comments": 10,
-      "avg_views": 85.3,
+      "avg_views": 82.6,
       "top": "You Judge People Before They Speak. Here's Why"
     }
   },
@@ -476,12 +476,21 @@
       "likes": 12,
       "comments": 4
     },
+    "_wAEVQQ_neI": {
+      "agent": "psychology-1",
+      "title": "Why Every Task Takes Longer Than You Plan (Planning Fallacy)",
+      "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
+      "posted": "2026-11-28T16:56:50+00:00",
+      "views": 6,
+      "likes": 0,
+      "comments": 0
+    },
     "a9pJnCqhnD8": {
       "agent": "psychology-1",
       "title": "Why Groups Go Further Than Anyone Planned (Group Polarization)",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-27T17:17:09+00:00",
-      "views": 25,
+      "views": 27,
       "likes": 0,
       "comments": 0
     },
@@ -517,7 +526,7 @@
       "title": "Same Length, Different Look: The Line Illusion Your Brain Can't Fix",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-23T17:12:07+00:00",
-      "views": 195,
+      "views": 198,
       "likes": 3,
       "comments": 0
     },
@@ -535,7 +544,7 @@
       "title": "The Bobo Doll Experiment: Kids Copy What They Watch",
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
       "posted": "2026-11-21T16:54:18+00:00",
-      "views": 17,
+      "views": 18,
       "likes": 0,
       "comments": 0
     },
@@ -760,6 +769,19 @@
         },
         "psychology-1": {
           "views": 2217,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-28T19:19:19+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 3688,
+          "subscribers": 17
+        },
+        "psychology-1": {
+          "views": 2229,
           "subscribers": 10
         }
       }
