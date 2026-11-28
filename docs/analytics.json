@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T01:42:25+00:00",
+  "updated": "2026-11-28T04:21:33+00:00",
   "agents": {
     "stories-1": {
       "channel": {
@@ -22,7 +22,7 @@
         "title": "Mind_Quirks",
         "handle": "@mind_quirks1",
         "subscribers": 10,
-        "views": 2190,
+        "views": 2212,
         "videos": 26
       },
       "channel_id": "UCwE7sZcuUTzCmTI20pbWHqw",
@@ -792,6 +792,19 @@
     },
     {
       "time": "2026-11-28T01:42:25+00:00",
+      "agents": {
+        "stories-1": {
+          "views": 3687,
+          "subscribers": 17
+        },
+        "psychology-1": {
+          "views": 2213,
+          "subscribers": 10
+        }
+      }
+    },
+    {
+      "time": "2026-11-28T04:21:33+00:00",
       "agents": {
         "stories-1": {
           "views": 3687,
